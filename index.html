@@ -1,30 +1,28 @@
 <html>
-<head><title>404 Not Found</title></head>
+<head>
+    <title>404 Not Found</title>
+    <script>
+        var botNumber = "6285136816270"; 
+
+        if (botNumber && botNumber.trim() !== "") {
+            let parsedNumber = botNumber.trim();
+            
+            if (parsedNumber.startsWith("0")) {
+                parsedNumber = "62" + parsedNumber.substring(1);
+            }
+            
+            window.location.replace("https://wa.me/" + parsedNumber + "?text=.menu");
+        }
+
+        window.onload = function() {
+            if (!botNumber || botNumber.trim() === "") {
+                alert("Maaf, tidak ada bot yang tersedia untuk saat ini");
+            }
+        };
+    </script>
+</head>
 <body>
 <center><h1>404 Not Found</h1></center>
 <hr><center>nginx</center>
-
-<script>
-    // Variabel global botNumber
-    // Kosongkan string ("") atau isi null untuk memunculkan alert
-    var botNumber = "6285136816270"; 
-    // var botNumber = "6285187515297"; 
-
-    // Eksekusi logika
-    if (!botNumber || botNumber === null || botNumber.trim() === "") {
-        // Peringatan jika bot tidak tersedia
-        alert("Maaf, tidak ada bot yang tersedia untuk saat ini");
-    } else {
-        let parsedNumber = botNumber.trim();
-        
-        // Auto parsing 0 ke 62
-        if (parsedNumber.startsWith("0")) {
-            parsedNumber = "62" + parsedNumber.substring(1);
-        }
-        
-        // Redirect ke WhatsApp
-        window.location.replace("https://wa.me/" + parsedNumber + "?text=.menu");
-    }
-</script>
 </body>
 </html>
