@@ -1,64 +1,298 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Rimuru-MD | Official WhatsApp Bot Portal & Menu List</title>
+  <meta name="description"
+    content="Katalog resmi perintah Rimuru-MD WhatsApp Bot. Jelajahi 1.400+ fitur AI, Game, RPG, Tools, Downloader, dan chat langsung ke bot aktif!">
+  <meta name="theme-color" content="#070e17">
+
+  <!-- Favicon / Icon SVG -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <div class="app" id="app" data-view="bots">
+  <!-- Ambient Background Glows -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
 
-    <!-- ═══════════ SIDEBAR ═══════════ -->
-    <aside class="sidebar">
-      <div class="sb-head">
-        <div class="sb-title">
-          <span class="dot"></span>
-          Rimuru-MD
+  <!-- ═══════════ TOP NAVIGATION ═══════════ -->
+  <header class="top-nav">
+    <div class="nav-container">
+      <div class="brand">
+        <div class="brand-avatar">
+          <span class="brand-glyph">⚡</span>
+          <span class="live-dot" title="Sistem Aktif"></span>
         </div>
-        <div class="sb-sub">Pilih bot untuk mulai chat</div>
+        <div class="brand-info">
+          <div class="brand-title">
+            <span>Rimuru-MD</span>
+            <span class="version-tag">v5.0-rev</span>
+          </div>
+          <p class="brand-subtitle">WhatsApp Multi-Device Assistant</p>
+        </div>
       </div>
 
-      <div>
-        <div class="sb-section-title">List Bot</div>
-        <div class="bot-list" id="botList"></div>
+      <!-- <div class="nav-meta">
+        <div class="meta-pill">
+          <span class="meta-icon">⚡</span>
+          <span class="meta-text"><strong id="totalFeatureCount">1.000+</strong> Fitur</span>
+        </div>
+      </div> -->
+
+      <div class="nav-actions">
+        <a href="#menuSection" class="btn-nav-primary hide-xs">
+          <span>Katalog Menu</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════ MOBILE TAB NAVIGATION ═══════════ -->
+  <nav class="mobile-nav-bar" id="mobileNavBar" aria-label="Navigasi Mobile">
+    <button type="button" class="tab-btn active" data-tab="bots">
+      <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
+        <rect x="4" y="6" width="16" height="12" rx="3" />
+        <circle cx="9" cy="12" r="1.5" />
+        <circle cx="15" cy="12" r="1.5" />
+        <path d="M9 16h6" />
+        <path d="M1 13h3M20 13h3" />
+      </svg>
+      <span>Pilih Bot (<span id="tabBotCount">3</span>)</span>
+    </button>
+    <button type="button" class="tab-btn" data-tab="menu">
+      <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="3" width="7" height="7" rx="1.5" />
+        <rect x="14" y="3" width="7" height="7" rx="1.5" />
+        <rect x="14" y="14" width="7" height="7" rx="1.5" />
+        <rect x="3" y="14" width="7" height="7" rx="1.5" />
+      </svg>
+      <span>Daftar Menu (<span id="tabCmdCount">1.479</span>)</span>
+    </button>
+  </nav>
+
+  <!-- ═══════════ MAIN WRAPPER ═══════════ -->
+  <div class="layout-container" id="layoutContainer" data-mobile-view="bots">
+
+    <!-- ═══════════ SIDEBAR: BOT SELECTION & INFO ═══════════ -->
+    <aside class="sidebar-panel" id="sidebarPanel">
+
+      <!-- Bot Selection List -->
+      <div class="panel-section">
+        <div class="section-header">
+          <div class="section-title">
+            <svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+            <span>Pilih Bot WhatsApp</span>
+          </div>
+          <span class="badge-count" id="botBadgeCount">3 Bot</span>
+        </div>
+        <p class="section-desc">Pilih bot tujuan untuk chat atau menjalankan perintah:</p>
+        <div class="bot-list" id="botListContainer">
+          <!-- Rendered via JS -->
+        </div>
       </div>
 
-      <div class="note" id="globalNote"></div>
+      <!-- Feature Highlight / Specs Card -->
+      <div class="panel-section">
+        <div class="section-header">
+          <div class="section-title">
+            <svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+            <span>Kelebihan Rimuru-MD</span>
+          </div>
+        </div>
+        <div class="highlights-grid">
+          <div class="highlight-item">
+            <span class="hl-icon">⚡</span>
+            <div class="hl-content">
+              <strong>Fast Response</strong>
+              <span>Latency rendah & respon instan</span>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <span class="hl-icon">🛡️</span>
+            <div class="hl-content">
+              <strong>Stable System</strong>
+              <span>Server multi-device cloud aktif</span>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <span class="hl-icon">🧰</span>
+            <div class="hl-content">
+              <strong>Multi Feature</strong>
+              <span>1.400+ fungsi lengkap terlengkap</span>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <span class="hl-icon">✨</span>
+            <div class="hl-content">
+              <strong>User Friendly</strong>
+              <span>Klik perintah langsung pakai</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Notice Alert Box -->
+      <div class="notice-card" id="globalNoticeCard">
+        <div class="notice-icon">⚠️</div>
+        <div class="notice-body">
+          <strong>Perhatian:</strong>
+          <p>Jika salah satu bot tidak merespon, kemungkinan bot sedang <em>maintenance</em>, <em>restart session</em>,
+            atau terkena <em>limit</em> WhatsApp. Coba pilih bot cadangan lainnya di atas.</p>
+        </div>
+      </div>
+
     </aside>
 
-    <!-- ═══════════ MAIN ═══════════ -->
-    <main class="main">
-      <div class="mn-head">
-        <div>
-          <div class="mn-title">Daftar Menu</div>
-          <div class="mn-sub">Klik command untuk copy otomatis</div>
+    <!-- ═══════════ MAIN CONTENT: COMMAND DIRECTORY ═══════════ -->
+    <main class="main-panel" id="menuSection">
+
+      <!-- Main Header Banner -->
+      <div class="main-hero">
+        <div class="hero-content">
+          <h1 class="hero-title">Katalog Menu & Perintah</h1>
+          <p class="hero-desc">
+            Klik pada perintah untuk <strong>menyalin otomatis</strong> ke clipboard, atau gunakan tombol
+            <strong>WhatsApp</strong> untuk langsung membuka chat dengan bot yang sedang aktif.
+          </p>
         </div>
-        <div class="mn-stats">
-          <span class="stat" id="statTotal"></span>
-          <span class="stat" id="statCat"></span>
+
+        <div class="hero-stats">
+          <div class="stat-box">
+            <span class="stat-number" id="statTotalCommands">1.479</span>
+            <span class="stat-label">Total Perintah</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-box">
+            <span class="stat-number" id="statTotalCategories">46</span>
+            <span class="stat-label">Kategori Fitur</span>
+          </div>
         </div>
       </div>
 
-      <div class="controls">
-        <div class="search-wrap">
-          <span class="ic-left">&gt;</span>
-          <input type="text" id="search" placeholder="cari command... (ytmp3, sticker, ai)">
-          <span class="ic-right">⌘K</span>
+      <!-- Search & Filter Controls (Sticky on Scroll) -->
+      <div class="controls-sticky-card">
+        <div class="search-bar-row">
+          <div class="search-input-wrap">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <input type="text" id="searchInput"
+              placeholder="Cari perintah... (contoh: ytmp3, sticker, ai, ping, download)" autocomplete="off"
+              spellcheck="false" aria-label="Cari perintah bot">
+            <button type="button" id="clearSearchBtn" class="clear-btn" title="Hapus pencarian" style="display: none;">
+              ✕
+            </button>
+            <div class="shortcut-badge hide-xs" title="Tekan Ctrl+K atau ⌘+K untuk cari cepat">
+              <span>⌘K</span>
+            </div>
+          </div>
+
+          <!-- Quick Dropdown Category Filter -->
+          <div class="category-select-wrap">
+            <select id="categorySelect" aria-label="Pilih kategori cepat">
+              <option value="ALL">Semua Kategori (46)</option>
+              <!-- Populated by JS -->
+            </select>
+          </div>
         </div>
-        <div class="chips" id="chips"></div>
+
+        <!-- Filter Chips Bar with Horizontal Scroll -->
+        <div class="chips-container-wrap">
+          <div class="chips-scroll-area" id="chipsScrollArea">
+            <!-- Chips injected by JS -->
+          </div>
+        </div>
+
+        <!-- Toolbar Meta & Accordion Actions -->
+        <div class="toolbar-meta-row">
+          <div class="results-info">
+            Menampilkan: <strong id="displayedCount">1.479</strong> perintah
+            <span id="activeFilterBadge" class="filter-badge" style="display: none;"></span>
+          </div>
+          <div class="toolbar-actions">
+            <button type="button" id="expandAllBtn" class="tool-btn" title="Buka semua kategori">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="7 13 12 18 17 13"></polyline>
+                <polyline points="7 6 12 11 17 6"></polyline>
+              </svg>
+              <span>Buka Semua</span>
+            </button>
+            <button type="button" id="collapseAllBtn" class="tool-btn" title="Tutup semua kategori">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="17 11 12 6 7 11"></polyline>
+                <polyline points="17 18 12 13 7 18"></polyline>
+              </svg>
+              <span>Tutup Semua</span>
+            </button>
+          </div>
+        </div>
       </div>
 
-      <div id="menuList"></div>
+      <!-- Command Categories Container -->
+      <div class="categories-list" id="categoriesContainer">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Empty State -->
+      <div class="empty-state" id="emptyState" style="display: none;">
+        <div class="empty-illustration">🔍</div>
+        <h3>Perintah Tidak Ditemukan</h3>
+        <p>Tidak ada perintah yang sesuai dengan kata kunci atau filter yang kamu pilih.</p>
+        <button type="button" class="btn-reset-filter" id="resetFilterBtn">
+          Reset Pencarian
+        </button>
+      </div>
+
     </main>
   </div>
 
-  <div class="mobile-tabs">
-    <button data-tab="bots" class="active">Bot</button>
-    <button data-tab="menu">Menu</button>
+  <!-- ═══════════ FLOATING QUICK WHATSAPP BUTTON ═══════════ -->
+  <div class="floating-actions">
+    <button type="button" id="backToTopBtn" class="fab-btn fab-top" title="Kembali ke atas"
+      aria-label="Kembali ke atas">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M18 15l-6-6-6 6" />
+      </svg>
+    </button>
+    <!-- <a href="#" id="floatingWaBtn" class="fab-btn fab-wa" target="_blank" rel="noopener noreferrer"
+      title="Chat dengan Bot Aktif" aria-label="Chat via WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 18.06c-1.49 0-2.94-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.134 8.134 0 0 1-1.25-4.29c0-4.51 3.67-8.18 8.18-8.18 2.19 0 4.24.85 5.79 2.4 1.54 1.55 2.4 3.6 2.4 5.79 0 4.51-3.67 8.18-8.18 8.18zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07s.89 2.4 1.02 2.57c.12.17 1.76 2.68 4.25 3.76.59.26 1.06.41 1.42.53.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.17-.48-.29z" />
+      </svg>
+      <span class="fab-label">Chat Bot</span>
+    </a> -->
   </div>
 
+  <!-- ═══════════ TOAST NOTIFICATION ═══════════ -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Main JavaScript File -->
   <script src="app.js"></script>
 </body>
+
 </html>
