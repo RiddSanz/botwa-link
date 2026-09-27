@@ -15,9 +15,9 @@
 // =========================================================================
 const BOTS = [
   {
-    name: 'Veli',
-    number: '6285136816270',
-    tag: 'BYU1'
+    name: 'Antrax',
+    number: '62881027926259',
+    tag: 'SF1'
   },
   {
     name: 'Alya',
@@ -25,9 +25,9 @@ const BOTS = [
     tag: 'BYU2'
   },
   {
-    name: 'Antrax',
-    number: '62881027926259',
-    tag: 'SF1'
+    name: 'Veli',
+    number: '6285136816270',
+    tag: 'BYU1'
   }
 ];
 
