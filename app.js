@@ -17,17 +17,17 @@ const BOTS = [
   {
     name: 'Veli',
     number: '6285136816270',
-    tag: 'C1'
+    tag: 'BYU1'
   },
   {
     name: 'Alya',
     number: '6285136816242',
-    tag: 'C2'
+    tag: 'BYU2'
   },
   {
     name: 'Antrax',
     number: '62881027926259',
-    tag: 'C3'
+    tag: 'SF1'
   }
 ];
 
