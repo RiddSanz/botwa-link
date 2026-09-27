@@ -24,7 +24,6 @@ const BOTS = [
     number: '628511347385',
     tag: 'BYU3'
   },
-  },
   {
     name: 'Alya',
     number: '6285136816242',
