@@ -19,9 +19,15 @@
   --radius: 6px;
   --radius-sm: 4px;
 
-  /* === Avatar bot — single style, dipakai semua bot === */
   --bot-avatar-bg: linear-gradient(140deg, #5eead4, #0d9488);
   --bot-avatar-fg: #04121a;
+
+  /* Ukuran konsisten biar sejajar */
+  --panel-pad-x: 16px;
+  --panel-pad-y: 18px;
+  --head-title-size: 15px;
+  --head-sub-size: 11.5px;
+  --head-gap: 3px;
 }
 
 html, body { height: 100%; }
@@ -61,10 +67,10 @@ body::before {
   max-width: 1240px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 320px 1fr;
   gap: 16px;
   padding: 16px;
-  min-height: 100vh;
+  align-items: start;   /* item gak stretch, biar sticky sidebar aman */
 }
 
 /* =============================================================
@@ -73,13 +79,12 @@ body::before {
 .sidebar {
   position: sticky;
   top: 16px;
-  align-self: start;
   max-height: calc(100vh - 32px);
   overflow-y: auto;
   background: var(--glass);
   border: 1px solid var(--glass-brd);
   border-radius: var(--radius);
-  padding: 18px 16px;
+  padding: var(--panel-pad-y) var(--panel-pad-x);
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -90,15 +95,24 @@ body::before {
 .sidebar::-webkit-scrollbar { width: 3px; }
 .sidebar::-webkit-scrollbar-thumb { background: var(--glass-brd-hi); border-radius: 2px; }
 
-.sb-head { padding-bottom: 14px; border-bottom: 1px solid var(--glass-brd); }
+/* Head sidebar — tinggi dipatok biar sejajar dengan head main */
+.sb-head {
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--glass-brd);
+  min-height: 58px;           /* <- kunci biar sama tinggi */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--head-gap);
+}
 .sb-title {
-  font-size: 14px;
+  font-size: var(--head-title-size);
   font-weight: 600;
-  letter-spacing: 0.5px;
+  line-height: 1.25;
+  letter-spacing: 0.3px;
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 3px;
 }
 .sb-title .dot {
   width: 6px; height: 6px;
@@ -106,14 +120,16 @@ body::before {
   border-radius: 50%;
   box-shadow: 0 0 8px var(--accent);
   animation: blink 2s infinite;
+  flex-shrink: 0;
 }
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.35; }
 }
 .sb-sub {
-  font-size: 11px;
+  font-size: var(--head-sub-size);
   color: var(--text-dim);
+  line-height: 1.4;
   letter-spacing: 0.2px;
 }
 
@@ -127,7 +143,7 @@ body::before {
 }
 
 /* =============================================================
-   BOT CARDS — single style, no more g1/g2/g3
+   BOT CARDS
    ============================================================= */
 .bot-list { display: flex; flex-direction: column; gap: 4px; }
 
@@ -234,23 +250,39 @@ body::before {
   flex-direction: column;
   gap: 14px;
   min-width: 0;
+  /* Padding-top & horizontal samain dengan sidebar biar head-nya sejajar */
+  padding: var(--panel-pad-y) var(--panel-pad-x);
+  background: var(--glass);
+  border: 1px solid var(--glass-brd);
+  border-radius: var(--radius);
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
 
+/* Head main — dipatok tingginya biar sejajar dengan sb-head */
 .mn-head {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 0 2px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--glass-brd);
+  min-height: 58px;           /* <- kunci biar sama tinggi dengan sb-head */
   flex-wrap: wrap;
 }
 .mn-title {
-  font-size: 16px;
+  font-size: var(--head-title-size);
   font-weight: 600;
-  letter-spacing: 0.2px;
-  margin-bottom: 2px;
+  line-height: 1.25;
+  letter-spacing: 0.3px;
+  margin-bottom: var(--head-gap);
 }
-.mn-sub { font-size: 11.5px; color: var(--text-dim); }
+.mn-sub {
+  font-size: var(--head-sub-size);
+  color: var(--text-dim);
+  line-height: 1.4;
+}
 .mn-stats { display: flex; gap: 6px; flex-wrap: wrap; }
 .stat {
   padding: 3px 9px;
@@ -270,24 +302,22 @@ body::before {
   position: sticky;
   top: 0;
   z-index: 40;
-  background: linear-gradient(180deg, rgba(5, 18, 24, 0.92) 70%, rgba(5, 18, 24, 0) 100%);
-  padding: 12px 0 14px;
-  margin: -12px 0 0;
+  background: linear-gradient(180deg, rgba(6, 22, 28, 0.92) 70%, rgba(6, 22, 28, 0) 100%);
+  padding: 8px 0 6px;
+  margin: -4px 0 0;
 }
 
 .search-wrap { position: relative; margin-bottom: 10px; }
 .search-wrap input {
   width: 100%;
   padding: 10px 36px 10px 34px;
-  background: var(--glass);
+  background: rgba(10, 26, 34, 0.6);
   border: 1px solid var(--glass-brd);
   border-radius: var(--radius-sm);
   color: var(--text);
   font-size: 12.5px;
   font-family: inherit;
   outline: none;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
   transition: border-color 0.14s, box-shadow 0.14s;
 }
 .search-wrap input::placeholder { color: var(--text-dim); }
@@ -314,14 +344,12 @@ body::before {
   font-weight: 500;
   border-radius: 3px;
   cursor: pointer;
-  background: var(--glass);
+  background: rgba(10, 26, 34, 0.6);
   color: var(--text-mid);
   border: 1px solid var(--glass-brd);
   transition: all 0.14s;
   user-select: none;
   white-space: nowrap;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
   letter-spacing: 0.2px;
 }
 .chip:hover {
@@ -338,14 +366,11 @@ body::before {
 
 /* CATEGORY */
 .category {
-  background: var(--glass);
+  background: rgba(10, 26, 34, 0.4);
   border: 1px solid var(--glass-brd);
   border-radius: var(--radius);
   overflow: hidden;
-  backdrop-filter: blur(16px) saturate(130%);
-  -webkit-backdrop-filter: blur(16px) saturate(130%);
   margin-bottom: 8px;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.025);
   transition: border-color 0.14s;
 }
 .category:hover { border-color: rgba(94, 234, 212, 0.14); }
@@ -444,11 +469,9 @@ body::before {
   padding: 50px 20px;
   color: var(--text-dim);
   font-size: 12.5px;
-  background: var(--glass);
+  background: rgba(10, 26, 34, 0.4);
   border: 1px dashed var(--glass-brd);
   border-radius: var(--radius);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
 }
 .empty strong {
   color: var(--text-mid);
@@ -468,7 +491,7 @@ body::before {
   bottom: 14px;
   transform: translateX(-50%);
   z-index: 200;
-  background: rgba(8, 24, 30, 0.85);
+  background: rgba(8, 24, 30, 0.9);
   backdrop-filter: blur(20px) saturate(150%);
   -webkit-backdrop-filter: blur(20px) saturate(150%);
   border: 1px solid var(--glass-brd);
@@ -494,22 +517,52 @@ body::before {
   color: var(--accent);
 }
 
-@media (max-width: 880px) {
+/* ⚠️ Breakpoint dinaikin ke 960px biar tablet & HP full-width juga kena */
+@media (max-width: 960px) {
   .app {
-    grid-template-columns: 1fr;
-    padding: 12px 12px 80px;
+    grid-template-columns: 1fr;      /* stack vertikal */
+    padding: 12px 12px 88px;
     gap: 0;
+    align-items: stretch;
+    min-height: 0;                   /* <- penting, biar gak maksa 100vh */
+    width: 100%;
   }
+
+  /* Reset semua ke default di mobile */
   .sidebar, .main { display: none; }
-  .sidebar { position: static; max-height: none; }
+  .sidebar {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    top: auto;
+    width: 100%;
+    padding: 16px;
+  }
+  .main {
+    width: 100%;
+    padding: 16px;
+    min-height: calc(100vh - 100px);  /* biar panel menu tetep tinggi */
+  }
+
+  /* Cuma tampilkan yang sesuai tab */
   .app[data-view="bots"] .sidebar { display: flex; }
   .app[data-view="menu"] .main { display: flex; }
+
   .mobile-tabs { display: flex; }
-  .cat-body { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+
+  /* Grid command lebih rapat di mobile */
+  .cat-body {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
   .cmd .copy-hint { display: none; }
 }
 
+/* HP kecil */
 @media (max-width: 420px) {
+  .app { padding: 10px 10px 88px; }
+  .sidebar, .main { padding: 14px; }
   .cat-body { grid-template-columns: 1fr 1fr; }
-  .cmd { font-size: 11.5px; }
+  .cmd { font-size: 11.5px; padding: 7px 9px; }
+  .mn-head { gap: 10px; }
+  .mobile-tabs button { padding: 8px 16px; }
 }
