@@ -20,6 +20,12 @@ const BOTS = [
     tag: 'SF1'
   },
   {
+    name: 'Hexa',
+    number: '628511347385',
+    tag: 'BYU3'
+  },
+  },
+  {
     name: 'Alya',
     number: '6285136816242',
     tag: 'BYU2'
