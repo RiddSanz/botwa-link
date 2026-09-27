@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bot WhatsApp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app" id="app" data-view="bots">
+
+    <!-- ═══════════ SIDEBAR ═══════════ -->
+    <aside class="sidebar">
+      <div class="sb-head">
+        <div class="sb-title">
+          <span class="dot"></span>
+          Bot WhatsApp
+        </div>
+        <div class="sb-sub">Pilih bot untuk mulai chat</div>
+      </div>
+
+      <div>
+        <div class="sb-section-title">Daftar Bot</div>
+        <div class="bot-list" id="botList"></div>
+      </div>
+
+      <div class="note" id="globalNote"></div>
+    </aside>
+
+    <!-- ═══════════ MAIN ═══════════ -->
+    <main class="main">
+      <div class="mn-head">
+        <div>
+          <div class="mn-title">Daftar Menu</div>
+          <div class="mn-sub">Klik command untuk copy otomatis</div>
+        </div>
+        <div class="mn-stats">
+          <span class="stat" id="statTotal"></span>
+          <span class="stat" id="statCat"></span>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="search-wrap">
+          <span class="ic-left">&gt;</span>
+          <input type="text" id="search" placeholder="cari command... (ytmp3, sticker, ai)">
+          <span class="ic-right">⌘K</span>
+        </div>
+        <div class="chips" id="chips"></div>
+      </div>
+
+      <div id="menuList"></div>
+    </main>
+  </div>
+
+  <div class="mobile-tabs">
+    <button data-tab="bots" class="active">Bot</button>
+    <button data-tab="menu">Menu</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
