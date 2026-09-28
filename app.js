@@ -1800,8 +1800,8 @@ function normalizeNumber(num) {
 function formatPhoneDisplay(num) {
   const n = normalizeNumber(num);
   if (n.startsWith('62') && n.length >= 11) {
-    return n.slice(2, 5) + '-' + n.slice(5, 9) + '-' + n.slice(9);
-    // return '+62 ' + n.slice(2, 5) + '-' + n.slice(5, 9) + '-' + n.slice(9);
+    // return n.slice(2, 5) + '-' + n.slice(5, 9) + '-' + n.slice(9);
+    return '+62 ' + n.slice(2, 5) + '-' + n.slice(5, 9) + '-' + n.slice(9);
   }
   return '+' + n;
 }
