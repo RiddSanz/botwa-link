@@ -14,11 +14,11 @@
 //   { name: "Kuro", number: "6281234567890", tag: "C4" }
 // =========================================================================
 const BOTS = [
-  {
-    name: 'Buenos Diaz',
-    number: '51901495104',
-    tag: 'PERU'
-  },
+  // {
+  //   name: 'Buenos Diaz',
+  //   number: '51901495104',
+  //   tag: 'PERU'
+  // },
   {
     name: 'Antrax',
     number: '62881027926259',
