@@ -15,6 +15,11 @@
 // =========================================================================
 const BOTS = [
   {
+    name: 'Buenos Diaz',
+    number: '51901495104',
+    tag: 'PERU'
+  },
+  {
     name: 'Antrax',
     number: '62881027926259',
     tag: 'SF1'
@@ -1795,7 +1800,8 @@ function normalizeNumber(num) {
 function formatPhoneDisplay(num) {
   const n = normalizeNumber(num);
   if (n.startsWith('62') && n.length >= 11) {
-    return '+62 ' + n.slice(2, 5) + '-' + n.slice(5, 9) + '-' + n.slice(9);
+    return n.slice(2, 5) + '-' + n.slice(5, 9) + '-' + n.slice(9);
+    // return '+62 ' + n.slice(2, 5) + '-' + n.slice(5, 9) + '-' + n.slice(9);
   }
   return '+' + n;
 }
