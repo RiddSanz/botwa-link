@@ -23,8 +23,30 @@ botwa-link/
 ├── index.html        # Struktur antarmuka web utama
 ├── style.css         # Styling CSS & konfigurasi tema responsif
 ├── app.js            # Data bot, katalog menu, dan logika interaktif
-├── menu-origin.txt   # Sumber data mentah daftar perintah bot
+├── menu-loader.js    # Dedicated parser & updater menu dari file .txt
+├── something.txt     # Sumber data menu bot WhatsApp terbaru
+├── menu-origin.txt   # Arsip data mentah daftar perintah sebelumnya
 └── README.md         # Dokumentasi dan panduan penggunaan
+```
+
+---
+
+## ⚡ Cara Cepat Update Menu dari File TXT
+
+Kapan pun kamu mendapatkan dump menu baru dari bot WhatsApp (misal disimpan di `something.txt`), jalankan perintah berikut di terminal:
+
+```bash
+node menu-loader.js
+```
+*Script ini otomatis membaca file `.txt`, mengekstrak semua kategori & perintah, mempertahankan badge (🅛 Limit, 🅟 Premium, 🅞 Owner), memetakan emoji kategori, dan langsung me-mirror ke [`app.js`](file:///d:/BotWa/botwa-link/app.js).*
+
+Opsi perintah lainnya:
+```bash
+# Menentukan file txt dan js target secara manual:
+node menu-loader.js namadata.txt app.js
+
+# Ekspor hasil parsing ke format JSON (menu.json):
+node menu-loader.js --json
 ```
 
 ---
