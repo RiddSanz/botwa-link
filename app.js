@@ -108,10 +108,6 @@ const MENU = {
     "commands": [
       "age-detection",
       "alultimate",
-      "ambulk",
-      "amdata",
-      "amsend",
-      "amverif",
       "audio.mp3",
       "bandingkan-hp",
       "barcode",
@@ -670,7 +666,6 @@ const MENU = {
       "ai-leaderboard",
       "aifilter",
       "airealtime",
-      "aisantai",
       "alya",
       "anime-gen",
       "arta",

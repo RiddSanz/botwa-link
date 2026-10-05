@@ -5,9 +5,9 @@
 
 ✦ *Informasi Bot*
 • Nama   : Rimuru-MD
-• Fitur  : 1705 fitur
+• Fitur  : 1697 fitur
 • Versi  : 5.0-rev
-• Waktu  : 16:07:09 WIB
+• Waktu  : 15:44:54 WIB
 
 ✦ *Kelebihan Bot Ini*
 • Fast response
@@ -64,10 +64,6 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ╭➤--「TOOLS MENU 」
 ┆ ⇝ .age-detection🅟🅛
 ┆ ⇝ .alultimate🅛
-┆ ⇝ .ambulk
-┆ ⇝ .amdata
-┆ ⇝ .amsend🅟🅛
-┆ ⇝ .amverif🅟🅛
 ┆ ⇝ .audio.mp3🅞
 ┆ ⇝ .bandingkan-hp🅛
 ┆ ⇝ .barcode🅛
@@ -612,7 +608,6 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .ai-leaderboard🅛
 ┆ ⇝ .aifilter🅛
 ┆ ⇝ .airealtime🅛
-┆ ⇝ .aisantai🅛
 ┆ ⇝ .alya🅛
 ┆ ⇝ .anime-gen🅛
 ┆ ⇝ .arta🅛
