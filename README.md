@@ -38,7 +38,7 @@ Kapan pun kamu mendapatkan dump menu baru dari bot WhatsApp (misal disimpan di `
 ```bash
 node menu-loader.js
 ```
-*Script ini otomatis membaca file `.txt`, mengekstrak semua kategori & perintah, mempertahankan badge (🅛 Limit, 🅟 Premium, 🅞 Owner), memetakan emoji kategori, dan langsung me-mirror ke [`app.js`](file:///d:/BotWa/botwa-link/app.js).*
+*Script ini otomatis membaca file `.txt`, mengekstrak semua kategori & perintah, membersihkan semua badge status (🅛 Limit, 🅟 Premium, 🅞 Owner, 🅖 Group, 🅐 Admin, 🅡 Rank, dll.), memetakan emoji kategori, dan langsung me-mirror ke [`app.js`](file:///d:/BotWa/botwa-link/app.js).*
 
 Opsi perintah lainnya:
 ```bash

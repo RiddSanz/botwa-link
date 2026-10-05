@@ -80,8 +80,8 @@
     for (let rawLine of lines) {
       const line = rawLine.trim();
 
-      // Deteksi Header Kategori, contoh: ╭➤--「MAIN MENU 」 atau ╭➤--「TOOLS MENU」
-      const catMatch = line.match(/^╭➤--[「\[](.*?)[」\]]/);
+      // Deteksi Header Kategori, contoh: ╭➤--「MAIN MENU 」 atau ╭─「TOOLS MENU」
+      const catMatch = line.match(/^[╭┌].*?[「\[](.*?)[」\]]/);
       if (catMatch) {
         let catName = catMatch[1]
           .replace(/\s*MENU\s*$/i, '')
@@ -101,24 +101,42 @@
       }
 
       // Deteksi Garis Penutup Kategori, contoh: ╰➤-------------------------------
-      if (line.startsWith('╰➤')) {
+      if (line.startsWith('╰') || line.startsWith('└')) {
         currentCat = null;
         continue;
       }
 
-      // Deteksi Command, contoh: ┆ ⇝ .allmenu atau ┆ ⇝ .daftar🅛
-      const cmdMatch = line.match(/^┆\s*⇝\s*\.(.*)/);
-      if (cmdMatch && currentCat) {
-        // Bersihkan badge L/P/O (\u{1F15B}, \u{1F15F}, \u{1F15E}) agar tidak corrupt di browser
-        const cmdName = cmdMatch[1].replace(/[\u{1F15B}\u{1F15E}\u{1F15F}]/gu, '').trim();
+      // Deteksi Command, contoh: ┆ ⇝ .allmenu, ┆ ⇝ .sapa 🅖, ┆ ⇝ .sulap 🅐 🅖
+      const cmdMatch = line.match(/^[┆│|]?\s*[⇝>•\-*]?\s*\.?(.*)/);
+      if (cmdMatch && currentCat && (line.includes('⇝') || /^[┆│|]/.test(line))) {
+        const rawCmdPart = cmdMatch[1].trim();
+        if (!rawCmdPart) continue;
 
-        // Abaikan command tidak valid / halusinasi
-        if (!cmdName || cmdName.toLowerCase() === '3 day premium') {
-          continue;
-        }
+        // Tangani jika ada beberapa alias dipisah koma dalam satu baris (misal: anime-waifu, waifu-anime)
+        const tokens = rawCmdPart.includes(',') ? rawCmdPart.split(',') : [rawCmdPart];
 
-        if (!menu[currentCat].commands.includes(cmdName)) {
-          menu[currentCat].commands.push(cmdName);
+        for (let t of tokens) {
+          // Bersihkan seluruh karakter badge Unicode:
+          // - Enclosed Alphanumeric Supplement (U+1F100 - U+1F1FF): 🅐-🅩, 🅰-🆉, 🅛, 🅟, 🅞, 🅖, 🅐, 🅡, dll.
+          // - Enclosed Alphanumerics (U+2460 - U+24FF): Ⓐ-Ⓩ, ⓐ-ⓩ, ①-⑳, dll.
+          let cmdName = t.replace(/[\u{1F100}-\u{1F1FF}\u{2460}-\u{24FF}]/gu, '').trim();
+
+          // Ambil nama perintah utama (token pertama sebelum spasi/badge tersisa)
+          if (cmdName.includes(' ')) {
+            cmdName = cmdName.split(/\s+/)[0].trim();
+          }
+
+          // Hilangkan tanda prefix titik di depan jika ada
+          cmdName = cmdName.replace(/^[./#!]+/, '').trim();
+
+          // Abaikan command tidak valid / kosong / halusinasi dump
+          if (!cmdName || cmdName.includes('${') || cmdName.toLowerCase() === '3 day premium') {
+            continue;
+          }
+
+          if (!menu[currentCat].commands.includes(cmdName)) {
+            menu[currentCat].commands.push(cmdName);
+          }
         }
       }
     }

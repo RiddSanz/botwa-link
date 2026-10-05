@@ -5,9 +5,9 @@
 
 ✦ *Informasi Bot*
 • Nama   : Rimuru-MD
-• Fitur  : 1697 fitur
+• Fitur  : 1706 fitur
 • Versi  : 5.0-rev
-• Waktu  : 15:44:54 WIB
+• Waktu  : 16:11:44 WIB
 
 ✦ *Kelebihan Bot Ini*
 • Fast response
@@ -19,27 +19,25 @@ Silakan pilih menu di bawah ini.
 Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 
 ╭➤--「MAIN MENU 」
-┆ ⇝ .3 day premium
 ┆ ⇝ .allmenu
 ┆ ⇝ .benefitowner
 ┆ ⇝ .benefitpremium
 ┆ ⇝ .buypanel
 ┆ ⇝ .carifitur
+┆ ⇝ .creator2 🅛
 ┆ ⇝ .credit
-┆ ⇝ .cta_call
-┆ ⇝ .daftar🅛
+┆ ⇝ .daftar
 ┆ ⇝ .dashboard
 ┆ ⇝ .donasi
-┆ ⇝ .enable🅛
-┆ ⇝ .gbbot🅛
-┆ ⇝ .hargabot🅛
-┆ ⇝ .hargapanel🅛
+┆ ⇝ .enable 🅛
+┆ ⇝ .gbbot 🅛
+┆ ⇝ .hargabot 🅛
+┆ ⇝ .hargapanel 🅛
 ┆ ⇝ .help
-┆ ⇝ .jadian
-┆ ⇝ .jadibot🅟
+┆ ⇝ .jadian 🅖
 ┆ ⇝ .leaderboard
-┆ ⇝ .menu🅛
-┆ ⇝ .menucat🅛
+┆ ⇝ .menu
+┆ ⇝ .menucat
 ┆ ⇝ .owner
 ┆ ⇝ .ping
 ┆ ⇝ .ping2
@@ -47,9 +45,11 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .saluran
 ┆ ⇝ .sc
 ┆ ⇝ .seleksif02
+┆ ⇝ .sewa
+┆ ⇝ .sewa2 🅛
 ┆ ⇝ .stats
 ┆ ⇝ .stopjadibot
-┆ ⇝ .system🅛
+┆ ⇝ .system 🅛
 ┆ ⇝ .totalfitur
 ┆ ⇝ .tqto
 ┆ ⇝ .tqto2
@@ -57,544 +57,542 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ╰➤-------------------------------
 
 ╭➤--「UTILITY MENU 」
-┆ ⇝ .inspect🅛
-┆ ⇝ .remind🅛
+┆ ⇝ .inspect 🅛
+┆ ⇝ .remind 🅛
 ╰➤-------------------------------
 
 ╭➤--「TOOLS MENU 」
-┆ ⇝ .age-detection🅟🅛
-┆ ⇝ .alultimate🅛
-┆ ⇝ .audio.mp3🅞
-┆ ⇝ .bandingkan-hp🅛
-┆ ⇝ .barcode🅛
+┆ ⇝ .alultimate 🅛
+┆ ⇝ .bandingkan-hp 🅛
+┆ ⇝ .barcode 🅛
 ┆ ⇝ .biner
 ┆ ⇝ .bitly
-┆ ⇝ .breach🅛
-┆ ⇝ .bypass🅛
+┆ ⇝ .breach 🅛
+┆ ⇝ .bypass 🅛
 ┆ ⇝ .calc
-┆ ⇝ .carbon🅛
-┆ ⇝ .caribug🅛
-┆ ⇝ .catbox🅛
+┆ ⇝ .carbon 🅛
+┆ ⇝ .caribug 🅛
+┆ ⇝ .catbox 🅛
 ┆ ⇝ .ccgen
 ┆ ⇝ .cekidch
+┆ ⇝ .cekidgc 🅞
 ┆ ⇝ .cekml
-┆ ⇝ .ceknamadana🅛
-┆ ⇝ .cekplat🅛
-┆ ⇝ .cekrek🅛
-┆ ⇝ .cekresi🅛
-┆ ⇝ .cekxl🅛
+┆ ⇝ .ceknamadana 🅛
+┆ ⇝ .cekplat 🅛
+┆ ⇝ .cekrek 🅛
+┆ ⇝ .cekresi 🅛
+┆ ⇝ .cekxl 🅛
 ┆ ⇝ .checkhost
-┆ ⇝ .cjstoesm🅛
+┆ ⇝ .cjstoesm 🅛
+┆ ⇝ .collatz
 ┆ ⇝ .colongsw
-┆ ⇝ .compresspdf🅛
-┆ ⇝ .converter🅟🅛
-┆ ⇝ .cta_copy🅞
+┆ ⇝ .compresspdf 🅛
 ┆ ⇝ .cuaca
-┆ ⇝ .dafont🅛
-┆ ⇝ .dbinary🅛
+┆ ⇝ .dafont 🅛
+┆ ⇝ .dbinary 🅛
 ┆ ⇝ .debiner
-┆ ⇝ .delpp🅞
-┆ ⇝ .ebinary🅛
+┆ ⇝ .delpp 🅞
+┆ ⇝ .ebinary 🅛
 ┆ ⇝ .ekspedisilist
-┆ ⇝ .emojitoanimasi🅛
-┆ ⇝ .emojitoimage🅛
+┆ ⇝ .emojitoanimasi 🅛
+┆ ⇝ .emojitoimage 🅛
 ┆ ⇝ .encode
-┆ ⇝ .encrypt🅛
-┆ ⇝ .esmtocjs🅛
-┆ ⇝ .extra-tools
-┆ ⇝ .facedetector🅛
+┆ ⇝ .encrypt 🅛
+┆ ⇝ .enlargerai 🅛
+┆ ⇝ .esmtocjs 🅛
+┆ ⇝ .facedetector 🅛
 ┆ ⇝ .fagsocial
 ┆ ⇝ .fagsocial_video
 ┆ ⇝ .fakecam
 ┆ ⇝ .fakecamvid
-┆ ⇝ .fakesw🅛
-┆ ⇝ .faketag
+┆ ⇝ .fakesw 🅛
+┆ ⇝ .faketag 🅖
 ┆ ⇝ .fakevhs
-┆ ⇝ .fetchweb🅛
-┆ ⇝ .fliptext🅛
-┆ ⇝ .fstik🅟
-┆ ⇝ .gencard🅛
-┆ ⇝ .getpaste🅛
+┆ ⇝ .fetchweb 🅛
+┆ ⇝ .fliptext 🅛
+┆ ⇝ .gencard 🅛
+┆ ⇝ .getpaste 🅛
 ┆ ⇝ .ghuser
-┆ ⇝ .grammarly🅛
-┆ ⇝ .grepplugin🅞
+┆ ⇝ .grammarly 🅛
+┆ ⇝ .grepplugin 🅞
 ┆ ⇝ .gsmarena
-┆ ⇝ .gsmarena2🅛
-┆ ⇝ .hapuswm🅛
-┆ ⇝ .hd2🅛
-┆ ⇝ .hd3🅛
-┆ ⇝ .hd4🅛
-┆ ⇝ .hd5🅛
-┆ ⇝ .hd8🅛
-┆ ⇝ .hdvid🅟🅛
-┆ ⇝ .hdvideo2🅛
-┆ ⇝ .hitungwrmlbb🅛
+┆ ⇝ .gsmarena2 🅛
+┆ ⇝ .hapuswm 🅛
+┆ ⇝ .hd2 🅛
+┆ ⇝ .hd3 🅛
+┆ ⇝ .hd4 🅛
+┆ ⇝ .hd5 🅛
+┆ ⇝ .hd8 🅛
+┆ ⇝ .hdvideo2 🅛
+┆ ⇝ .hitungwrmlbb 🅛
 ┆ ⇝ .hostmedia
-┆ ⇝ .image.jpg🅛
-┆ ⇝ .imagetoasci🅛
-┆ ⇝ .imgtools🅛
-┆ ⇝ .imgtoprompt🅛
-┆ ⇝ .invoicemaker🅛
-┆ ⇝ .ip🅛
-┆ ⇝ .ipwho🅛
-┆ ⇝ .izen🅛
+┆ ⇝ .imagetoasci 🅛
+┆ ⇝ .imgtools 🅛
+┆ ⇝ .imgtoprompt 🅛
+┆ ⇝ .invoicemaker 🅛
+┆ ⇝ .ip 🅛
+┆ ⇝ .ipwho 🅛
+┆ ⇝ .izen 🅛
 ┆ ⇝ .jadwaltv
 ┆ ⇝ .jarak
 ┆ ⇝ .jjcapcut
-┆ ⇝ .kalkulatormbg🅛
-┆ ⇝ .kirimpesangc🅞
-┆ ⇝ .kodepos🅛
+┆ ⇝ .kalkulatormbg 🅛
+┆ ⇝ .kirimpesangc 🅞
+┆ ⇝ .kodepos 🅛
 ┆ ⇝ .linkid
-┆ ⇝ .logo.png🅛
-┆ ⇝ .lookup🅛
+┆ ⇝ .lookup 🅛
 ┆ ⇝ .mcstalk
 ┆ ⇝ .mcstatus
-┆ ⇝ .mikutalk🅛
-┆ ⇝ .musikapaini🅛
-┆ ⇝ .myip🅞
+┆ ⇝ .mikutalk 🅛
+┆ ⇝ .musikapaini 🅛
+┆ ⇝ .myip 🅞
 ┆ ⇝ .nik
-┆ ⇝ .nikparser🅛
-┆ ⇝ .npmdl🅛
-┆ ⇝ .npmshield🅛
-┆ ⇝ .nulis🅛
-┆ ⇝ .numbgen🅟
-┆ ⇝ .ocr🅛
-┆ ⇝ .pastebin🅛
-┆ ⇝ .phisingataubukan🅛
+┆ ⇝ .nikparser 🅛
+┆ ⇝ .npmdl 🅛
+┆ ⇝ .npmshield 🅛
+┆ ⇝ .nulis 🅛
+┆ ⇝ .objectdetection 🅛
+┆ ⇝ .ocr 🅛
+┆ ⇝ .pastebin 🅛
+┆ ⇝ .phisingataubukan 🅛
 ┆ ⇝ .preset
-┆ ⇝ .promptcode🅛
-┆ ⇝ .proxy🅛
-┆ ⇝ .ptv🅛
-┆ ⇝ .q🅞
-┆ ⇝ .qrcodefile🅛
-┆ ⇝ .qwa🅛
-┆ ⇝ .rch
-┆ ⇝ .readmore🅛
-┆ ⇝ .readqr🅛
-┆ ⇝ .remini🅛
-┆ ⇝ .removebg🅛
-┆ ⇝ .removewm🅛
+┆ ⇝ .promptcode 🅛
+┆ ⇝ .proxy 🅛
+┆ ⇝ .ptv 🅛
+┆ ⇝ .q 🅞
+┆ ⇝ .qrcodefile 🅛
+┆ ⇝ .qrcustom 🅛
+┆ ⇝ .qwa 🅛
+┆ ⇝ .randomname 🅛
+┆ ⇝ .rch 🅟 🅛
+┆ ⇝ .readmore 🅛
+┆ ⇝ .readqr 🅛
+┆ ⇝ .remini 🅛
+┆ ⇝ .removebg 🅛
+┆ ⇝ .removewm 🅛
 ┆ ⇝ .resize
-┆ ⇝ .resizevideo🅛
-┆ ⇝ .rvo🅛
+┆ ⇝ .resizevideo 🅛
+┆ ⇝ .rvo 🅛
 ┆ ⇝ .s2c
-┆ ⇝ .scanrepo🅛
+┆ ⇝ .scanrepo 🅛
 ┆ ⇝ .searchcode
 ┆ ⇝ .searchgist
 ┆ ⇝ .sendngl
-┆ ⇝ .setbio🅞
-┆ ⇝ .setname🅞
-┆ ⇝ .setpp🅞
-┆ ⇝ .shareteks🅛
-┆ ⇝ .shzupload🅛
+┆ ⇝ .setbio 🅞
+┆ ⇝ .setname 🅞
+┆ ⇝ .setpp 🅞
+┆ ⇝ .shareteks 🅛
+┆ ⇝ .shzupload 🅛
 ┆ ⇝ .spamngl
 ┆ ⇝ .speedbot
 ┆ ⇝ .spotivid
-┆ ⇝ .ssdesktop🅛
-┆ ⇝ .sstablet🅛
-┆ ⇝ .ssweb🅛
-┆ ⇝ .struk🅛
-┆ ⇝ .styleteks🅛
-┆ ⇝ .subs4unlock🅛
+┆ ⇝ .ssdesktop 🅛
+┆ ⇝ .sstablet 🅛
+┆ ⇝ .ssweb 🅛
+┆ ⇝ .struk 🅛
+┆ ⇝ .styleteks 🅛
+┆ ⇝ .subs4unlock 🅛
 ┆ ⇝ .suppbypass
-┆ ⇝ .swhdv2🅟🅛
-┆ ⇝ .swhdv3🅟🅛
-┆ ⇝ .swhdv4🅟🅛
 ┆ ⇝ .tebalteks
 ┆ ⇝ .tempmail
-┆ ⇝ .tesautopostch🅞
+┆ ⇝ .tesautopostch 🅞
 ┆ ⇝ .test
-┆ ⇝ .tidak ada🅛
 ┆ ⇝ .time
 ┆ ⇝ .timeis
-┆ ⇝ .tinypng🅛
-┆ ⇝ .toaudio🅛
+┆ ⇝ .tinypng 🅛
+┆ ⇝ .toaudio 🅛
 ┆ ⇝ .tocodeqr
 ┆ ⇝ .toesm
-┆ ⇝ .toimg🅛
-┆ ⇝ .tourl🅛
-┆ ⇝ .tovideo🅛
-┆ ⇝ .tovn🅛
-┆ ⇝ .transkrip🅛
+┆ ⇝ .toimg 🅛
+┆ ⇝ .tomp3 🅛
+┆ ⇝ .tourl 🅛
+┆ ⇝ .tovideo 🅛
+┆ ⇝ .tovn 🅛
+┆ ⇝ .transkrip 🅛
 ┆ ⇝ .translate
-┆ ⇝ .tweetss🅛
+┆ ⇝ .tweetss 🅛
 ┆ ⇝ .txt2qr
 ┆ ⇝ .uguu
-┆ ⇝ .upvidey🅛
+┆ ⇝ .upch2 🅞 🅛
+┆ ⇝ .upload
+┆ ⇝ .upvidey 🅛
 ┆ ⇝ .usernamegen
 ┆ ⇝ .vgist
-┆ ⇝ .videotranscribe🅛
-┆ ⇝ .vocalcut🅛
-┆ ⇝ .vocalremover🅛
-┆ ⇝ .weather🅛
-┆ ⇝ .web2zip🅛
-┆ ⇝ .webperf🅛
-┆ ⇝ .whatmusic🅛
-┆ ⇝ .wink🅟🅛
-┆ ⇝ .wisedetail🅛
-┆ ⇝ .xterm-ai-tools🅛
-┆ ⇝ .ytsummarize🅟🅛
+┆ ⇝ .videotranscribe 🅛
+┆ ⇝ .vocalcut 🅛
+┆ ⇝ .vocalremover 🅛
+┆ ⇝ .weather 🅛
+┆ ⇝ .web2zip 🅛
+┆ ⇝ .webperf 🅛
+┆ ⇝ .whatmusic 🅛
+┆ ⇝ .wisedetail 🅛
 ╰➤-------------------------------
 
 ╭➤--「FUN MENU 」
 ┆ ⇝ .akankah
-┆ ⇝ .alay🅛
+┆ ⇝ .alay 🅛
 ┆ ⇝ .angka
 ┆ ⇝ .apakah
 ┆ ⇝ .ara
-┆ ⇝ .artinama2🅛
+┆ ⇝ .artinama2 🅛
 ┆ ⇝ .autorimuru
 ┆ ⇝ .bagaimana
+┆ ⇝ .bego 🅖
 ┆ ⇝ .benarkah
 ┆ ⇝ .berapa
 ┆ ⇝ .bisakah
 ┆ ⇝ .bucin
-┆ ⇝ .burik🅛
+┆ ⇝ .burik 🅛
 ┆ ⇝ .cantikcek
-┆ ⇝ .cekfemboy🅛
+┆ ⇝ .cekfemboy 🅛
 ┆ ⇝ .cekkhodam
 ┆ ⇝ .cekkontol
 ┆ ⇝ .cekmemek
 ┆ ⇝ .cekotot
-┆ ⇝ .cekpacar
+┆ ⇝ .cekpacar 🅖
 ┆ ⇝ .cekperforma
 ┆ ⇝ .cektt
 ┆ ⇝ .coba
-┆ ⇝ .confess🅛
+┆ ⇝ .confess 🅛 🅟🅡
 ┆ ⇝ .dare
 ┆ ⇝ .dimana
 ┆ ⇝ .dimanakah
-┆ ⇝ .fakechat🅛
+┆ ⇝ .fakechat 🅛
 ┆ ⇝ .fuckmylife
-┆ ⇝ .funcek🅛
 ┆ ⇝ .gachabini
 ┆ ⇝ .gachafemboy
+┆ ⇝ .gachahusbu 🅛
 ┆ ⇝ .gachanasip
 ┆ ⇝ .gachatomboy
-┆ ⇝ .gay🅛
-┆ ⇝ .gojo-extra
+┆ ⇝ .gachawaifu 🅛
+┆ ⇝ .gay 🅛 🅖
+┆ ⇝ .goblokcek 🅛
+┆ ⇝ .gquote
 ┆ ⇝ .halah
 ┆ ⇝ .haruskah
-┆ ⇝ .jodoh🅛
-┆ ⇝ .jomok🅛
+┆ ⇝ .jodoh 🅛 🅖
+┆ ⇝ .jomok 🅛
 ┆ ⇝ .kapan
 ┆ ⇝ .kapankah
 ┆ ⇝ .kematian
 ┆ ⇝ .kerang
-┆ ⇝ .lifefact🅛
-┆ ⇝ .lupakan🅛
+┆ ⇝ .lifefact 🅛
+┆ ⇝ .lupakan 🅛
 ┆ ⇝ .mengapa
-┆ ⇝ .mimpi🅛
-┆ ⇝ .mimpi2🅛
+┆ ⇝ .mimpi 🅛
+┆ ⇝ .mimpi2 🅛
 ┆ ⇝ .morse
 ┆ ⇝ .moveon
-┆ ⇝ .pakustad🅛
+┆ ⇝ .pakustad 🅛
 ┆ ⇝ .puisi
-┆ ⇝ .putus
+┆ ⇝ .putus 🅖
 ┆ ⇝ .ramal
 ┆ ⇝ .rate
-┆ ⇝ .renungan🅛
-┆ ⇝ .sakura haruno🅛
-┆ ⇝ .sapa
+┆ ⇝ .renungan 🅛
+┆ ⇝ .sapa 🅖
 ┆ ⇝ .seberapagila
 ┆ ⇝ .senja
 ┆ ⇝ .sertifikatlemot
-┆ ⇝ .siapa
 ┆ ⇝ .simi
-┆ ⇝ .simi2🅛
-┆ ⇝ .sipaling
-┆ ⇝ .soulmatch🅛
-┆ ⇝ .sulap
+┆ ⇝ .simi2 🅛
+┆ ⇝ .sipaling 🅖
+┆ ⇝ .soulmatch 🅛
+┆ ⇝ .sulap 🅐 🅖
 ┆ ⇝ .suratcinta
-┆ ⇝ .tarot🅛
+┆ ⇝ .tarot 🅛
 ┆ ⇝ .tebakumur
-┆ ⇝ .tembak
-┆ ⇝ .terima
-┆ ⇝ .tod🅛
-┆ ⇝ .tolak
-┆ ⇝ .top
+┆ ⇝ .tembak 🅖
+┆ ⇝ .terima 🅖
+┆ ⇝ .tod 🅛 🅖
+┆ ⇝ .tolak 🅖
+┆ ⇝ .top 🅖
 ┆ ⇝ .truth
-┆ ⇝ .wa-canvas🅛
-┆ ⇝ .yuji itadori🅛
+┆ ⇝ .wa-canvas 🅛
 ╰➤-------------------------------
 
 ╭➤--「GAME MENU 」
-┆ ⇝ .akinator🅛
-┆ ⇝ .akunyt
+┆ ⇝ .akinator 🅛
+┆ ⇝ .akunyt 🅖
 ┆ ⇝ .angrybirds
 ┆ ⇝ .asahotak
-┆ ⇝ .attack
-┆ ⇝ .benaratausalah
-┆ ⇝ .blackjack
-┆ ⇝ .bomb🅛
-┆ ⇝ .breakout🅛
+┆ ⇝ .attack 🅖
+┆ ⇝ .balap
+┆ ⇝ .benaratausalah 🅖 🅟🅡
+┆ ⇝ .blackjack 🅖
+┆ ⇝ .bomb 🅛 🅖
+┆ ⇝ .breakout 🅛
 ┆ ⇝ .caklontong
-┆ ⇝ .cerdascermat🅛
-┆ ⇝ .checkers🅛
+┆ ⇝ .catur
+┆ ⇝ .cerdascermat 🅛 🅖
+┆ ⇝ .checkers 🅛 🅖
 ┆ ⇝ .colorblock
-┆ ⇝ .createakun
+┆ ⇝ .createakun 🅖
 ┆ ⇝ .dino
-┆ ⇝ .dungeon
-┆ ⇝ .family100
-┆ ⇝ .fightnaga🅛
+┆ ⇝ .dungeon 🅖
+┆ ⇝ .family100 🅖
+┆ ⇝ .fightnaga 🅛 🅖
 ┆ ⇝ .fisht
-┆ ⇝ .flappy🅛
-┆ ⇝ .genaiunifiedresponse
+┆ ⇝ .flappy 🅛
 ┆ ⇝ .genshinprofile
-┆ ⇝ .hangman🅛
+┆ ⇝ .hangman 🅛 🅖
 ┆ ⇝ .kataacak
-┆ ⇝ .kuis🅛
+┆ ⇝ .kuis 🅛 🅖
 ┆ ⇝ .kyubigame
-┆ ⇝ .lengkapikalimat🅛
+┆ ⇝ .lengkapikalimat 🅛 🅖
 ┆ ⇝ .listhero
+┆ ⇝ .mahjong
 ┆ ⇝ .maths
 ┆ ⇝ .mct
 ┆ ⇝ .memorymatch
-┆ ⇝ .mlbb🅛
-┆ ⇝ .monopoli🅛
+┆ ⇝ .mlbb 🅛
+┆ ⇝ .monopoli 🅖
 ┆ ⇝ .mortalkombat
-┆ ⇝ .mudah
 ┆ ⇝ .nixelgames
 ┆ ⇝ .pacman
-┆ ⇝ .pelabuhan🅛
-┆ ⇝ .perangsarung
+┆ ⇝ .pelabuhan 🅛 🅖
+┆ ⇝ .perangsarung 🅖
 ┆ ⇝ .polisi
 ┆ ⇝ .riddle
-┆ ⇝ .rimuru-chess
-┆ ⇝ .rimuru-tebakangka
-┆ ⇝ .sambungkata
+┆ ⇝ .rimuru-chess 🅖
+┆ ⇝ .rimuru-tebakangka 🅖
+┆ ⇝ .sambungkata 🅖
 ┆ ⇝ .siapakahaku
+┆ ⇝ .slot 🅛
+┆ ⇝ .slot2
 ┆ ⇝ .snake
+┆ ⇝ .sonik
 ┆ ⇝ .speedydash
 ┆ ⇝ .stickman
 ┆ ⇝ .suit
-┆ ⇝ .suitpvp
+┆ ⇝ .suitpvp 🅖
 ┆ ⇝ .supermario
 ┆ ⇝ .susunkata
-┆ ⇝ .tebakanime🅛
+┆ ⇝ .tebakanime 🅛 🅖
 ┆ ⇝ .tebakbendera
-┆ ⇝ .tebakbola🅛
+┆ ⇝ .tebakbola 🅛 🅖
 ┆ ⇝ .tebakdrakor
-┆ ⇝ .tebakejenali🅛
+┆ ⇝ .tebakejenali
 ┆ ⇝ .tebakepep
 ┆ ⇝ .tebakff
 ┆ ⇝ .tebakfilm
 ┆ ⇝ .tebakgambar
 ┆ ⇝ .tebakgame
 ┆ ⇝ .tebakhewan
-┆ ⇝ .tebakhp🅛
-┆ ⇝ .tebakjkt🅛
+┆ ⇝ .tebakhp
+┆ ⇝ .tebakjkt 🅛 🅖
 ┆ ⇝ .tebakjkt48
 ┆ ⇝ .tebakkalimat
+┆ ⇝ .tebakkartun
 ┆ ⇝ .tebakkata
 ┆ ⇝ .tebakkimia
 ┆ ⇝ .tebaklagu
 ┆ ⇝ .tebaklirik
-┆ ⇝ .tebaklogo🅛
+┆ ⇝ .tebaklogo 🅛
 ┆ ⇝ .tebakmakanan
 ┆ ⇝ .tebaknegara
 ┆ ⇝ .tebakprofesi
-┆ ⇝ .tebakprovinsi🅛
+┆ ⇝ .tebakprovinsi
 ┆ ⇝ .tebaksurah
-┆ ⇝ .tebaktebakan🅛
+┆ ⇝ .tebaktebakan 🅛
 ┆ ⇝ .tebakwarna
 ┆ ⇝ .tekateki
-┆ ⇝ .tictactoe
-┆ ⇝ .togel
-┆ ⇝ .tom and jerry
-┆ ⇝ .trivia🅛
-┆ ⇝ .truthordare
-┆ ⇝ .ulartangga🅛
-┆ ⇝ .uno
-┆ ⇝ .vortex blue
-┆ ⇝ .war
-┆ ⇝ .werewolf
-┆ ⇝ .wwkill
-┆ ⇝ .wwprotect
-┆ ⇝ .wwsee
-┆ ⇝ .wwsorcerer
+┆ ⇝ .tetris
+┆ ⇝ .tictactoe 🅖
+┆ ⇝ .togel 🅟🅡
+┆ ⇝ .trivia 🅛 🅖
+┆ ⇝ .truthordare 🅖
+┆ ⇝ .ulartangga 🅖
+┆ ⇝ .uno 🅖
+┆ ⇝ .war 🅖
+┆ ⇝ .werewolf 🅖
+┆ ⇝ .wwkill 🅟🅡
+┆ ⇝ .wwprotect 🅟🅡
+┆ ⇝ .wwsee 🅟🅡
+┆ ⇝ .wwsorcerer 🅟🅡
 ╰➤-------------------------------
 
 ╭➤--「DOWNLOAD MENU 」
-┆ ⇝ .${data.title}.mp3🅛
-┆ ⇝ .${res.filename}.${ext}🅛
-┆ ⇝ .${title.replace(/[^a-za-z0-9_\-]/g,🅛
-┆ ⇝ .${title}.mp3🅛
-┆ ⇝ .aio🅛
-┆ ⇝ .aio2🅛
-┆ ⇝ .alightmotiondl🅛
-┆ ⇝ .azbry🅛
-┆ ⇝ .bilibili🅛
-┆ ⇝ .capcut🅛
-┆ ⇝ .capcutdl🅛
-┆ ⇝ .cocofundl🅛
-┆ ⇝ .cta_url🅛
-┆ ⇝ .dailymotiondl🅛
-┆ ⇝ .dlit🅛
-┆ ⇝ .douyin🅛
-┆ ⇝ .douyindl🅛
-┆ ⇝ .facebook🅛
-┆ ⇝ .facebookdl🅛
-┆ ⇝ .gdrive🅛
-┆ ⇝ .gimage🅛
-┆ ⇝ .gitclone🅛
-┆ ⇝ .githubdl🅛
-┆ ⇝ .igaudio🅛
+┆ ⇝ .aio 🅛
+┆ ⇝ .aio2 🅛
+┆ ⇝ .alightmotiondl 🅛
+┆ ⇝ .applemusic
+┆ ⇝ .bilibili 🅛
+┆ ⇝ .capcut 🅛
+┆ ⇝ .capcutdl 🅛
+┆ ⇝ .cocofundl 🅛
+┆ ⇝ .dailymotiondl 🅛
+┆ ⇝ .dlit 🅛
+┆ ⇝ .douyin 🅛
+┆ ⇝ .douyindl 🅛
+┆ ⇝ .facebook 🅛
+┆ ⇝ .facebookdl 🅛
+┆ ⇝ .gdrive 🅛
+┆ ⇝ .gimage 🅛
+┆ ⇝ .gitclone 🅛
+┆ ⇝ .githubdl 🅛
+┆ ⇝ .igaudio 🅛
 ┆ ⇝ .igdl
-┆ ⇝ .instagram3🅛
-┆ ⇝ .instagramdl🅛
-┆ ⇝ .likeedl🅛
-┆ ⇝ .mcpedldl🅛
-┆ ⇝ .mediafiredl🅛
-┆ ⇝ .pindl🅛
-┆ ⇝ .pindl2🅛
-┆ ⇝ .pixeldraindl🅛
-┆ ⇝ .playvid🅛
-┆ ⇝ .quick_reply🅛
-┆ ⇝ .rednotedl🅛
-┆ ⇝ .sfile🅛
-┆ ⇝ .sfiledl🅛
-┆ ⇝ .shopeedl🅛
-┆ ⇝ .snackvideodl🅛
-┆ ⇝ .spotifydl🅛
-┆ ⇝ .spotifyplay🅛
-┆ ⇝ .terabox🅛
-┆ ⇝ .threaddl🅛
-┆ ⇝ .tiktok_audio_${date.now()}.mp3🅛
-┆ ⇝ .tiktokdl2🅛
-┆ ⇝ .tt🅛
-┆ ⇝ .ttslide🅛
-┆ ⇝ .videy🅛
-┆ ⇝ .wallpaper
-┆ ⇝ .xhs🅛
-┆ ⇝ .yt5so🅛
-┆ ⇝ .ytmp3🅛
-┆ ⇝ .ytmp4🅛
-┆ ⇝ .ytplay🅛
+┆ ⇝ .instagram3 🅛
+┆ ⇝ .instagramdl 🅛
+┆ ⇝ .likeedl 🅛
+┆ ⇝ .mcpedldl 🅛
+┆ ⇝ .mediafire 🅛
+┆ ⇝ .mediafiredl 🅛
+┆ ⇝ .pindl 🅛
+┆ ⇝ .pindl2 🅛
+┆ ⇝ .pixeldraindl 🅛
+┆ ⇝ .play 🅛
+┆ ⇝ .play2 🅛
+┆ ⇝ .playvid 🅛
+┆ ⇝ .rednotedl 🅛
+┆ ⇝ .sfile 🅛
+┆ ⇝ .sfiledl 🅛
+┆ ⇝ .shopeedl 🅛
+┆ ⇝ .snackvideodl 🅛
+┆ ⇝ .soundcloudplay 🅛
+┆ ⇝ .spotifydl 🅛
+┆ ⇝ .spotifyplay 🅛
+┆ ⇝ .terabox 🅛
+┆ ⇝ .threaddl 🅛
+┆ ⇝ .tiktok 🅛
+┆ ⇝ .tiktok2 🅛
+┆ ⇝ .tiktokmusic 🅛
+┆ ⇝ .tt 🅛
+┆ ⇝ .ttimg 🅛
+┆ ⇝ .ttmp3 🅛
+┆ ⇝ .ttslide 🅛
+┆ ⇝ .twitter 🅛
+┆ ⇝ .videy 🅛
+┆ ⇝ .wallpaper 🅛
+┆ ⇝ .xhs 🅛
+┆ ⇝ .yt5so 🅛
+┆ ⇝ .ytmp3 🅛
+┆ ⇝ .ytmp4 🅛
+┆ ⇝ .ytplay 🅛
 ╰➤-------------------------------
 
 ╭➤--「SEARCH MENU 」
-┆ ⇝ .advance-comparation🅛
-┆ ⇝ .android1🅛
-┆ ⇝ .android1-get🅛
-┆ ⇝ .anime2🅛
-┆ ⇝ .animeapaini🅛
+┆ ⇝ .advance-comparation 🅛
+┆ ⇝ .android1 🅛
+┆ ⇝ .android1-get 🅛
+┆ ⇝ .anime2 🅛
+┆ ⇝ .animeapaini 🅛
 ┆ ⇝ .animelink
-┆ ⇝ .animesanka🅛
+┆ ⇝ .animesanka 🅛
 ┆ ⇝ .apkcombo
-┆ ⇝ .apkmod🅛
-┆ ⇝ .apkmod-get🅛
+┆ ⇝ .apkmod 🅛
+┆ ⇝ .apkmod-get 🅛
 ┆ ⇝ .apkpure
 ┆ ⇝ .apkzoic
-┆ ⇝ .applemaps🅛
+┆ ⇝ .applemaps 🅛
 ┆ ⇝ .applemusic
-┆ ⇝ .bingimage🅛
-┆ ⇝ .botsw🅞
+┆ ⇝ .bingimage 🅛
+┆ ⇝ .botsw 🅞
 ┆ ⇝ .brainly
 ┆ ⇝ .bstation
-┆ ⇝ .carigrup🅛
-┆ ⇝ .carimusik🅛
+┆ ⇝ .carigrup 🅛
+┆ ⇝ .carimusik 🅛
 ┆ ⇝ .chords
-┆ ⇝ .clip🅛
-┆ ⇝ .dafont🅛
-┆ ⇝ .douyinsearch🅛
+┆ ⇝ .clip 🅛
+┆ ⇝ .dafont 🅛
+┆ ⇝ .douyinsearch 🅛
 ┆ ⇝ .dramabox
-┆ ⇝ .film🅛
-┆ ⇝ .filmget🅛
-┆ ⇝ .getmusik🅛
+┆ ⇝ .film 🅛
+┆ ⇝ .filmget 🅛
+┆ ⇝ .getmusik 🅛
 ┆ ⇝ .google
 ┆ ⇝ .googleimg
 ┆ ⇝ .gsmarena
 ┆ ⇝ .ikiru
-┆ ⇝ .imdb🅛
-┆ ⇝ .jobstreetsearch🅛
-┆ ⇝ .lirik🅛
-┆ ⇝ .mangaread🅛
-┆ ⇝ .mangatoon🅛
+┆ ⇝ .imdb 🅛
+┆ ⇝ .jobstreetsearch 🅛
+┆ ⇝ .lirik 🅛
+┆ ⇝ .mangaread 🅛
+┆ ⇝ .mangatoon 🅛
 ┆ ⇝ .mcaddon
-┆ ⇝ .mcaddons🅛
-┆ ⇝ .mcpedl🅛
-┆ ⇝ .meigen🅛
-┆ ⇝ .melolo🅛
-┆ ⇝ .movieku🅛
+┆ ⇝ .mcaddons 🅛
+┆ ⇝ .mcpedl 🅛
+┆ ⇝ .meigen 🅛
+┆ ⇝ .melolo 🅛
+┆ ⇝ .movieku 🅛
 ┆ ⇝ .nerdfont-ambil
-┆ ⇝ .npm🅛
-┆ ⇝ .pap🅛
-┆ ⇝ .pddikti🅛
-┆ ⇝ .pin🅛
-┆ ⇝ .pin2🅛
-┆ ⇝ .pins2🅛
-┆ ⇝ .pinvid🅛
-┆ ⇝ .pixiv🅛
-┆ ⇝ .play🅛
-┆ ⇝ .play2🅛
-┆ ⇝ .play4🅛
-┆ ⇝ .playcall🅛
-┆ ⇝ .playch🅛
-┆ ⇝ .playsoundcloud🅛
-┆ ⇝ .playtiktok🅛
-┆ ⇝ .playvid🅛
-┆ ⇝ .ptvsearch🅛
-┆ ⇝ .putar-play🅛
-┆ ⇝ .putar-play2🅛
-┆ ⇝ .resep🅛
-┆ ⇝ .sakura-chapter.txt
-┆ ⇝ .searchthatsong🅛
-┆ ⇝ .shinigami🅛
-┆ ⇝ .soundcloud🅛
+┆ ⇝ .npm 🅛
+┆ ⇝ .pap 🅛
+┆ ⇝ .pddikti 🅛
+┆ ⇝ .pin 🅛
+┆ ⇝ .pin2 🅛
+┆ ⇝ .pins2 🅛
+┆ ⇝ .pinvid 🅛
+┆ ⇝ .pixiv 🅛
+┆ ⇝ .play 🅛
+┆ ⇝ .play2 🅛
+┆ ⇝ .play4 🅛
+┆ ⇝ .playcall 🅛
+┆ ⇝ .playch 🅛
+┆ ⇝ .playsoundcloud 🅛
+┆ ⇝ .playtiktok 🅛
+┆ ⇝ .playvid 🅛
+┆ ⇝ .ptvsearch 🅛
+┆ ⇝ .putar-play 🅛
+┆ ⇝ .putar-play2 🅛
+┆ ⇝ .resep 🅛
+┆ ⇝ .searchthatsong 🅛
+┆ ⇝ .shinigami 🅛
+┆ ⇝ .sn
+┆ ⇝ .soundcloud 🅛
 ┆ ⇝ .soundmeme-listnama
-┆ ⇝ .spekhp🅛
-┆ ⇝ .spotify🅛
-┆ ⇝ .spotplay🅛
-┆ ⇝ .stikerwa🅛
-┆ ⇝ .tenor🅛
-┆ ⇝ .tiktokfoto🅛
-┆ ⇝ .tiktoksc🅛
-┆ ⇝ .tokopedia🅛
-┆ ⇝ .ttsearch🅛
+┆ ⇝ .spekhp 🅛
+┆ ⇝ .spotify 🅛
+┆ ⇝ .spotplay 🅛
+┆ ⇝ .stikerwa 🅛
+┆ ⇝ .tenor 🅛
+┆ ⇝ .tiktokfoto 🅛
+┆ ⇝ .tiktoksc 🅛
+┆ ⇝ .tokopedia 🅛
+┆ ⇝ .ttsearch 🅛
 ┆ ⇝ .uptodown
-┆ ⇝ .wattpadsearch🅛
-┆ ⇝ .webtoonsearch🅛
+┆ ⇝ .wattpadsearch 🅛
+┆ ⇝ .webtoonsearch 🅛
 ┆ ⇝ .wiki
-┆ ⇝ .wikipedia🅛
-┆ ⇝ .yts🅛
+┆ ⇝ .wikipedia 🅛
+┆ ⇝ .yts 🅛
 ╰➤-------------------------------
 
 ╭➤--「STICKER MENU 」
-┆ ⇝ .anticolong🅛
-┆ ⇝ .attp🅛
-┆ ⇝ .attp2🅛
-┆ ⇝ .brat🅛
-┆ ⇝ .bratanime🅛
-┆ ⇝ .bratbahlil🅛
-┆ ⇝ .bratcewek🅛
-┆ ⇝ .bratextra🅛
-┆ ⇝ .bratgreen🅛
-┆ ⇝ .bratgura🅛
-┆ ⇝ .bratpatrick🅛
-┆ ⇝ .bratsquidward🅛
-┆ ⇝ .bratvid🅛
-┆ ⇝ .bratvid2🅛
-┆ ⇝ .bratwhite🅛
-┆ ⇝ .emojimix🅛
-┆ ⇝ .kannabrat🅛
-┆ ⇝ .linesticker🅛
+┆ ⇝ .anticolong 🅛
+┆ ⇝ .attp 🅛
+┆ ⇝ .attp2 🅛
+┆ ⇝ .brat 🅛
+┆ ⇝ .bratanime 🅛
+┆ ⇝ .bratbahlil 🅛
+┆ ⇝ .bratcewek 🅛
+┆ ⇝ .bratextra 🅛
+┆ ⇝ .bratgreen 🅛
+┆ ⇝ .bratgura 🅛
+┆ ⇝ .bratpatrick 🅛
+┆ ⇝ .bratsquidward 🅛
+┆ ⇝ .bratvid 🅛
+┆ ⇝ .bratvid2 🅛
+┆ ⇝ .bratwhite 🅛
+┆ ⇝ .emojimix 🅛
+┆ ⇝ .kannabrat 🅛
+┆ ⇝ .linesticker 🅛
 ┆ ⇝ .megami
-┆ ⇝ .pinpack🅛
-┆ ⇝ .qc🅛
-┆ ⇝ .ryo yamada
-┆ ⇝ .smeme🅛
-┆ ⇝ .smeme-animated🅛
-┆ ⇝ .smemevid🅛
-┆ ⇝ .sticker🅛
-┆ ⇝ .stickerly🅛
-┆ ⇝ .stickerpack🅛
-┆ ⇝ .stickerpackpin🅛
-┆ ⇝ .stickersearch🅛
-┆ ⇝ .swm🅛
-┆ ⇝ .telestick🅛
-┆ ⇝ .toimg🅛
-┆ ⇝ .tovideo🅛
+┆ ⇝ .pack
+┆ ⇝ .pinpack 🅛
+┆ ⇝ .qc 🅛
+┆ ⇝ .smeme 🅛
+┆ ⇝ .smeme-animated 🅛
+┆ ⇝ .smemevid 🅛
+┆ ⇝ .sticker 🅛
+┆ ⇝ .stickerly 🅛
+┆ ⇝ .stickerpack 🅛
+┆ ⇝ .stickerpackpin 🅛 🅖
+┆ ⇝ .stickersearch 🅛
+┆ ⇝ .swm 🅛
+┆ ⇝ .telestick 🅛 🅖
+┆ ⇝ .toimg 🅛
+┆ ⇝ .tovideo 🅛
 ╰➤-------------------------------
 
 ╭➤--「MEDIA MENU 」
@@ -604,277 +602,265 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ╰➤-------------------------------
 
 ╭➤--「AI MENU 」
-┆ ⇝ .ai🅛
-┆ ⇝ .ai-leaderboard🅛
-┆ ⇝ .aifilter🅛
-┆ ⇝ .airealtime🅛
-┆ ⇝ .alya🅛
-┆ ⇝ .anime-gen🅛
-┆ ⇝ .arta🅛
-┆ ⇝ .asyntai🅛
-┆ ⇝ .bard🅛
-┆ ⇝ .bocchi🅛
-┆ ⇝ .character-ai🅛
-┆ ⇝ .claudehaiku🅛
+┆ ⇝ .ai 🅛
+┆ ⇝ .ai-leaderboard 🅛
+┆ ⇝ .aifilter 🅛
+┆ ⇝ .airealtime 🅛
+┆ ⇝ .alya 🅛
+┆ ⇝ .anime-gen 🅛
+┆ ⇝ .animediff 🅛
+┆ ⇝ .artaai 🅛
+┆ ⇝ .asyntai 🅛
+┆ ⇝ .bard 🅛
+┆ ⇝ .bocchi 🅛
+┆ ⇝ .character-ai 🅛
+┆ ⇝ .claudehaiku 🅛
 ┆ ⇝ .copilot
-┆ ⇝ .create_ai_art🅛
-┆ ⇝ .deepseek🅛
-┆ ⇝ .dolphin🅛
-┆ ⇝ .dpsteai🅛
-┆ ⇝ .editimage🅛
-┆ ⇝ .elainaai🅛
-┆ ⇝ .epsilon🅛
-┆ ⇝ .faceswap🅛
-┆ ⇝ .feelbetter🅛
-┆ ⇝ .felo🅛
-┆ ⇝ .flux🅛
-┆ ⇝ .furina🅛
-┆ ⇝ .gem🅛
-┆ ⇝ .gita🅛
-┆ ⇝ .glm4🅛
-┆ ⇝ .gpt2image🅟🅛
-┆ ⇝ .gpt4o🅛
-┆ ⇝ .gpt5🅛
-┆ ⇝ .gptprompt🅛
-┆ ⇝ .hoshino🅛
-┆ ⇝ .humanize🅛
-┆ ⇝ .hutao🅛
-┆ ⇝ .image.jpg🅛
-┆ ⇝ .img2vid🅟🅛
-┆ ⇝ .imgprompt🅛
-┆ ⇝ .input.jpg
-┆ ⇝ .jeeves🅛
-┆ ⇝ .jokowi-ai🅛
-┆ ⇝ .kimi🅛
-┆ ⇝ .kimi-vision🅛
-┆ ⇝ .kita🅛
-┆ ⇝ .kobo-ai🅛
-┆ ⇝ .kurumi🅛
-┆ ⇝ .luffyai🅛
-┆ ⇝ .mahiru🅛
-┆ ⇝ .makima🅛
-┆ ⇝ .matematika🅛
-┆ ⇝ .mega🅛
-┆ ⇝ .meguminai🅛
-┆ ⇝ .mikasa🅛
-┆ ⇝ .mikuai🅛
-┆ ⇝ .mistral🅛
-┆ ⇝ .musicmaker🅛
-┆ ⇝ .muslimai🅛
-┆ ⇝ .nanobanana🅛
-┆ ⇝ .nanobananapro🅟🅛
-┆ ⇝ .nanoedit🅛
-┆ ⇝ .nijika🅛
-┆ ⇝ .oguri🅛
-┆ ⇝ .openai🅛
-┆ ⇝ .opennana🅛
-┆ ⇝ .powerbrain🅛
-┆ ⇝ .prabowo-ai🅛
-┆ ⇝ .publicai🅛
-┆ ⇝ .quilbot🅛
-┆ ⇝ .quillbot🅛
-┆ ⇝ .quillbotai🅛
-┆ ⇝ .qwen3🅛
-┆ ⇝ .rimuru-ai🅛
+┆ ⇝ .deepseek 🅛
+┆ ⇝ .dolphin 🅛
+┆ ⇝ .dpsteai 🅛
+┆ ⇝ .editimage 🅛
+┆ ⇝ .editimg2
+┆ ⇝ .elainaai 🅛
+┆ ⇝ .epsilon 🅛
+┆ ⇝ .faceswap 🅛
+┆ ⇝ .feelbetter 🅛
+┆ ⇝ .felo 🅛
+┆ ⇝ .flux 🅛
+┆ ⇝ .furina 🅛
+┆ ⇝ .gem 🅛
+┆ ⇝ .gita 🅛
+┆ ⇝ .glm4 🅛
+┆ ⇝ .gpt4o 🅛
+┆ ⇝ .gpt5 🅛
+┆ ⇝ .gptprompt 🅛
+┆ ⇝ .hoshino 🅛
+┆ ⇝ .humanize 🅛
+┆ ⇝ .hutao 🅛
+┆ ⇝ .imgprompt 🅛
+┆ ⇝ .jeeves 🅛
+┆ ⇝ .jokowi-ai 🅛
+┆ ⇝ .kimi 🅛
+┆ ⇝ .kimi-vision 🅛
+┆ ⇝ .kita 🅛
+┆ ⇝ .kobo-ai 🅛
+┆ ⇝ .kurumi 🅛
+┆ ⇝ .luffyai 🅛
+┆ ⇝ .mahiru 🅛
+┆ ⇝ .makima 🅛
+┆ ⇝ .matematika 🅛
+┆ ⇝ .mega 🅛
+┆ ⇝ .meguminai 🅛
+┆ ⇝ .mikasa 🅛
+┆ ⇝ .mikuai 🅛
+┆ ⇝ .mistralai 🅛
+┆ ⇝ .musicmaker 🅛
+┆ ⇝ .muslimai 🅛
+┆ ⇝ .nano
+┆ ⇝ .nanobanana 🅛
+┆ ⇝ .nanoedit 🅛
+┆ ⇝ .nijika 🅛
+┆ ⇝ .oguri 🅛
+┆ ⇝ .openai 🅛
+┆ ⇝ .opennana 🅛
+┆ ⇝ .perplexity
+┆ ⇝ .powerbrain 🅛
+┆ ⇝ .prabowo-ai 🅛
+┆ ⇝ .publicai 🅛
+┆ ⇝ .quilbot 🅛
+┆ ⇝ .quillbot 🅛
+┆ ⇝ .quillbotai 🅛
+┆ ⇝ .qwen3 🅛
+┆ ⇝ .rimuru-ai 🅛
 ┆ ⇝ .rimuru-blackbox
-┆ ⇝ .rimurubanana🅛
-┆ ⇝ .rimurubanana2🅛
+┆ ⇝ .rimurubanana 🅛
+┆ ⇝ .rimurubanana2 🅛
 ┆ ⇝ .simi
-┆ ⇝ .sologo🅛
-┆ ⇝ .sora2🅛
-┆ ⇝ .talkingphoto🅟🅛
-┆ ⇝ .text2img🅛
-┆ ⇝ .text2img2🅛
-┆ ⇝ .text2img3🅛
-┆ ⇝ .text2img4🅛
-┆ ⇝ .to3d🅟🅛
-┆ ⇝ .toanime🅟🅛
-┆ ⇝ .toblack🅛
-┆ ⇝ .tocartoon🅟🅛
-┆ ⇝ .tocermin🅟🅛
-┆ ⇝ .tochibi🅛
-┆ ⇝ .toemotebatu🅛
-┆ ⇝ .tofigure🅛
-┆ ⇝ .tofigure3🅟🅛
-┆ ⇝ .tofigurev2🅛
-┆ ⇝ .toghibli🅛
-┆ ⇝ .tohijab🅛
-┆ ⇝ .toisland🅟🅛
-┆ ⇝ .tojapanese🅛
-┆ ⇝ .tomanga🅟🅛
-┆ ⇝ .tomekah🅛
-┆ ⇝ .tooilpainting🅟🅛
-┆ ⇝ .waguri🅛
-┆ ⇝ .waguri-ai🅛
-┆ ⇝ .webpilot🅛
-┆ ⇝ .whatsthebigdata.com
-┆ ⇝ .wormgpt🅛
-┆ ⇝ .xterm-ai🅛
+┆ ⇝ .smith 🅛
+┆ ⇝ .sologo 🅛
+┆ ⇝ .sora2 🅛
+┆ ⇝ .text2img 🅛
+┆ ⇝ .text2img2 🅛
+┆ ⇝ .text2img3 🅛
+┆ ⇝ .text2img4 🅛
+┆ ⇝ .toblack 🅛
+┆ ⇝ .tochibi 🅛
+┆ ⇝ .toemotebatu 🅛
+┆ ⇝ .tofigure 🅛
+┆ ⇝ .tofigurev2 🅛
+┆ ⇝ .toghibli 🅛
+┆ ⇝ .tohijab 🅛
+┆ ⇝ .tojapanese 🅛
+┆ ⇝ .tomekah 🅛
+┆ ⇝ .waguri 🅛
+┆ ⇝ .waguri-ai 🅛
+┆ ⇝ .webpilot 🅛
+┆ ⇝ .wormgpt 🅛
 ┆ ⇝ .zetavoice
 ╰➤-------------------------------
 
 ╭➤--「GROUP MENU 」
-┆ ⇝ .absen
-┆ ⇝ .acc
-┆ ⇝ .add🅞
-┆ ⇝ .addantilink
+┆ ⇝ .absen 🅖
+┆ ⇝ .acc 🅐 🅖
+┆ ⇝ .add 🅞 🅖
+┆ ⇝ .addantilink 🅐 🅖
 ┆ ⇝ .addcmdsticker
-┆ ⇝ .addlist🅞
-┆ ⇝ .addtoxic
+┆ ⇝ .addlist 🅞 🅟🅡
+┆ ⇝ .addtoxic 🅐 🅖
+┆ ⇝ .admincount 🅐 🅖
 ┆ ⇝ .afk
-┆ ⇝ .antibot
-┆ ⇝ .anticulik🅞
-┆ ⇝ .anticustom
-┆ ⇝ .antidana
-┆ ⇝ .antidocument
-┆ ⇝ .antiflood
-┆ ⇝ .antihidetag
-┆ ⇝ .antijudol
-┆ ⇝ .antilink
-┆ ⇝ .antilinkall
-┆ ⇝ .antilinkch
-┆ ⇝ .antilinkgc
-┆ ⇝ .antilinkkick🅛
-┆ ⇝ .antimedia
-┆ ⇝ .antiphising
-┆ ⇝ .antiremove
-┆ ⇝ .antispam
-┆ ⇝ .antisticker
-┆ ⇝ .antiswgc
-┆ ⇝ .antitagsw
-┆ ⇝ .antitoxic
-┆ ⇝ .antivirtex
-┆ ⇝ .autoai
-┆ ⇝ .autodl
-┆ ⇝ .autoforward
-┆ ⇝ .automedia
+┆ ⇝ .antibot 🅐 🅖
+┆ ⇝ .anticulik 🅞 🅖
+┆ ⇝ .anticustom 🅐 🅖
+┆ ⇝ .antidana 🅐 🅖
+┆ ⇝ .antidocument 🅐 🅖
+┆ ⇝ .antiflood 🅐 🅖
+┆ ⇝ .antihidetag 🅐 🅖
+┆ ⇝ .antijudol 🅐 🅖
+┆ ⇝ .antilink 🅐 🅖
+┆ ⇝ .antilinkall 🅐 🅖
+┆ ⇝ .antilinkch 🅐 🅖
+┆ ⇝ .antilinkgc 🅐 🅖
+┆ ⇝ .antilinkkick 🅐 🅖
+┆ ⇝ .antimedia 🅐 🅖
+┆ ⇝ .antiphising 🅐 🅖
+┆ ⇝ .antiremove 🅐 🅖
+┆ ⇝ .antispam 🅐 🅖
+┆ ⇝ .antisticker 🅐 🅖
+┆ ⇝ .antiswgc 🅐 🅖
+┆ ⇝ .antitagsw 🅐 🅖
+┆ ⇝ .antitoxic 🅐 🅖
+┆ ⇝ .antivirtex 🅐 🅖
+┆ ⇝ .autoai 🅖
+┆ ⇝ .autodl 🅐 🅖
+┆ ⇝ .autoforward 🅐 🅖
+┆ ⇝ .automedia 🅐 🅖
 ┆ ⇝ .autoreply
-┆ ⇝ .autosambut🅞
-┆ ⇝ .autosticker
-┆ ⇝ .banchat🅞
-┆ ⇝ .botmode🅞
-┆ ⇝ .cekabsen
-┆ ⇝ .cekasalmember
-┆ ⇝ .cekexpired
-┆ ⇝ .cekidgc
-┆ ⇝ .cekonline🅛
-┆ ⇝ .cekonlyadmin
-┆ ⇝ .checksewa
-┆ ⇝ .clearchat🅞
-┆ ⇝ .close
-┆ ⇝ .delantilink
-┆ ⇝ .delete
-┆ ⇝ .delppgc
+┆ ⇝ .autosambut 🅞 🅖
+┆ ⇝ .autosticker 🅐 🅖
+┆ ⇝ .banchat 🅞
+┆ ⇝ .botmode 🅞
+┆ ⇝ .cekabsen 🅖
+┆ ⇝ .cekasalmember 🅖
+┆ ⇝ .cekexpired 🅖
+┆ ⇝ .cekidgc 🅞
+┆ ⇝ .cekonline 🅛 🅖
+┆ ⇝ .cekonlyadmin 🅖
+┆ ⇝ .checksewa 🅖
+┆ ⇝ .clearchat 🅞
+┆ ⇝ .close 🅐 🅖
+┆ ⇝ .delantilink 🅐 🅖
+┆ ⇝ .delete 🅐 🅖
+┆ ⇝ .delppgc 🅐 🅖
 ┆ ⇝ .delstickercmd
-┆ ⇝ .deltoxic
-┆ ⇝ .demote
-┆ ⇝ .game
-┆ ⇝ .gc
+┆ ⇝ .deltoxic 🅐 🅖
+┆ ⇝ .demote 🅐 🅖
+┆ ⇝ .game 🅐 🅖
+┆ ⇝ .gc 🅐
 ┆ ⇝ .getpp
-┆ ⇝ .getppgc🅛
-┆ ⇝ .goodbye
-┆ ⇝ .groupinfo
-┆ ⇝ .groupsecurity🅛
-┆ ⇝ .groupstats
-┆ ⇝ .hapusabsen
-┆ ⇝ .hidetag
-┆ ⇝ .hidetag2
-┆ ⇝ .ht🅞
-┆ ⇝ .htpremium
-┆ ⇝ .infogc
-┆ ⇝ .intro
-┆ ⇝ .jadwalgroup
-┆ ⇝ .kick
-┆ ⇝ .kickall
-┆ ⇝ .linkgc
-┆ ⇝ .linkgrup
+┆ ⇝ .getppgc 🅛 🅖
+┆ ⇝ .giveaway
+┆ ⇝ .goodbye 🅐 🅖
+┆ ⇝ .groupinfo 🅖
+┆ ⇝ .groupsecurity 🅐 🅖
+┆ ⇝ .groupstats 🅖
+┆ ⇝ .hapusabsen 🅐 🅖
+┆ ⇝ .hidetag 🅐 🅖
+┆ ⇝ .hidetag2 🅐 🅖
+┆ ⇝ .ht 🅞 🅐 🅖
+┆ ⇝ .htpremium 🅐 🅖
+┆ ⇝ .infogc 🅖
+┆ ⇝ .intro 🅖
+┆ ⇝ .jadwalgroup 🅐 🅖
+┆ ⇝ .kick 🅐 🅖
+┆ ⇝ .kickall 🅐 🅖
+┆ ⇝ .linkgc 🅐 🅖
+┆ ⇝ .linkgrup 🅖
 ┆ ⇝ .listadmin
 ┆ ⇝ .listafk
-┆ ⇝ .listantilink
-┆ ⇝ .listmember
-┆ ⇝ .listtoxic
-┆ ⇝ .listwarn
-┆ ⇝ .members.txt
-┆ ⇝ .mulaiabsen
-┆ ⇝ .mute
-┆ ⇝ .mutegc
-┆ ⇝ .mutemember
-┆ ⇝ .notifclosegroup
-┆ ⇝ .notifdemote
-┆ ⇝ .notifgantitag
+┆ ⇝ .listantilink 🅐 🅖
+┆ ⇝ .listmember 🅖
+┆ ⇝ .listtoxic 🅐 🅖
+┆ ⇝ .listwarn 🅐 🅖
+┆ ⇝ .mulaiabsen 🅐 🅖
+┆ ⇝ .mute 🅐 🅖
+┆ ⇝ .mutegc 🅐 🅖
+┆ ⇝ .mutemember 🅐 🅖
+┆ ⇝ .notifclosegroup 🅖
+┆ ⇝ .notifdemote 🅖
+┆ ⇝ .notifgantitag 🅐 🅖
 ┆ ⇝ .notifmakan
-┆ ⇝ .notifopengroup
-┆ ⇝ .notifpromote
-┆ ⇝ .notifsholat
+┆ ⇝ .notifopengroup 🅖
+┆ ⇝ .notifpromote 🅖
+┆ ⇝ .notifsholat 🅖
 ┆ ⇝ .notiftidur
-┆ ⇝ .ocgc
-┆ ⇝ .open
-┆ ⇝ .opentime
-┆ ⇝ .pinchat🅞
-┆ ⇝ .poll🅛
-┆ ⇝ .promote
-┆ ⇝ .publicthisgc🅞
-┆ ⇝ .quick_reply🅛
-┆ ⇝ .randomtag🅛
-┆ ⇝ .resetgoodbye
-┆ ⇝ .resetintro
-┆ ⇝ .resetlinkgc
-┆ ⇝ .resetrulesgrup
-┆ ⇝ .resetwarn
-┆ ⇝ .resetwelcome
-┆ ⇝ .risetsider
-┆ ⇝ .rpg
-┆ ⇝ .rulesgrup
-┆ ⇝ .rvo🅛
-┆ ⇝ .selfthisgc🅞
-┆ ⇝ .setantilinkkick
-┆ ⇝ .setbye
-┆ ⇝ .setdeskgc
-┆ ⇝ .setgoodbye
-┆ ⇝ .setintro
-┆ ⇝ .setnamegc
-┆ ⇝ .setppgc
-┆ ⇝ .setrulesgrup
-┆ ⇝ .setwelcome
-┆ ⇝ .sider
-┆ ⇝ .slowmode
-┆ ⇝ .spamtag
-┆ ⇝ .swapadmin🅞
-┆ ⇝ .swgc🅞
-┆ ⇝ .tagadmin
-┆ ⇝ .tagall
-┆ ⇝ .tam
-┆ ⇝ .topchat
-┆ ⇝ .totag
-┆ ⇝ .totalchat
-┆ ⇝ .totalpesan
-┆ ⇝ .tutupjam
-┆ ⇝ .unmute
-┆ ⇝ .unmutegc
-┆ ⇝ .unmutemember
-┆ ⇝ .upsw
-┆ ⇝ .warn
-┆ ⇝ .welcome
+┆ ⇝ .ocgc 🅐 🅖
+┆ ⇝ .open 🅖
+┆ ⇝ .opentime 🅐 🅖
+┆ ⇝ .pinchat 🅞
+┆ ⇝ .poll 🅛 🅖
+┆ ⇝ .promote 🅐 🅖
+┆ ⇝ .publicthisgc 🅞 🅖
+┆ ⇝ .randomtag 🅛 🅖
+┆ ⇝ .resetgoodbye 🅐 🅖
+┆ ⇝ .resetintro 🅐 🅖
+┆ ⇝ .resetlinkgc 🅐 🅖
+┆ ⇝ .resetrulesgrup 🅐 🅖
+┆ ⇝ .resetwarn 🅐 🅖
+┆ ⇝ .resetwelcome 🅐 🅖
+┆ ⇝ .risetsider 🅐 🅖
+┆ ⇝ .rpg 🅐 🅖
+┆ ⇝ .rulesgrup 🅖
+┆ ⇝ .rvo 🅛
+┆ ⇝ .selfthisgc 🅞 🅖
+┆ ⇝ .setantilinkkick 🅐 🅖
+┆ ⇝ .setbye 🅐 🅖
+┆ ⇝ .setdeskgc 🅐 🅖
+┆ ⇝ .setgoodbye 🅐 🅖
+┆ ⇝ .setintro 🅐 🅖
+┆ ⇝ .setnamegc 🅐 🅖
+┆ ⇝ .setppgc 🅐 🅖
+┆ ⇝ .setrulesgrup 🅐 🅖
+┆ ⇝ .setwelcome 🅐 🅖
+┆ ⇝ .sider 🅐 🅖
+┆ ⇝ .slowmode 🅐 🅖
+┆ ⇝ .spamtag 🅐 🅖
+┆ ⇝ .swapadmin 🅞 🅖
+┆ ⇝ .swgc 🅞
+┆ ⇝ .tagadmin 🅖
+┆ ⇝ .tagall 🅐 🅖
+┆ ⇝ .tam 🅖
+┆ ⇝ .topchat 🅖
+┆ ⇝ .totag 🅐 🅖
+┆ ⇝ .totalchat 🅖
+┆ ⇝ .totalpesan 🅖
+┆ ⇝ .tutupjam 🅐 🅖
+┆ ⇝ .unmute 🅐 🅖
+┆ ⇝ .unmutegc 🅐 🅖
+┆ ⇝ .unmutemember 🅐 🅖
+┆ ⇝ .upsw 🅖
+┆ ⇝ .warn 🅐 🅖
+┆ ⇝ .welcome 🅐 🅖
 ╰➤-------------------------------
 
 ╭➤--「RELIGI MENU 」
 ┆ ⇝ .asmaulhusna
-┆ ⇝ .audioquran🅛
-┆ ⇝ .autosahur
+┆ ⇝ .audioquran 🅛
+┆ ⇝ .autosahur 🅐 🅖
 ┆ ⇝ .ayat
-┆ ⇝ .ayatkursi🅛
+┆ ⇝ .ayatkursi 🅛
 ┆ ⇝ .bacaansholat
 ┆ ⇝ .hijriyah
-┆ ⇝ .islami🅛
+┆ ⇝ .islami 🅛
 ┆ ⇝ .istighfar
 ┆ ⇝ .istikharah
 ┆ ⇝ .jadwalsholat
-┆ ⇝ .kisahnabi🅛
+┆ ⇝ .kisahnabi 🅛
 ┆ ⇝ .mandiwajib
-┆ ⇝ .murrotal🅛
+┆ ⇝ .murrotal 🅛
 ┆ ⇝ .nisfusyaban
 ┆ ⇝ .puasa
-┆ ⇝ .quran🅛
+┆ ⇝ .quran 🅛
 ┆ ⇝ .rajab
 ┆ ⇝ .ramadhan2027
 ┆ ⇝ .sholawat
@@ -884,40 +870,39 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ╰➤-------------------------------
 
 ╭➤--「INFO MENU 」
-┆ ⇝ .antara news🅛
+┆ ⇝ .antara 🅛
 ┆ ⇝ .benefitpartner
-┆ ⇝ .bluearchive-char🅛
+┆ ⇝ .bluearchive-char 🅛
 ┆ ⇝ .bmkggempa
-┆ ⇝ .buildml🅛
-┆ ⇝ .callingcode🅛
+┆ ⇝ .buildml 🅛
+┆ ⇝ .callingcode 🅛
 ┆ ⇝ .ceksn
 ┆ ⇝ .fiturpremium
-┆ ⇝ .gag🅛
-┆ ⇝ .gag2🅛
-┆ ⇝ .gag2watch🅛
+┆ ⇝ .gag 🅛
+┆ ⇝ .gag2 🅛
+┆ ⇝ .gag2watch 🅛
 ┆ ⇝ .gempa
 ┆ ⇝ .gunungapi
-┆ ⇝ .harilibur🅛
-┆ ⇝ .hok🅛
+┆ ⇝ .harilibur 🅛
+┆ ⇝ .hok 🅛
 ┆ ⇝ .howmuchenergy
 ┆ ⇝ .infogempa
-┆ ⇝ .infotourney🅛
+┆ ⇝ .infotourney 🅛
 ┆ ⇝ .jadwalbola
-┆ ⇝ .landsat🅛
+┆ ⇝ .landsat 🅛
 ┆ ⇝ .lapor
-┆ ⇝ .livescore🅛
-┆ ⇝ .market🅛
-┆ ⇝ .misi
-┆ ⇝ .ml🅛
-┆ ⇝ .newup
+┆ ⇝ .livescore 🅛
+┆ ⇝ .market 🅛
+┆ ⇝ .misi 🅖
+┆ ⇝ .ml 🅛
 ┆ ⇝ .runtime
 ┆ ⇝ .sc
 ┆ ⇝ .totalfitur
 ┆ ⇝ .totalfitur2
-┆ ⇝ .totalmenu🅛
+┆ ⇝ .totalmenu 🅛
 ┆ ⇝ .tqto
 ┆ ⇝ .whatrolethis
-┆ ⇝ .wwchar🅛
+┆ ⇝ .wwchar 🅛
 ┆ ⇝ .cping
 ┆ ⇝ .listallcase
 ┆ ⇝ .listallplugin
@@ -930,7 +915,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .cekcantik
 ┆ ⇝ .cekcreative
 ┆ ⇝ .cekcupu
-┆ ⇝ .cekfemboy🅛
+┆ ⇝ .cekfemboy 🅛
 ┆ ⇝ .cekgabut
 ┆ ⇝ .cekgacha
 ┆ ⇝ .cekgamer
@@ -953,11 +938,8 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .cekngantuk
 ┆ ⇝ .cekotaku
 ┆ ⇝ .cekoverpower
-┆ ⇝ .cekowner🅟
-┆ ⇝ .cekpartner🅟
 ┆ ⇝ .cekpelit
 ┆ ⇝ .cekpintar
-┆ ⇝ .cekprem🅟
 ┆ ⇝ .cekprocastinator
 ┆ ⇝ .cekpsikopat
 ┆ ⇝ .cekrezeki
@@ -975,22 +957,22 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ╰➤-------------------------------
 
 ╭➤--「ECONOMY MENU 」
-┆ ⇝ .leaderboard-orang-kaya🅛
-┆ ⇝ .leaderboard-orang-miskin🅛
+┆ ⇝ .leaderboard-orang-kaya 🅛 🅖
+┆ ⇝ .leaderboard-orang-miskin 🅛 🅖
 ┆ ⇝ .primeff
 ┆ ⇝ .rimuru-nguli
-┆ ⇝ .riyal🅛
+┆ ⇝ .riyal 🅛
 ┆ ⇝ .topcurrency
-┆ ⇝ .yen🅛
+┆ ⇝ .yen 🅛
 ╰➤-------------------------------
 
 ╭➤--「USER MENU 」
 ┆ ⇝ .bataldaftar
 ┆ ⇝ .birthday
-┆ ⇝ .birthdaylist
+┆ ⇝ .birthdaylist 🅖
 ┆ ⇝ .buyenergi
 ┆ ⇝ .buyfitur
-┆ ⇝ .daftar🅛
+┆ ⇝ .daftar
 ┆ ⇝ .daily
 ┆ ⇝ .energi
 ┆ ⇝ .exp
@@ -998,8 +980,8 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .koin
 ┆ ⇝ .level
 ┆ ⇝ .levelup
-┆ ⇝ .limit🅞
-┆ ⇝ .listdaftar🅞
+┆ ⇝ .limit 🅞
+┆ ⇝ .listdaftar 🅞
 ┆ ⇝ .profile
 ┆ ⇝ .referal
 ┆ ⇝ .setbirthday
@@ -1007,256 +989,299 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ╰➤-------------------------------
 
 ╭➤--「CANVAS MENU 」
-┆ ⇝ .afinitasml🅛
-┆ ⇝ .afinitasml2🅛
-┆ ⇝ .angelnick🅛
-┆ ⇝ .applemusic-canvas🅛
-┆ ⇝ .avatar.jpg🅛
-┆ ⇝ .balogo🅛
-┆ ⇝ .basket🅛
-┆ ⇝ .boardingpass🅛
-┆ ⇝ .bratlocal🅛
-┆ ⇝ .buatquotes🅛
-┆ ⇝ .codesnap🅛
-┆ ⇝ .cyberspider🅛
-┆ ⇝ .darkangel🅛
-┆ ⇝ .darkness🅛
+┆ ⇝ .afinitasml 🅛
+┆ ⇝ .afinitasml2 🅛
+┆ ⇝ .angelnick 🅛
+┆ ⇝ .applemusic-canvas 🅛
+┆ ⇝ .balogo 🅛
+┆ ⇝ .basket 🅛
+┆ ⇝ .boardingpass 🅛
+┆ ⇝ .bratlocal 🅛
+┆ ⇝ .buatquotes 🅛
+┆ ⇝ .codesnap 🅛
+┆ ⇝ .cyberspider 🅛
+┆ ⇝ .darkangel 🅛
+┆ ⇝ .darkness 🅛
 ┆ ⇝ .dbmeme
-┆ ⇝ .drakememe🅛
-┆ ⇝ .dymc🅛
-┆ ⇝ .ektp🅛
-┆ ⇝ .facepalm🅛
-┆ ⇝ .fakeatm🅛
-┆ ⇝ .fakebankjago🅛
-┆ ⇝ .fakedana🅛
-┆ ⇝ .fakedev🅛
-┆ ⇝ .fakedev2🅛
-┆ ⇝ .fakedev3🅛
-┆ ⇝ .fakedev4🅛
-┆ ⇝ .fakedev7🅛
-┆ ⇝ .fakedj🅛
-┆ ⇝ .fakefbkomen🅛
-┆ ⇝ .fakeff🅛
-┆ ⇝ .fakeff2🅛
-┆ ⇝ .fakeffduo🅛
-┆ ⇝ .fakegopay🅛
-┆ ⇝ .fakeidcard🅛
-┆ ⇝ .fakeijazah🅛
-┆ ⇝ .fakeijin🅛
-┆ ⇝ .fakekarcis🅛
-┆ ⇝ .fakekartupelajar🅛
-┆ ⇝ .fakeml🅛
+┆ ⇝ .drakememe 🅛
+┆ ⇝ .dymc 🅛
+┆ ⇝ .ektp 🅛
+┆ ⇝ .facepalm 🅛
+┆ ⇝ .fakeatm 🅛
+┆ ⇝ .fakebankjago 🅛
+┆ ⇝ .fakecall 🅛
+┆ ⇝ .fakedana 🅛
+┆ ⇝ .fakedev 🅛
+┆ ⇝ .fakedev2 🅛
+┆ ⇝ .fakedev3 🅛
+┆ ⇝ .fakedev4 🅛
+┆ ⇝ .fakedev7 🅛
+┆ ⇝ .fakedj 🅛
+┆ ⇝ .fakefbkomen 🅛
+┆ ⇝ .fakeff 🅛
+┆ ⇝ .fakeff2 🅛
+┆ ⇝ .fakeffduo 🅛
+┆ ⇝ .fakegopay 🅛
+┆ ⇝ .fakeidcard 🅛
+┆ ⇝ .fakeijazah 🅛
+┆ ⇝ .fakeijin 🅛
+┆ ⇝ .fakekarcis 🅛
+┆ ⇝ .fakekartupelajar 🅛
+┆ ⇝ .fakeml 🅛
 ┆ ⇝ .fakengl
-┆ ⇝ .fakenikah🅛
-┆ ⇝ .fakeovo🅛
-┆ ⇝ .fakepaspor🅛
-┆ ⇝ .fakesertifikat🅛
-┆ ⇝ .fakesp🅛
-┆ ⇝ .fakestory🅛
-┆ ⇝ .fakestory2🅛
-┆ ⇝ .fakestory3🅛
-┆ ⇝ .fakestory4🅛
-┆ ⇝ .faketiket🅛
-┆ ⇝ .fakewa🅛
-┆ ⇝ .fakexnxx🅛
-┆ ⇝ .gen-xnxx🅛
-┆ ⇝ .gura🅛
-┆ ⇝ .igstory🅛
-┆ ⇝ .igstoryimg🅛
-┆ ⇝ .img2ios🅛
+┆ ⇝ .fakenikah 🅛
+┆ ⇝ .fakeovo 🅛
+┆ ⇝ .fakepaspor 🅛
+┆ ⇝ .fakesertifikat 🅛
+┆ ⇝ .fakesp 🅛
+┆ ⇝ .fakestory 🅛
+┆ ⇝ .fakestory2 🅛
+┆ ⇝ .fakestory3 🅛
+┆ ⇝ .fakestory4 🅛
+┆ ⇝ .faketiket 🅛
+┆ ⇝ .fakewa 🅛
+┆ ⇝ .fakexnxx 🅛
+┆ ⇝ .gen-xnxx 🅛
+┆ ⇝ .gura 🅛
+┆ ⇝ .igstory 🅛
+┆ ⇝ .igstoryimg 🅛
+┆ ⇝ .img2ios 🅛
 ┆ ⇝ .iqc
-┆ ⇝ .iqc2🅛
-┆ ⇝ .iqc5🅛
-┆ ⇝ .iqcpink🅛
-┆ ⇝ .jmk48🅛
-┆ ⇝ .juarabadminton🅛
-┆ ⇝ .juaraml🅛
-┆ ⇝ .kalender🅛
-┆ ⇝ .meme2🅛
-┆ ⇝ .meme3🅛
-┆ ⇝ .movieposter🅛
-┆ ⇝ .mvp🅛
-┆ ⇝ .nokia🅛
-┆ ⇝ .oh-no🅛
-┆ ⇝ .p302🅛
-┆ ⇝ .pacarsertifikat🅛
-┆ ⇝ .patrickmeme🅛
-┆ ⇝ .plus jakarta sans🅛
-┆ ⇝ .profileff🅛
-┆ ⇝ .profileig🅛
-┆ ⇝ .quoteswindows🅛
-┆ ⇝ .ship🅛
-┆ ⇝ .spongebob🅛
-┆ ⇝ .sroast🅛
-┆ ⇝ .starboy🅛
-┆ ⇝ .susutaro🅛
-┆ ⇝ .tiktokchat🅛
-┆ ⇝ .topixel🅛
-┆ ⇝ .ustadz🅛
-┆ ⇝ .watercolortext🅛
+┆ ⇝ .iqc2 🅛
+┆ ⇝ .iqc5 🅛
+┆ ⇝ .iqcpink 🅛
+┆ ⇝ .jmk48 🅛
+┆ ⇝ .juarabadminton 🅛
+┆ ⇝ .juaraml 🅛
+┆ ⇝ .kalender 🅛
+┆ ⇝ .meme2 🅛
+┆ ⇝ .meme3 🅛
+┆ ⇝ .movieposter 🅛
+┆ ⇝ .mvp 🅛
+┆ ⇝ .nokia 🅛
+┆ ⇝ .oh-no 🅛
+┆ ⇝ .p302 🅛
+┆ ⇝ .pacarsertifikat 🅛
+┆ ⇝ .patrickmeme 🅛
+┆ ⇝ .profileff 🅛
+┆ ⇝ .profileig 🅛
+┆ ⇝ .quoteswindows 🅛
+┆ ⇝ .ship 🅛 🅖
+┆ ⇝ .spongebob 🅛
+┆ ⇝ .sroast 🅛
+┆ ⇝ .starboy 🅛
+┆ ⇝ .susutaro 🅛
+┆ ⇝ .tiktokchat 🅛
+┆ ⇝ .topixel 🅛
+┆ ⇝ .ttqc 🅛
+┆ ⇝ .ustadz 🅛
+┆ ⇝ .watercolortext 🅛
 ╰➤-------------------------------
 
 ╭➤--「RANDOM MENU 」
-┆ ⇝ .barandom🅛
-┆ ⇝ .cosba🅛
-┆ ⇝ .lahelu🅛
+┆ ⇝ .barandom 🅛
+┆ ⇝ .cosba 🅛
+┆ ⇝ .lahelu 🅛
+┆ ⇝ .loli 🅛
 ┆ ⇝ .meme
 ┆ ⇝ .memespongbob
-┆ ⇝ .papayang🅛
-┆ ⇝ .ppcouple🅛
-┆ ⇝ .ppcp🅛
-┆ ⇝ .quick_reply🅛
+┆ ⇝ .papayang 🅛
+┆ ⇝ .ppcouple 🅛 🅖
+┆ ⇝ .ppcp 🅛
 ┆ ⇝ .quotesimage
 ┆ ⇝ .superhero
 ╰➤-------------------------------
 
 ╭➤--「PREMIUM MENU 」
-┆ ⇝ .bataljadibot🅟
+┆ ⇝ .age-detection 🅟 🅛
+┆ ⇝ .bataljadibot 🅟
+┆ ⇝ .cekowner 🅟
+┆ ⇝ .cekpartner 🅟
+┆ ⇝ .cekprem 🅟
+┆ ⇝ .converter 🅟 🅛
+┆ ⇝ .ewe 🅟
+┆ ⇝ .ewepapksa 🅟 🅖
+┆ ⇝ .fstik 🅟
+┆ ⇝ .gpt2image 🅟 🅛
+┆ ⇝ .hdvid 🅟 🅛
+┆ ⇝ .img2vid 🅟 🅛
+┆ ⇝ .jadibot 🅟
+┆ ⇝ .kasedaiki 🅟 🅛
+┆ ⇝ .listpanel 🅟
+┆ ⇝ .msgch 🅞 🅟
+┆ ⇝ .nanobananapro 🅟 🅛
+┆ ⇝ .newup 🅟
+┆ ⇝ .numbgen 🅟
+┆ ⇝ .rch 🅟 🅛
+┆ ⇝ .swhdv2 🅟 🅛
+┆ ⇝ .swhdv3 🅟 🅛
+┆ ⇝ .swhdv4 🅟 🅛
+┆ ⇝ .talkingphoto 🅟 🅛
+┆ ⇝ .to3d 🅟 🅛
+┆ ⇝ .toanime 🅟 🅛
+┆ ⇝ .tocartoon 🅟 🅛
+┆ ⇝ .tocermin 🅟 🅛
+┆ ⇝ .tofigure3 🅟 🅛
+┆ ⇝ .toisland 🅟 🅛
+┆ ⇝ .tomanga 🅟 🅛
+┆ ⇝ .tooilpainting 🅟 🅛
+┆ ⇝ .wink 🅟 🅛
+┆ ⇝ .ytsummarize 🅟 🅛
+╰➤-------------------------------
+
+╭➤--「EPHOTO MENU 」
+┆ ⇝ .glitchtext 🅛
+╰➤-------------------------------
+
+╭➤--「JPM MENU 」
+┆ ⇝ .jpm 🅞
+┆ ⇝ .jpmalbum 🅞
+┆ ⇝ .jpmbasic 🅞
+┆ ⇝ .stopjpmbasic 🅞
 ╰➤-------------------------------
 
 ╭➤--「MAKER MENU 」
+┆ ⇝ .appmaker 🅛
 ┆ ⇝ .bratspongebob
-┆ ⇝ .carbonlocal🅛
-┆ ⇝ .cewekbrat🅛
+┆ ⇝ .carbonlocal 🅛
+┆ ⇝ .cewekbrat 🅛
 ┆ ⇝ .cinematic
-┆ ⇝ .codesnap🅛
+┆ ⇝ .codesnap 🅛
+┆ ⇝ .fake-ngl 🅛
 ┆ ⇝ .fakebca
-┆ ⇝ .fakeboard🅛
-┆ ⇝ .fakebook🅛
-┆ ⇝ .fakechannel🅛
-┆ ⇝ .fakeff🅛
-┆ ⇝ .fakeff3🅛
-┆ ⇝ .fakegroup🅛
-┆ ⇝ .fakegroupv2🅛
-┆ ⇝ .fakeig🅛
-┆ ⇝ .fakeigstory🅛
-┆ ⇝ .fakeml🅛
-┆ ⇝ .fakeml2🅛
-┆ ⇝ .fakenote🅛
-┆ ⇝ .fakenotifwa🅛
-┆ ⇝ .fakestory🅛
-┆ ⇝ .faketg🅛
+┆ ⇝ .fakeboard 🅛
+┆ ⇝ .fakebook 🅛
+┆ ⇝ .fakechannel 🅛
+┆ ⇝ .fakeff 🅛
+┆ ⇝ .fakeff3 🅛
+┆ ⇝ .fakegroup 🅛
+┆ ⇝ .fakegroupv2 🅛
+┆ ⇝ .fakeig 🅛
+┆ ⇝ .fakeigstory 🅛
+┆ ⇝ .fakeml 🅛
+┆ ⇝ .fakeml2 🅛
+┆ ⇝ .fakenote 🅛
+┆ ⇝ .fakenotifwa 🅛
+┆ ⇝ .fakestory 🅛
+┆ ⇝ .faketg 🅛
 ┆ ⇝ .faketiktok
-┆ ⇝ .fakett🅛
-┆ ⇝ .faketweet🅛
-┆ ⇝ .fakewa🅛
-┆ ⇝ .fakewafat🅛
-┆ ⇝ .fdc🅛
+┆ ⇝ .fakett 🅛
+┆ ⇝ .faketweet 🅛
+┆ ⇝ .fakewa 🅛
+┆ ⇝ .fakewafat 🅛
+┆ ⇝ .fdc 🅛
 ┆ ⇝ .hangingpolaroid
-┆ ⇝ .hotline🅛
-┆ ⇝ .igqc🅛
+┆ ⇝ .hotline 🅛
+┆ ⇝ .igqc 🅛
 ┆ ⇝ .iqc
-┆ ⇝ .iqc2🅛
-┆ ⇝ .iqc3🅛
-┆ ⇝ .iqc4🅛
-┆ ⇝ .iqcv3🅛
-┆ ⇝ .jail🅛
-┆ ⇝ .jarvis🅛
-┆ ⇝ .lobbyff🅛
+┆ ⇝ .iqc2 🅛
+┆ ⇝ .iqc3 🅛
+┆ ⇝ .iqc4 🅛
+┆ ⇝ .iqcv3 🅛
+┆ ⇝ .jail 🅛
+┆ ⇝ .jarvis 🅛
+┆ ⇝ .lobbyff 🅛
 ┆ ⇝ .logo-3d
 ┆ ⇝ .logo-glow
 ┆ ⇝ .logo-gold
 ┆ ⇝ .logo-metal
-┆ ⇝ .musiccard🅛
-┆ ⇝ .pinkgreen🅛
-┆ ⇝ .quotecard🅛
-┆ ⇝ .quotephoto🅛
+┆ ⇝ .musiccard 🅛
+┆ ⇝ .pinkgreen 🅛
+┆ ⇝ .quotecard 🅛
+┆ ⇝ .quotephoto 🅛
 ┆ ⇝ .sertifikatcinta
-┆ ⇝ .sertifikatnasa🅛
-┆ ⇝ .sertiftolol🅛
-┆ ⇝ .textlogo🅛
-┆ ⇝ .toblonde🅛
-┆ ⇝ .ttp🅛
-┆ ⇝ .wanted🅛
-┆ ⇝ .wasted🅛
-┆ ⇝ .web2apk🅛
-┆ ⇝ .wmp1🅛
-┆ ⇝ .wmp2🅛
-┆ ⇝ .xterm-maker🅛
-┆ ⇝ .xterm-maker-edit🅛
+┆ ⇝ .sertifikatnasa 🅛
+┆ ⇝ .sertiftolol 🅛
+┆ ⇝ .textlogo 🅛
+┆ ⇝ .toblonde 🅛
+┆ ⇝ .ttp 🅛
+┆ ⇝ .wanted 🅛
+┆ ⇝ .wasted 🅛
+┆ ⇝ .wmp1 🅛
+┆ ⇝ .wmp2 🅛
+┆ ⇝ .xterm-maker-edit 🅛
 ╰➤-------------------------------
 
 ╭➤--「INTERNET MENU 」
 ┆ ⇝ .alkitab
-┆ ⇝ .apkmirror🅛
+┆ ⇝ .apkmirror 🅛
 ┆ ⇝ .artinama
-┆ ⇝ .doa🅛
-┆ ⇝ .dongeng🅛
-┆ ⇝ .fdroid🅛
-┆ ⇝ .file.json
-┆ ⇝ .gimg🅛
+┆ ⇝ .doa 🅛
+┆ ⇝ .dongeng 🅛
+┆ ⇝ .fdroid 🅛
+┆ ⇝ .fetch
+┆ ⇝ .gimg 🅛
 ┆ ⇝ .githubtrend
 ┆ ⇝ .infoloker
 ┆ ⇝ .iplookup
-┆ ⇝ .kbbi🅛
+┆ ⇝ .kbbi 🅛
 ┆ ⇝ .lyrics
 ┆ ⇝ .mangga-pop
 ┆ ⇝ .misteri
 ┆ ⇝ .mltour
-┆ ⇝ .pinvid_${timestamp}.mp4🅛
-┆ ⇝ .pixiv🅛
+┆ ⇝ .pinterestvideo 🅛
+┆ ⇝ .pixiv 🅛
 ┆ ⇝ .playstore
-┆ ⇝ .renungan🅛
-┆ ⇝ .ringtone🅛
-┆ ⇝ .roboguru🅛
+┆ ⇝ .renungan 🅛
+┆ ⇝ .ringtone 🅛
+┆ ⇝ .roboguru 🅛
 ┆ ⇝ .rrsearch
 ┆ ⇝ .surah
 ┆ ⇝ .tafsir
-┆ ⇝ .tgram🅛
+┆ ⇝ .tgram 🅛
 ┆ ⇝ .toproblox
-┆ ⇝ .uhdpaper🅛
-┆ ⇝ .wallcraft🅛
-┆ ⇝ .wallsearch🅛
+┆ ⇝ .uhdpaper 🅛
+┆ ⇝ .wallpaper 🅛
+┆ ⇝ .wallsearch 🅛
 ┆ ⇝ .worldtime
 ╰➤-------------------------------
 
 ╭➤--「ANIME MENU 」
-┆ ⇝ .akira🅛
-┆ ⇝ .anichin🅛
+┆ ⇝ .akira 🅛
+┆ ⇝ .anichin 🅛
 ┆ ⇝ .anilist
-┆ ⇝ .anime-waifu, waifu-anime🅛
-┆ ⇝ .animedate🅛
-┆ ⇝ .animedl🅛
+┆ ⇝ .anime-waifu 🅛
+┆ ⇝ .animedate 🅛 🅖
+┆ ⇝ .animedl 🅛
 ┆ ⇝ .animeimgsearch
 ┆ ⇝ .animeinfo
-┆ ⇝ .animelatest🅛
+┆ ⇝ .animelatest 🅛
 ┆ ⇝ .animequotes
-┆ ⇝ .animereco🅛
+┆ ⇝ .animereco 🅛 🅖
 ┆ ⇝ .animesearch
-┆ ⇝ .animeseason🅛
-┆ ⇝ .animetrailer🅛
-┆ ⇝ .animewall🅛
-┆ ⇝ .anischedule🅛
-┆ ⇝ .autoanimechannel🅞
-┆ ⇝ .autoanimewinbu🅞
-┆ ⇝ .bluearchive🅛
-┆ ⇝ .character🅛
+┆ ⇝ .animeseason 🅛 🅖
+┆ ⇝ .animetrailer 🅛 🅖
+┆ ⇝ .animewall 🅛 🅖
+┆ ⇝ .anischedule 🅛 🅖
+┆ ⇝ .autoanimechannel 🅞
+┆ ⇝ .autoanimewinbu 🅞
+┆ ⇝ .bluearchive 🅛
+┆ ⇝ .character 🅛 🅖
 ┆ ⇝ .eba
 ┆ ⇝ .fotorandom002
-┆ ⇝ .kasedaiki🅟🅛
 ┆ ⇝ .komikindo
-┆ ⇝ .konachan🅛
-┆ ⇝ .kusonime🅛
-┆ ⇝ .loli
-┆ ⇝ .manga🅛
+┆ ⇝ .konachan 🅛
+┆ ⇝ .kusonime 🅛
+┆ ⇝ .loli 🅛
+┆ ⇝ .manga 🅛
 ┆ ⇝ .mobinime
-┆ ⇝ .mywaifu🅛
+┆ ⇝ .mywaifu 🅛
 ┆ ⇝ .rekom-anime
-┆ ⇝ .shinigamidetail🅛
-┆ ⇝ .storyanime🅛
-┆ ⇝ .tokusatsu🅛
-┆ ⇝ .topanime🅛
-┆ ⇝ .wuwa🅛
-┆ ⇝ .yande🅛
+┆ ⇝ .shinigamidetail 🅛
+┆ ⇝ .storyanime 🅛
+┆ ⇝ .tokusatsu 🅛
+┆ ⇝ .topanime 🅛
+┆ ⇝ .wuwa 🅛
+┆ ⇝ .yande 🅛
 ╰➤-------------------------------
 
 ╭➤--「CLAN MENU 」
 ┆ ⇝ .clanannounce
 ┆ ⇝ .clanbank
-┆ ⇝ .clanboss🅛
+┆ ⇝ .clanboss 🅛
 ┆ ⇝ .clancheckin
 ┆ ⇝ .clancreate
-┆ ⇝ .clandemote
+┆ ⇝ .clandemote 🅖
 ┆ ⇝ .clandesc
 ┆ ⇝ .claninfo
 ┆ ⇝ .claninvite
@@ -1267,9 +1292,9 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .clanlevel
 ┆ ⇝ .clanlogo
 ┆ ⇝ .clanmembers
-┆ ⇝ .clanpromote
-┆ ⇝ .clanraid🅛
-┆ ⇝ .clanraidjoin🅛
+┆ ⇝ .clanpromote 🅖
+┆ ⇝ .clanraid 🅛
+┆ ⇝ .clanraidjoin 🅛
 ┆ ⇝ .clanrank
 ┆ ⇝ .clanrename
 ┆ ⇝ .clanreport
@@ -1288,71 +1313,66 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ╰➤-------------------------------
 
 ╭➤--「CONVERT MENU 」
-┆ ⇝ .audiofx🅛
+┆ ⇝ .audiofx 🅛
 ╰➤-------------------------------
 
 ╭➤--「ELAINA MENU 」
-┆ ⇝ .avatar.jpg🅛
-┆ ⇝ .chatdeepai🅛
-┆ ⇝ .faceblur🅛
-┆ ⇝ .photooxy🅛
-┆ ⇝ .tiklydown🅛
-╰➤-------------------------------
-
-╭➤--「EPHOTO MENU 」
-┆ ⇝ .ephoto🅛
+┆ ⇝ .blurface 🅛
+┆ ⇝ .chatdeepai 🅛
+┆ ⇝ .fakediscord 🅛
+┆ ⇝ .photooxy 🅛
+┆ ⇝ .tiklydown 🅛
 ╰➤-------------------------------
 
 ╭➤--「RPG MENU 」
 ┆ ⇝ .7eleven
-┆ ⇝ .adventure🅛
-┆ ⇝ .airdrop
+┆ ⇝ .achievement
+┆ ⇝ .adventure 🅛
+┆ ⇝ .airdrop 🅖
 ┆ ⇝ .akuntt
-┆ ⇝ .alchemy🅛
-┆ ⇝ .arena🅛
-┆ ⇝ .atm
+┆ ⇝ .alchemy 🅛
+┆ ⇝ .arena 🅛 🅖
+┆ ⇝ .atm 🅖
 ┆ ⇝ .bank
-┆ ⇝ .bankcek
+┆ ⇝ .bankcek 🅖
 ┆ ⇝ .beg
-┆ ⇝ .berburu🅛
-┆ ⇝ .berdagang
-┆ ⇝ .berkebun
-┆ ⇝ .berladang🅛
-┆ ⇝ .blacksmith🅛
-┆ ⇝ .boss🅛
-┆ ⇝ .bossbattle
-┆ ⇝ .breeding🅛
-┆ ⇝ .bunuh🅛
-┆ ⇝ .buy
+┆ ⇝ .berburu 🅛
+┆ ⇝ .berdagang 🅖
+┆ ⇝ .berkebun 🅖
+┆ ⇝ .berladang 🅛
+┆ ⇝ .blacksmith 🅛
+┆ ⇝ .boss 🅛
+┆ ⇝ .bossbattle 🅖
+┆ ⇝ .breeding 🅛 🅖
+┆ ⇝ .bunuh 🅛
+┆ ⇝ .buy 🅖
 ┆ ⇝ .buykoin
-┆ ⇝ .casino🅛
+┆ ⇝ .cafemenu 🅛
+┆ ⇝ .casino 🅛
 ┆ ⇝ .ceklvl
 ┆ ⇝ .challenge
 ┆ ⇝ .claim
-┆ ⇝ .coinflip🅛
-┆ ⇝ .collect
+┆ ⇝ .coinflip 🅛
+┆ ⇝ .collect 🅖
 ┆ ⇝ .cook
-┆ ⇝ .cooking🅛
+┆ ⇝ .cooking 🅛
 ┆ ⇝ .craft
 ┆ ⇝ .creatett
-┆ ⇝ .crime🅛
+┆ ⇝ .crime 🅛
 ┆ ⇝ .daily
-┆ ⇝ .dice🅛
+┆ ⇝ .dice 🅛
 ┆ ⇝ .divorce
-┆ ⇝ .duel🅛
-┆ ⇝ .dungeon
-┆ ⇝ .enchant🅛
-┆ ⇝ .ewe🅟
-┆ ⇝ .ewepapksa🅟
+┆ ⇝ .duel 🅛 🅖
+┆ ⇝ .dungeon 🅖
+┆ ⇝ .enchant 🅛
 ┆ ⇝ .expedition
 ┆ ⇝ .expoint
-┆ ⇝ .extra
-┆ ⇝ .fightphonix🅛
-┆ ⇝ .fishing🅛
+┆ ⇝ .fightphonix 🅛 🅖
+┆ ⇝ .fishing 🅛
 ┆ ⇝ .freelance
-┆ ⇝ .freelimit
-┆ ⇝ .gacha🅛
-┆ ⇝ .gajian
+┆ ⇝ .freelimit 🅖
+┆ ⇝ .gacha 🅛
+┆ ⇝ .gajian 🅖
 ┆ ⇝ .garden
 ┆ ⇝ .gift
 ┆ ⇝ .grab
@@ -1360,103 +1380,94 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .heal
 ┆ ⇝ .hero
 ┆ ⇝ .hourly
-┆ ⇝ .hunt🅛
+┆ ⇝ .hunt 🅛
 ┆ ⇝ .inventory
-┆ ⇝ .jual🅛
+┆ ⇝ .jual 🅛
 ┆ ⇝ .jualan
-┆ ⇝ .kafe lezat🅛
-┆ ⇝ .kandang
-┆ ⇝ .karung
-┆ ⇝ .kerja
+┆ ⇝ .kandang 🅖
+┆ ⇝ .karung 🅖
+┆ ⇝ .kerja 🅖
 ┆ ⇝ .koboy
-┆ ⇝ .korupsi
+┆ ⇝ .korupsi 🅖
 ┆ ⇝ .kurir
-┆ ⇝ .lb
+┆ ⇝ .lb 🅖
 ┆ ⇝ .leveluprpg
 ┆ ⇝ .livett
-┆ ⇝ .lottery🅛
-┆ ⇝ .maling🅛
-┆ ⇝ .mancing
-┆ ⇝ .marry
-┆ ⇝ .masak
+┆ ⇝ .lottery 🅛
+┆ ⇝ .maling 🅛
+┆ ⇝ .mancing 🅖
+┆ ⇝ .marry 🅖
+┆ ⇝ .masak 🅖
 ┆ ⇝ .meditation
-┆ ⇝ .membunuh
-┆ ⇝ .merampok
+┆ ⇝ .membunuh 🅖
+┆ ⇝ .merampok 🅖
 ┆ ⇝ .merchant
-┆ ⇝ .minecraftbattle
-┆ ⇝ .mining🅛
-┆ ⇝ .monthly
+┆ ⇝ .minecraftbattle 🅖
+┆ ⇝ .mining 🅛
+┆ ⇝ .monthly 🅖
 ┆ ⇝ .mulai
-┆ ⇝ .mulung🅛
+┆ ⇝ .mulung 🅛
 ┆ ⇝ .nabung
 ┆ ⇝ .nambalban
 ┆ ⇝ .ngamen
 ┆ ⇝ .ngemis
-┆ ⇝ .ngojek🅛
-┆ ⇝ .nulis🅛
+┆ ⇝ .ngojek 🅛
+┆ ⇝ .nulis 🅛
 ┆ ⇝ .nyapu
-┆ ⇝ .open
+┆ ⇝ .open 🅖
 ┆ ⇝ .parkir
-┆ ⇝ .pasar
-┆ ⇝ .penjara
+┆ ⇝ .pasar 🅖
+┆ ⇝ .penjara 🅖
 ┆ ⇝ .pet
 ┆ ⇝ .petshop
 ┆ ⇝ .quest
-┆ ⇝ .ramadhan🅛
-┆ ⇝ .ramuan🅛
+┆ ⇝ .ramadhan
+┆ ⇝ .ramuan 🅛 🅖
 ┆ ⇝ .reedem
-┆ ⇝ .resetbansos🅞
-┆ ⇝ .rob🅛
-┆ ⇝ .roket
-┆ ⇝ .sawer
+┆ ⇝ .resetbansos 🅞
+┆ ⇝ .rob 🅛 🅖
+┆ ⇝ .roket 🅖
+┆ ⇝ .sawer 🅖
 ┆ ⇝ .sellall
-┆ ⇝ .serigala
 ┆ ⇝ .shop
 ┆ ⇝ .simulator
 ┆ ⇝ .skill
-┆ ⇝ .slot🅛
-┆ ⇝ .slotui🅛
+┆ ⇝ .slot 🅛
+┆ ⇝ .slotui 🅛
 ┆ ⇝ .stamina
-┆ ⇝ .steal🅛
+┆ ⇝ .steal 🅛
 ┆ ⇝ .streamer
-┆ ⇝ .tarik
-┆ ⇝ .taxy
-┆ ⇝ .tembak
-┆ ⇝ .tembak2
-┆ ⇝ .training🅛
-┆ ⇝ .transfer
-┆ ⇝ .treasure🅛
+┆ ⇝ .survival 🅖
+┆ ⇝ .tarik 🅖
+┆ ⇝ .taxy 🅖
+┆ ⇝ .tembak 🅖
+┆ ⇝ .tembak2 🅖
+┆ ⇝ .training 🅛
+┆ ⇝ .transfer 🅖
+┆ ⇝ .treasure 🅛
 ┆ ⇝ .upgrade
 ┆ ⇝ .use
 ┆ ⇝ .weekly
-┆ ⇝ .wild boar
-┆ ⇝ .woodcut🅛
+┆ ⇝ .woodcut 🅛
 ┆ ⇝ .work
 ╰➤-------------------------------
 
-╭➤--「JPM MENU 」
-┆ ⇝ .jpm🅞
-┆ ⇝ .jpmalbum🅞
-┆ ⇝ .jpmbasic🅞
-┆ ⇝ .stopjpmbasic🅞
-╰➤-------------------------------
-
 ╭➤--「MUSIC MENU 」
-┆ ⇝ .${first.title} - ${first.artist}.mp3🅛
-┆ ⇝ .genaiaeacdsnwhtmlprimitive🅛
-┆ ⇝ .play-zero🅛
-┆ ⇝ .play3🅛
-┆ ⇝ .sad🅛
+┆ ⇝ .play-zero 🅛 🅖
+┆ ⇝ .play2 🅛
+┆ ⇝ .play3 🅛
+┆ ⇝ .playncs 🅛
+┆ ⇝ .sad 🅛
 ╰➤-------------------------------
 
 ╭➤--「VPS MENU 」
 ┆ ⇝ .cekvps
 ┆ ⇝ .createvps
 ┆ ⇝ .delvps
-┆ ⇝ .linode🅞
+┆ ⇝ .linode2gb 🅞
 ┆ ⇝ .listvps
 ┆ ⇝ .sisavps
-┆ ⇝ .vpskontrol
+┆ ⇝ .turnon
 ╰➤-------------------------------
 
 ╭➤--「PRIMBON MENU 」
@@ -1475,48 +1486,48 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .dare
 ┆ ⇝ .katakata
 ┆ ⇝ .murothal
-┆ ⇝ .pantun🅛
+┆ ⇝ .pantun 🅛
 ┆ ⇝ .pantun2
 ┆ ⇝ .q-islam
-┆ ⇝ .quotebucin🅛
-┆ ⇝ .quotefilsuf🅛
-┆ ⇝ .quotetokoh🅛
+┆ ⇝ .quotebucin 🅛
+┆ ⇝ .quotefilsuf 🅛
+┆ ⇝ .quotetokoh 🅛
 ┆ ⇝ .sadboy
 ┆ ⇝ .truth
 ╰➤-------------------------------
 
 ╭➤--「STALKER MENU 」
-┆ ⇝ .cektiktok🅛
-┆ ⇝ .countrystalk🅛
-┆ ⇝ .daftartiktok🅛
-┆ ⇝ .discordstalk🅛
-┆ ⇝ .ffstalk🅛
-┆ ⇝ .genshinstalk🅛
+┆ ⇝ .cektiktok 🅛
+┆ ⇝ .countrystalk 🅛
+┆ ⇝ .daftartiktok 🅛
+┆ ⇝ .discordstalk 🅛
+┆ ⇝ .ffstalk 🅛
+┆ ⇝ .genshinstalk 🅛
 ┆ ⇝ .ghstalk
-┆ ⇝ .githubstalk🅛
-┆ ⇝ .igstalk🅛
-┆ ⇝ .npmstalk🅛
-┆ ⇝ .pintereststalk🅛
-┆ ⇝ .robloxplayer🅛
-┆ ⇝ .robloxstalk🅛
-┆ ⇝ .stalkdc🅛
-┆ ⇝ .stalkml🅛
-┆ ⇝ .tiktokstalk🅛
-┆ ⇝ .ttstalk🅛
-┆ ⇝ .twitterstalk🅛
-┆ ⇝ .wastalk🅛
-┆ ⇝ .ytstalk🅛
+┆ ⇝ .githubstalk 🅛
+┆ ⇝ .igstalk 🅛
+┆ ⇝ .npmstalk 🅛
+┆ ⇝ .pintereststalk 🅛
+┆ ⇝ .robloxplayer 🅛
+┆ ⇝ .robloxstalk 🅛
+┆ ⇝ .stalkdc 🅛
+┆ ⇝ .stalkml 🅛
+┆ ⇝ .tiktokstalk 🅛
+┆ ⇝ .ttstalk 🅛
+┆ ⇝ .twitterstalk 🅛
+┆ ⇝ .wastalk 🅛
+┆ ⇝ .ytstalk 🅛
 ╰➤-------------------------------
 
 ╭➤--「TTS MENU 」
-┆ ⇝ .holotts🅛
-┆ ⇝ .ondoku🅛
-┆ ⇝ .tts🅛
-┆ ⇝ .ttselon🅛
-┆ ⇝ .ttseminem🅛
-┆ ⇝ .ttsgoku🅛
-┆ ⇝ .ttsmickey🅛
-┆ ⇝ .ttsnahida🅛
+┆ ⇝ .holotts 🅛
+┆ ⇝ .ondoku 🅛
+┆ ⇝ .tts 🅛
+┆ ⇝ .ttselon 🅛
+┆ ⇝ .ttseminem 🅛
+┆ ⇝ .ttsgoku 🅛
+┆ ⇝ .ttsmickey 🅛
+┆ ⇝ .ttsnahida 🅛
 ┆ ⇝ .ttsvoice
 ╰➤-------------------------------
 
