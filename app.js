@@ -20,14 +20,14 @@ const BOTS = [
   //   tag: 'PERU'
   // },
   {
-    name: 'Veli',
-    number: '6285136816270',
-    tag: 'BYU1'
+  //  name: 'Veli',
+  //  number: '6285136816270',
+  //  tag: 'BYU1'
   },
   {
-    name: 'Hexa',
-    number: '628511347385',
-    tag: 'BYU3'
+  //  name: 'Hexa',
+  //  number: '628511347385',
+  //  tag: 'BYU3'
   },
   {
     name: 'Antrax',
@@ -35,9 +35,9 @@ const BOTS = [
     tag: 'SF1'
   },
   {
-    name: 'Alya',
-    number: '6285136816242',
-    tag: 'BYU2'
+  //  name: 'Alya',
+  //  number: '6285136816242',
+  //  tag: 'BYU2'
   }
 ];
 
