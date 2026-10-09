@@ -17,7 +17,7 @@ const BOTS = [
   {
     name: 'Exodus',
     number: '628511347385',
-    tag: 'Active'
+    tag: ''
   }
   //  {
   //  name: 'Antrax',
