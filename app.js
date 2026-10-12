@@ -16,7 +16,7 @@
 const BOTS = [
   {
     name: 'Exodus',
-    number: '628511347385',
+    number: '6285111347385',
     tag: ''
   }
   //  {
