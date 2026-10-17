@@ -199,7 +199,7 @@
       const isJsonExport = args.includes('--json');
       const filteredArgs = args.filter(a => !a.startsWith('--'));
 
-      const inputTxt = filteredArgs[0] || 'something.txt';
+      const inputTxt = filteredArgs[0] || 'allmenu.txt' || 'something.txt';
       const targetJs = filteredArgs[1] || 'app.js';
 
       const inputPath = path.resolve(process.cwd(), inputTxt);
