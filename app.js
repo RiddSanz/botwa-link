@@ -521,6 +521,7 @@ const MENU = {
       "twitter",
       "ucdrivedl",
       "videy",
+      "vidoy",
       "wallpaper",
       "xhs",
       "yt5so",
