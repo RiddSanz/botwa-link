@@ -478,6 +478,7 @@ const MENU = {
       "cocofundl",
       "dailymotiondl",
       "dlit",
+      "dood",
       "douyin",
       "douyindl",
       "facebook",
@@ -1562,6 +1563,12 @@ const MENU = {
       "play3",
       "playncs",
       "sad"
+    ]
+  },
+  "NSFW": {
+    "emoji": "🔞",
+    "commands": [
+      "nekopoi"
     ]
   },
   "VPS": {
