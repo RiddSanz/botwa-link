@@ -5,9 +5,9 @@
 
 ✦ *Informasi Bot*
 • Nama   : Rimuru-MD
-• Fitur  : 1711 fitur
+• Fitur  : 1731 fitur
 • Versi  : 5.0-rev
-• Waktu  : 21:40:56 WIB
+• Waktu  : 21:05:55 WIB
 
 ✦ *Kelebihan Bot Ini*
 • Fast response
@@ -20,6 +20,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 
 ╭➤--「MAIN MENU 」
 ┆ ⇝ .allmenu
+┆ ⇝ .bataljadibot
 ┆ ⇝ .benefitowner
 ┆ ⇝ .benefitpremium
 ┆ ⇝ .buypanel
@@ -69,6 +70,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .barcode 🅛
 ┆ ⇝ .biner
 ┆ ⇝ .bitly
+┆ ⇝ .blurface 🅛
 ┆ ⇝ .breach 🅛
 ┆ ⇝ .bypass 🅛
 ┆ ⇝ .calc
@@ -131,6 +133,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .imagetoasci 🅛
 ┆ ⇝ .imgtools 🅛
 ┆ ⇝ .imgtoprompt 🅛
+┆ ⇝ .inspect 🅛
 ┆ ⇝ .invoicemaker 🅛
 ┆ ⇝ .ip 🅛
 ┆ ⇝ .ipwho 🅛
@@ -148,6 +151,8 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .mikutalk 🅛
 ┆ ⇝ .musikapaini 🅛
 ┆ ⇝ .myip 🅞
+┆ ⇝ .netprem 🅛
+┆ ⇝ .nftools 🅛
 ┆ ⇝ .nik
 ┆ ⇝ .nikparser 🅛
 ┆ ⇝ .npmdl 🅛
@@ -169,6 +174,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .rch 🅟 🅛
 ┆ ⇝ .readmore 🅛
 ┆ ⇝ .readqr 🅛
+┆ ⇝ .remind 🅛
 ┆ ⇝ .remini 🅛
 ┆ ⇝ .removebg 🅛
 ┆ ⇝ .removewm 🅛
@@ -227,6 +233,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .webperf 🅛
 ┆ ⇝ .whatmusic 🅛
 ┆ ⇝ .wisedetail 🅛
+┆ ⇝ .worldtime
 ╰➤-------------------------------
 
 ╭➤--「FUN MENU 」
@@ -456,6 +463,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .spotifyplay 🅛
 ┆ ⇝ .terabox 🅛
 ┆ ⇝ .threaddl 🅛
+┆ ⇝ .tiklydown 🅛
 ┆ ⇝ .tiktok 🅛
 ┆ ⇝ .tiktok2 🅛
 ┆ ⇝ .tiktokmusic 🅛
@@ -509,8 +517,10 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .gsmarena
 ┆ ⇝ .ikiru
 ┆ ⇝ .imdb 🅛
+┆ ⇝ .infoloker 🅛
 ┆ ⇝ .jobstreetsearch 🅛
 ┆ ⇝ .lirik 🅛
+┆ ⇝ .mangalist
 ┆ ⇝ .mangaread 🅛
 ┆ ⇝ .mangatoon 🅛
 ┆ ⇝ .mcaddon
@@ -518,6 +528,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .mcpedl 🅛
 ┆ ⇝ .meigen 🅛
 ┆ ⇝ .melolo 🅛
+┆ ⇝ .mltour
 ┆ ⇝ .movieku 🅛
 ┆ ⇝ .nerdfont-ambil
 ┆ ⇝ .npm 🅛
@@ -527,12 +538,14 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .pin2 🅛
 ┆ ⇝ .pins2 🅛
 ┆ ⇝ .pinvid 🅛
+┆ ⇝ .pinz
 ┆ ⇝ .pixiv 🅛
 ┆ ⇝ .play 🅛
 ┆ ⇝ .play2 🅛
 ┆ ⇝ .playcall 🅛
 ┆ ⇝ .playch 🅛
 ┆ ⇝ .playsoundcloud 🅛
+┆ ⇝ .playstore
 ┆ ⇝ .playtiktok 🅛
 ┆ ⇝ .playvid 🅛
 ┆ ⇝ .ptvsearch 🅛
@@ -549,9 +562,11 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .spotplay 🅛
 ┆ ⇝ .stikerwa 🅛
 ┆ ⇝ .tenor 🅛
+┆ ⇝ .tgram 🅛
 ┆ ⇝ .tiktokfoto 🅛
 ┆ ⇝ .tiktoksc 🅛
 ┆ ⇝ .tokopedia 🅛
+┆ ⇝ .toproblox
 ┆ ⇝ .ttsearch 🅛
 ┆ ⇝ .uptodown
 ┆ ⇝ .wattpadsearch 🅛
@@ -617,6 +632,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .bard 🅛
 ┆ ⇝ .bocchi 🅛
 ┆ ⇝ .character-ai 🅛
+┆ ⇝ .chatdeepai 🅛
 ┆ ⇝ .claudehaiku 🅛
 ┆ ⇝ .copilot
 ┆ ⇝ .deepseek 🅛
@@ -847,6 +863,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ╰➤-------------------------------
 
 ╭➤--「RELIGI MENU 」
+┆ ⇝ .alkitab 🅛
 ┆ ⇝ .asmaulhusna
 ┆ ⇝ .audioquran 🅛
 ┆ ⇝ .autosahur 🅐 🅖
@@ -867,6 +884,8 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .rajab
 ┆ ⇝ .ramadhan2027
 ┆ ⇝ .sholawat
+┆ ⇝ .surah2 🅛
+┆ ⇝ .tafsir
 ┆ ⇝ .tahlil
 ┆ ⇝ .taubat
 ┆ ⇝ .zikir
@@ -898,6 +917,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .market 🅛
 ┆ ⇝ .misi 🅖
 ┆ ⇝ .ml 🅛
+┆ ⇝ .newup
 ┆ ⇝ .runtime
 ┆ ⇝ .sc
 ┆ ⇝ .totalfitur
@@ -1019,6 +1039,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .fakedev3 🅛
 ┆ ⇝ .fakedev4 🅛
 ┆ ⇝ .fakedev7 🅛
+┆ ⇝ .fakediscord 🅛
 ┆ ⇝ .fakedj 🅛
 ┆ ⇝ .fakefbkomen 🅛
 ┆ ⇝ .fakeff 🅛
@@ -1097,7 +1118,6 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 
 ╭➤--「PREMIUM MENU 」
 ┆ ⇝ .age-detection 🅟 🅛
-┆ ⇝ .bataljadibot 🅟
 ┆ ⇝ .cekowner 🅟
 ┆ ⇝ .cekpartner 🅟
 ┆ ⇝ .cekprem 🅟
@@ -1113,7 +1133,6 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .listpanel 🅟
 ┆ ⇝ .msgch 🅞 🅟
 ┆ ⇝ .nanobananapro 🅟 🅛
-┆ ⇝ .newup 🅟
 ┆ ⇝ .numbgen 🅟
 ┆ ⇝ .rch 🅟 🅛
 ┆ ⇝ .swhdv2 🅟 🅛
@@ -1134,6 +1153,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 
 ╭➤--「EPHOTO MENU 」
 ┆ ⇝ .glitchtext 🅛
+┆ ⇝ .photooxy 🅛
 ╰➤-------------------------------
 
 ╭➤--「JPM MENU 」
@@ -1206,7 +1226,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ╰➤-------------------------------
 
 ╭➤--「INTERNET MENU 」
-┆ ⇝ .alkitab
+┆ ⇝ .alkitab 🅛
 ┆ ⇝ .apkmirror 🅛
 ┆ ⇝ .artinama
 ┆ ⇝ .doa 🅛
@@ -1215,7 +1235,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .fetch
 ┆ ⇝ .gimg 🅛
 ┆ ⇝ .githubtrend
-┆ ⇝ .infoloker
+┆ ⇝ .infoloker 🅛
 ┆ ⇝ .iplookup
 ┆ ⇝ .kbbi 🅛
 ┆ ⇝ .lyrics

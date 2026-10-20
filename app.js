@@ -65,6 +65,7 @@ const MENU = {
     "emoji": "⚡",
     "commands": [
       "allmenu",
+      "bataljadibot",
       "benefitowner",
       "benefitpremium",
       "buypanel",
@@ -118,6 +119,7 @@ const MENU = {
       "barcode",
       "biner",
       "bitly",
+      "blurface",
       "breach",
       "bypass",
       "calc",
@@ -180,6 +182,7 @@ const MENU = {
       "imagetoasci",
       "imgtools",
       "imgtoprompt",
+      "inspect",
       "invoicemaker",
       "ip",
       "ipwho",
@@ -197,6 +200,8 @@ const MENU = {
       "mikutalk",
       "musikapaini",
       "myip",
+      "netprem",
+      "nftools",
       "nik",
       "nikparser",
       "npmdl",
@@ -218,6 +223,7 @@ const MENU = {
       "rch",
       "readmore",
       "readqr",
+      "remind",
       "remini",
       "removebg",
       "removewm",
@@ -275,7 +281,8 @@ const MENU = {
       "web2zip",
       "webperf",
       "whatmusic",
-      "wisedetail"
+      "wisedetail",
+      "worldtime"
     ]
   },
   "FUN": {
@@ -511,6 +518,7 @@ const MENU = {
       "spotifyplay",
       "terabox",
       "threaddl",
+      "tiklydown",
       "tiktok",
       "tiktok2",
       "tiktokmusic",
@@ -566,8 +574,10 @@ const MENU = {
       "gsmarena",
       "ikiru",
       "imdb",
+      "infoloker",
       "jobstreetsearch",
       "lirik",
+      "mangalist",
       "mangaread",
       "mangatoon",
       "mcaddon",
@@ -575,6 +585,7 @@ const MENU = {
       "mcpedl",
       "meigen",
       "melolo",
+      "mltour",
       "movieku",
       "nerdfont-ambil",
       "npm",
@@ -584,12 +595,14 @@ const MENU = {
       "pin2",
       "pins2",
       "pinvid",
+      "pinz",
       "pixiv",
       "play",
       "play2",
       "playcall",
       "playch",
       "playsoundcloud",
+      "playstore",
       "playtiktok",
       "playvid",
       "ptvsearch",
@@ -606,9 +619,11 @@ const MENU = {
       "spotplay",
       "stikerwa",
       "tenor",
+      "tgram",
       "tiktokfoto",
       "tiktoksc",
       "tokopedia",
+      "toproblox",
       "ttsearch",
       "uptodown",
       "wattpadsearch",
@@ -680,6 +695,7 @@ const MENU = {
       "bard",
       "bocchi",
       "character-ai",
+      "chatdeepai",
       "claudehaiku",
       "copilot",
       "deepseek",
@@ -914,6 +930,7 @@ const MENU = {
   "RELIGI": {
     "emoji": "🌙",
     "commands": [
+      "alkitab",
       "asmaulhusna",
       "audioquran",
       "autosahur",
@@ -934,6 +951,8 @@ const MENU = {
       "rajab",
       "ramadhan2027",
       "sholawat",
+      "surah2",
+      "tafsir",
       "tahlil",
       "taubat",
       "zikir"
@@ -967,6 +986,7 @@ const MENU = {
       "market",
       "misi",
       "ml",
+      "newup",
       "runtime",
       "sc",
       "totalfitur",
@@ -1096,6 +1116,7 @@ const MENU = {
       "fakedev3",
       "fakedev4",
       "fakedev7",
+      "fakediscord",
       "fakedj",
       "fakefbkomen",
       "fakeff",
@@ -1178,7 +1199,6 @@ const MENU = {
     "emoji": "⭐",
     "commands": [
       "age-detection",
-      "bataljadibot",
       "cekowner",
       "cekpartner",
       "cekprem",
@@ -1194,7 +1214,6 @@ const MENU = {
       "listpanel",
       "msgch",
       "nanobananapro",
-      "newup",
       "numbgen",
       "rch",
       "swhdv2",
@@ -1216,7 +1235,8 @@ const MENU = {
   "EPHOTO": {
     "emoji": "📸",
     "commands": [
-      "glitchtext"
+      "glitchtext",
+      "photooxy"
     ]
   },
   "JPM": {
