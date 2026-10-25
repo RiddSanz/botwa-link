@@ -676,7 +676,6 @@ const MENU = {
     "emoji": "🎬",
     "commands": [
       "bass",
-      "mengkane",
       "music"
     ]
   },
@@ -1584,12 +1583,6 @@ const MENU = {
       "play3",
       "playncs",
       "sad"
-    ]
-  },
-  "NSFW": {
-    "emoji": "🔞",
-    "commands": [
-      "nekopoi"
     ]
   },
   "VPS": {

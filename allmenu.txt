@@ -5,9 +5,9 @@
 
 ✦ *Informasi Bot*
 • Nama   : Rimuru-MD
-• Fitur  : 1731 fitur
+• Fitur  : 1729 fitur
 • Versi  : 5.0-rev
-• Waktu  : 21:05:55 WIB
+• Waktu  : 09:32:48 WIB
 
 ✦ *Kelebihan Bot Ini*
 • Fast response
@@ -608,14 +608,13 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .stickerpackpin 🅛 🅖
 ┆ ⇝ .stickersearch 🅛
 ┆ ⇝ .swm 🅛
-┆ ⇝ .telestick 🅛 🅖
+┆ ⇝ .telestick 🅛
 ┆ ⇝ .toimg 🅛
 ┆ ⇝ .tovideo 🅛
 ╰➤-------------------------------
 
 ╭➤--「MEDIA MENU 」
 ┆ ⇝ .bass
-┆ ⇝ .mengkane
 ┆ ⇝ .music
 ╰➤-------------------------------
 
@@ -1481,10 +1480,6 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .play3 🅛
 ┆ ⇝ .playncs 🅛
 ┆ ⇝ .sad 🅛
-╰➤-------------------------------
-
-╭➤--「NSFW MENU 」
-┆ ⇝ .nekopoi 🅛
 ╰➤-------------------------------
 
 ╭➤--「VPS MENU 」
