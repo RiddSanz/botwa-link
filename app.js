@@ -248,6 +248,7 @@ const MENU = {
       "ssweb",
       "struk",
       "styleteks",
+      "subdo",
       "subs4unlock",
       "suppbypass",
       "tebalteks",
@@ -711,6 +712,7 @@ const MENU = {
       "flux",
       "furina",
       "gem",
+      "gemimg",
       "gita",
       "glm4",
       "gpt4o",
@@ -1212,6 +1214,7 @@ const MENU = {
       "img2vid",
       "kasedaiki",
       "listpanel",
+      "mp4dl",
       "msgch",
       "nanobananapro",
       "nekopoi",
@@ -1316,7 +1319,6 @@ const MENU = {
   "INTERNET": {
     "emoji": "🌍",
     "commands": [
-      "alkitab",
       "apkmirror",
       "artinama",
       "doa",

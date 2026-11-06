@@ -5,9 +5,9 @@
 
 ✦ *Informasi Bot*
 • Nama   : Rimuru-MD
-• Fitur  : 1731 fitur
+• Fitur  : 1733 fitur
 • Versi  : 5.0-rev
-• Waktu  : 19:59:22 WIB
+• Waktu  : 09:43:12 WIB
 
 ✦ *Kelebihan Bot Ini*
 • Fast response
@@ -200,6 +200,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .ssweb 🅛
 ┆ ⇝ .struk 🅛
 ┆ ⇝ .styleteks 🅛
+┆ ⇝ .subdo 🅛
 ┆ ⇝ .subs4unlock 🅛
 ┆ ⇝ .suppbypass
 ┆ ⇝ .tebalteks
@@ -649,6 +650,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .flux 🅛
 ┆ ⇝ .furina 🅛
 ┆ ⇝ .gem 🅛
+┆ ⇝ .gemimg
 ┆ ⇝ .gita 🅛
 ┆ ⇝ .glm4 🅛
 ┆ ⇝ .gpt4o 🅛
@@ -1132,6 +1134,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .img2vid 🅟 🅛
 ┆ ⇝ .kasedaiki 🅟 🅛
 ┆ ⇝ .listpanel 🅟
+┆ ⇝ .mp4dl 🅟 🅛
 ┆ ⇝ .msgch 🅞 🅟
 ┆ ⇝ .nanobananapro 🅟 🅛
 ┆ ⇝ .nekopoi 🅟 🅛
@@ -1228,7 +1231,6 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ╰➤-------------------------------
 
 ╭➤--「INTERNET MENU 」
-┆ ⇝ .alkitab 🅛
 ┆ ⇝ .apkmirror 🅛
 ┆ ⇝ .artinama
 ┆ ⇝ .doa 🅛
