@@ -5,9 +5,9 @@
 
 ✦ *Informasi Bot*
 • Nama   : Rimuru-MD
-• Fitur  : 1733 fitur
+• Fitur  : 1826 fitur
 • Versi  : 5.0-rev
-• Waktu  : 09:43:12 WIB
+• Waktu  : 10:00:39 WIB
 
 ✦ *Kelebihan Bot Ini*
 • Fast response
@@ -219,6 +219,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .tovn 🅛
 ┆ ⇝ .transkrip 🅛
 ┆ ⇝ .translate 🅛
+┆ ⇝ .turnitin 🅛
 ┆ ⇝ .tweetss 🅛
 ┆ ⇝ .txt2qr
 ┆ ⇝ .uguu
@@ -626,24 +627,41 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .ai-leaderboard 🅛
 ┆ ⇝ .aifilter 🅛
 ┆ ⇝ .airealtime 🅛
+┆ ⇝ .aisantai
 ┆ ⇝ .alya 🅛
 ┆ ⇝ .anime-gen 🅛
 ┆ ⇝ .animediff 🅛
 ┆ ⇝ .artaai 🅛
 ┆ ⇝ .asyntai 🅛
 ┆ ⇝ .bard 🅛
-┆ ⇝ .bocchi 🅛
+┆ ⇝ .blackbox
+┆ ⇝ .bocchi
 ┆ ⇝ .character-ai 🅛
 ┆ ⇝ .chatdeepai 🅛
 ┆ ⇝ .claudehaiku 🅛
+┆ ⇝ .claudehaiku45 🅛
+┆ ⇝ .claudesonnet46 🅛
 ┆ ⇝ .copilot
 ┆ ⇝ .deepseek 🅛
+┆ ⇝ .deepseekreasoner 🅛
 ┆ ⇝ .dolphin 🅛
 ┆ ⇝ .dpsteai 🅛
+┆ ⇝ .dsr1 🅛
+┆ ⇝ .dsv3 🅛
+┆ ⇝ .dsv31 🅛
+┆ ⇝ .dsv32 🅛
+┆ ⇝ .dsv41flash 🅛
+┆ ⇝ .dsv41flash2 🅛
+┆ ⇝ .dsv4flash 🅛
+┆ ⇝ .dsv4flash0731 🅛
+┆ ⇝ .dsv4flashvision 🅛
+┆ ⇝ .dsv4pro0813 🅛
 ┆ ⇝ .editimage 🅛
 ┆ ⇝ .editimg2
 ┆ ⇝ .elainaai 🅛
-┆ ⇝ .epsilon 🅛
+┆ ⇝ .epsilon
+┆ ⇝ .euryale70b 🅛
+┆ ⇝ .fable 🅛
 ┆ ⇝ .faceswap 🅛
 ┆ ⇝ .feelbetter 🅛
 ┆ ⇝ .felo 🅛
@@ -651,60 +669,132 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .furina 🅛
 ┆ ⇝ .gem 🅛
 ┆ ⇝ .gemimg
+┆ ⇝ .gemma312b 🅛
+┆ ⇝ .gemma327b 🅛
+┆ ⇝ .gemma34b 🅛
+┆ ⇝ .gemma4 🅛
+┆ ⇝ .gemma426b 🅛
+┆ ⇝ .gemma4turbo 🅛
+┆ ⇝ .gemma4ultra 🅛
 ┆ ⇝ .gita 🅛
-┆ ⇝ .glm4 🅛
-┆ ⇝ .gpt4o 🅛
+┆ ⇝ .glm
+┆ ⇝ .glm46 🅛
+┆ ⇝ .glm47 🅛
+┆ ⇝ .glm52 🅛
+┆ ⇝ .glm53flash 🅛
+┆ ⇝ .gpt
+┆ ⇝ .gpt-4oai 🅛
+┆ ⇝ .gpt4omini 🅛
 ┆ ⇝ .gpt5 🅛
+┆ ⇝ .gpt56 🅛
+┆ ⇝ .gptoss20b 🅛
+┆ ⇝ .gptossultra 🅛
 ┆ ⇝ .gptprompt 🅛
-┆ ⇝ .hoshino 🅛
+┆ ⇝ .granite42 🅛
+┆ ⇝ .hoshino
 ┆ ⇝ .humanize 🅛
-┆ ⇝ .hutao 🅛
+┆ ⇝ .hutao
 ┆ ⇝ .imgprompt 🅛
+┆ ⇝ .inkling 🅛
 ┆ ⇝ .jeeves 🅛
 ┆ ⇝ .jokowi-ai 🅛
-┆ ⇝ .kimi 🅛
+┆ ⇝ .kimi
 ┆ ⇝ .kimi-vision 🅛
-┆ ⇝ .kita 🅛
+┆ ⇝ .kimik26 🅛
+┆ ⇝ .kita
 ┆ ⇝ .kobo-ai 🅛
-┆ ⇝ .kurumi 🅛
+┆ ⇝ .kurumi
+┆ ⇝ .ling30flash 🅛
+┆ ⇝ .ling30vl 🅛
+┆ ⇝ .ling31flash 🅛
+┆ ⇝ .llama318b 🅛
+┆ ⇝ .llama3370b 🅛
 ┆ ⇝ .luffyai 🅛
+┆ ⇝ .luna 🅛
+┆ ⇝ .lunaris8b 🅛
 ┆ ⇝ .mahiru 🅛
 ┆ ⇝ .makima 🅛
 ┆ ⇝ .matematika 🅛
 ┆ ⇝ .mega 🅛
-┆ ⇝ .meguminai 🅛
+┆ ⇝ .meguminai
 ┆ ⇝ .mikasa 🅛
-┆ ⇝ .mikuai 🅛
-┆ ⇝ .mistralai 🅛
+┆ ⇝ .mikuai
+┆ ⇝ .mimov26flash 🅛
+┆ ⇝ .mini 🅛
+┆ ⇝ .mistral
+┆ ⇝ .mistral24b 🅛
+┆ ⇝ .mistralnemo 🅛
+┆ ⇝ .moe 🅛
+┆ ⇝ .museglimmer 🅛
 ┆ ⇝ .musicmaker 🅛
 ┆ ⇝ .muslimai 🅛
 ┆ ⇝ .nano
 ┆ ⇝ .nanobanana 🅛
 ┆ ⇝ .nanoedit 🅛
-┆ ⇝ .nijika 🅛
+┆ ⇝ .nemotron35light 🅛
+┆ ⇝ .nemotron35vl 🅛
+┆ ⇝ .nemotron3super 🅛
+┆ ⇝ .nijika
+┆ ⇝ .o1 🅛
+┆ ⇝ .o3mini 🅛
 ┆ ⇝ .oguri 🅛
-┆ ⇝ .openai 🅛
+┆ ⇝ .openai
 ┆ ⇝ .opennana 🅛
+┆ ⇝ .opus 🅛
+┆ ⇝ .opus46 🅛
+┆ ⇝ .opus47 🅛
+┆ ⇝ .opus48 🅛
 ┆ ⇝ .perplexity
+┆ ⇝ .phi4 🅛
 ┆ ⇝ .powerbrain 🅛
 ┆ ⇝ .prabowo-ai 🅛
 ┆ ⇝ .publicai 🅛
 ┆ ⇝ .quilbot 🅛
 ┆ ⇝ .quillbot 🅛
 ┆ ⇝ .quillbotai 🅛
+┆ ⇝ .qwen2572b 🅛
 ┆ ⇝ .qwen3 🅛
+┆ ⇝ .qwen314b 🅛
+┆ ⇝ .qwen3235b 🅛
+┆ ⇝ .qwen330b 🅛
+┆ ⇝ .qwen332b 🅛
+┆ ⇝ .qwen35 🅛
+┆ ⇝ .qwen3527b 🅛
+┆ ⇝ .qwen3535b 🅛
+┆ ⇝ .qwen35397b 🅛
+┆ ⇝ .qwen359b 🅛
+┆ ⇝ .qwen35omniplus 🅛
+┆ ⇝ .qwen36 🅛
+┆ ⇝ .qwen3627b 🅛
+┆ ⇝ .qwen3635b 🅛
+┆ ⇝ .qwen37 🅛
+┆ ⇝ .qwen37max 🅛
+┆ ⇝ .qwen38 🅛
+┆ ⇝ .qwen3827b 🅛
+┆ ⇝ .qwen38flash 🅛
+┆ ⇝ .qwen38omniflash 🅛
+┆ ⇝ .qwen3next80b 🅛
+┆ ⇝ .qwen3vl235b 🅛
+┆ ⇝ .qwen3vl30b 🅛
 ┆ ⇝ .rimuru-ai 🅛
 ┆ ⇝ .rimuru-blackbox
 ┆ ⇝ .rimurubanana 🅛
 ┆ ⇝ .rimurubanana2 🅛
+┆ ⇝ .seed18 🅛
+┆ ⇝ .seed20mini 🅛
+┆ ⇝ .seed20pro 🅛
 ┆ ⇝ .simi
-┆ ⇝ .smith 🅛
+┆ ⇝ .smith
 ┆ ⇝ .sologo 🅛
+┆ ⇝ .sonnet 🅛
+┆ ⇝ .sonnet45 🅛
 ┆ ⇝ .sora2 🅛
+┆ ⇝ .syside 🅛
 ┆ ⇝ .text2img 🅛
 ┆ ⇝ .text2img2 🅛
 ┆ ⇝ .text2img3 🅛
 ┆ ⇝ .text2img4 🅛
+┆ ⇝ .thinking 🅛
 ┆ ⇝ .toblack 🅛
 ┆ ⇝ .tochibi 🅛
 ┆ ⇝ .toemotebatu 🅛
@@ -1052,11 +1142,13 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .fakeidcard 🅛
 ┆ ⇝ .fakeijazah 🅛
 ┆ ⇝ .fakeijin 🅛
+┆ ⇝ .fakeizin 🅛
 ┆ ⇝ .fakekarcis 🅛
 ┆ ⇝ .fakekartupelajar 🅛
 ┆ ⇝ .fakeml 🅛
 ┆ ⇝ .fakengl
 ┆ ⇝ .fakenikah 🅛
+┆ ⇝ .fakenotifwa 🅛
 ┆ ⇝ .fakeovo 🅛
 ┆ ⇝ .fakepaspor 🅛
 ┆ ⇝ .fakesertifikat 🅛
