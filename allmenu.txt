@@ -5,9 +5,9 @@
 
 ✦ *Informasi Bot*
 • Nama   : Rimuru-MD
-• Fitur  : 1826 fitur
+• Fitur  : 1835 fitur
 • Versi  : 5.0-rev
-• Waktu  : 10:00:39 WIB
+• Waktu  : 13:16:02 WIB
 
 ✦ *Kelebihan Bot Ini*
 • Fast response
@@ -65,6 +65,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ╰➤-------------------------------
 
 ╭➤--「TOOLS MENU 」
+┆ ⇝ .aislop 🅛
 ┆ ⇝ .alultimate 🅛
 ┆ ⇝ .bandingkan-hp 🅛
 ┆ ⇝ .barcode 🅛
@@ -141,6 +142,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .jadwaltv
 ┆ ⇝ .jarak
 ┆ ⇝ .jjcapcut
+┆ ⇝ .jne 🅛
 ┆ ⇝ .kalkulatormbg 🅛
 ┆ ⇝ .kirimpesangc 🅞
 ┆ ⇝ .kodepos 🅛
@@ -162,6 +164,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .objectdetection 🅛
 ┆ ⇝ .ocr 🅛
 ┆ ⇝ .pastebin 🅛
+┆ ⇝ .pddikti 🅛
 ┆ ⇝ .phisingataubukan 🅛
 ┆ ⇝ .preset
 ┆ ⇝ .promptcode 🅛
@@ -194,6 +197,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .shzupload 🅛
 ┆ ⇝ .spamngl
 ┆ ⇝ .speedbot
+┆ ⇝ .speedtest 🅛
 ┆ ⇝ .spotivid
 ┆ ⇝ .ssdesktop 🅛
 ┆ ⇝ .sstablet 🅛
@@ -233,7 +237,6 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .vocalremover 🅛
 ┆ ⇝ .weather 🅛
 ┆ ⇝ .web2zip 🅛
-┆ ⇝ .webperf 🅛
 ┆ ⇝ .whatmusic 🅛
 ┆ ⇝ .wisedetail 🅛
 ┆ ⇝ .worldtime
@@ -437,6 +440,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .dood 🅛
 ┆ ⇝ .douyin 🅛
 ┆ ⇝ .douyindl 🅛
+┆ ⇝ .dramaboxdl 🅛
 ┆ ⇝ .facebook 🅛
 ┆ ⇝ .facebookdl 🅛
 ┆ ⇝ .gdrive 🅛
@@ -445,12 +449,14 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .githubdl 🅛
 ┆ ⇝ .igaudio 🅛
 ┆ ⇝ .igdl
+┆ ⇝ .igvox 🅛
 ┆ ⇝ .instagram3 🅛
 ┆ ⇝ .instagramdl 🅛
 ┆ ⇝ .likeedl 🅛
 ┆ ⇝ .mcpedldl 🅛
 ┆ ⇝ .mediafire 🅛
 ┆ ⇝ .mediafiredl 🅛
+┆ ⇝ .mfapi 🅛
 ┆ ⇝ .pindl 🅛
 ┆ ⇝ .pindl2 🅛
 ┆ ⇝ .pixeldraindl 🅛
@@ -472,6 +478,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .tiktok2 🅛
 ┆ ⇝ .tiktokmusic 🅛
 ┆ ⇝ .tt 🅛
+┆ ⇝ .ttalt 🅛
 ┆ ⇝ .ttimg 🅛
 ┆ ⇝ .ttmp3 🅛
 ┆ ⇝ .ttslide 🅛
@@ -480,8 +487,10 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .videy 🅛
 ┆ ⇝ .vidoy 🅛
 ┆ ⇝ .wallpaper 🅛
+┆ ⇝ .xgust 🅛
 ┆ ⇝ .xhs 🅛
 ┆ ⇝ .yt5so 🅛
+┆ ⇝ .ytdirect 🅛
 ┆ ⇝ .ytmp3 🅛
 ┆ ⇝ .ytmp4 🅛
 ┆ ⇝ .ytplay 🅛
@@ -537,7 +546,6 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .nerdfont-ambil
 ┆ ⇝ .npm 🅛
 ┆ ⇝ .pap 🅛
-┆ ⇝ .pddikti 🅛
 ┆ ⇝ .pin 🅛
 ┆ ⇝ .pin2 🅛
 ┆ ⇝ .pins2 🅛
@@ -1041,6 +1049,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .cekimut
 ┆ ⇝ .cekintrovert
 ┆ ⇝ .cekjahat
+┆ ⇝ .cekjew
 ┆ ⇝ .cekjodoh
 ┆ ⇝ .cekjomblo
 ┆ ⇝ .cekkarma
@@ -1334,7 +1343,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .infoloker 🅛
 ┆ ⇝ .iplookup
 ┆ ⇝ .kbbi 🅛
-┆ ⇝ .lyrics
+┆ ⇝ .lyrics 🅛
 ┆ ⇝ .mangga-pop
 ┆ ⇝ .misteri
 ┆ ⇝ .mltour
@@ -1577,6 +1586,7 @@ Gunakan sesuai kebutuhan dan jangan lupa gunakan dengan bijak.
 ┆ ⇝ .play3 🅛
 ┆ ⇝ .playncs 🅛
 ┆ ⇝ .sad 🅛
+┆ ⇝ .spotivio 🅛
 ╰➤-------------------------------
 
 ╭➤--「VPS MENU 」
