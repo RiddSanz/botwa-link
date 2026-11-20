@@ -98,7 +98,6 @@ const MENU = {
       "system",
       "test",
       "totalfitur",
-      "tqto",
       "tqto2",
       "usercard"
     ]
@@ -232,7 +231,6 @@ const MENU = {
       "removewm",
       "resize",
       "resizevideo",
-      "rvo",
       "s2c",
       "scanrepo",
       "searchcode",
@@ -602,7 +600,6 @@ const MENU = {
       "nerdfont-ambil",
       "npm",
       "pap",
-      "pin",
       "pin2",
       "pins2",
       "pinvid",
@@ -1538,6 +1535,12 @@ const MENU = {
     "emoji": "🔄",
     "commands": [
       "audiofx"
+    ]
+  },
+  "NSFW": {
+    "emoji": "🔞",
+    "commands": [
+      "nekodl"
     ]
   },
   "ELAINA": {
