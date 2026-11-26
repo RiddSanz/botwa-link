@@ -116,6 +116,7 @@ const MENU = {
       "alultimate",
       "bandingkan-hp",
       "barcode",
+      "bicolink",
       "biner",
       "bitly",
       "blurface",
@@ -191,6 +192,7 @@ const MENU = {
       "jjcapcut",
       "jne",
       "kalkulatormbg",
+      "kamusdaerah",
       "kirimpesangc",
       "kodepos",
       "linkid",
@@ -210,9 +212,11 @@ const MENU = {
       "nulis",
       "objectdetection",
       "ocr",
+      "ouo",
       "pastebin",
       "pddikti",
       "phisingataubukan",
+      "pomodoro",
       "preset",
       "promptcode",
       "proxy",
@@ -223,6 +227,7 @@ const MENU = {
       "qwa",
       "randomname",
       "rch",
+      "reactch",
       "readmore",
       "readqr",
       "remind",
@@ -496,6 +501,7 @@ const MENU = {
       "facebook",
       "facebookdl",
       "gdrive",
+      "gdrivelegacy",
       "gimage",
       "gitclone",
       "githubdl",
@@ -674,6 +680,7 @@ const MENU = {
       "stickerpack",
       "stickerpackpin",
       "stickersearch",
+      "stikerv2",
       "swm",
       "telestick",
       "toimg",
@@ -694,41 +701,21 @@ const MENU = {
       "ai-leaderboard",
       "aifilter",
       "airealtime",
-      "aisantai",
       "alya",
       "anime-gen",
       "animediff",
       "artaai",
       "asyntai",
       "bard",
-      "blackbox",
-      "bocchi",
       "character-ai",
       "chatdeepai",
       "claudehaiku",
-      "claudehaiku45",
-      "claudesonnet46",
-      "copilot",
       "deepseek",
-      "deepseekreasoner",
       "dolphin",
       "dpsteai",
-      "dsr1",
-      "dsv3",
-      "dsv31",
-      "dsv32",
-      "dsv41flash",
-      "dsv41flash2",
-      "dsv4flash",
-      "dsv4flash0731",
-      "dsv4flashvision",
-      "dsv4pro0813",
       "editimage",
       "editimg2",
       "elainaai",
-      "epsilon",
-      "euryale70b",
-      "fable",
       "faceswap",
       "feelbetter",
       "felo",
@@ -736,132 +723,47 @@ const MENU = {
       "furina",
       "gem",
       "gemimg",
-      "gemma312b",
-      "gemma327b",
-      "gemma34b",
-      "gemma4",
-      "gemma426b",
-      "gemma4turbo",
-      "gemma4ultra",
       "gita",
-      "glm",
-      "glm46",
-      "glm47",
-      "glm52",
-      "glm53flash",
-      "gpt",
-      "gpt-4oai",
-      "gpt4omini",
       "gpt5",
-      "gpt56",
-      "gptoss20b",
-      "gptossultra",
       "gptprompt",
-      "granite42",
-      "hoshino",
       "humanize",
-      "hutao",
       "imgprompt",
-      "inkling",
       "jeeves",
       "jokowi-ai",
-      "kimi",
       "kimi-vision",
-      "kimik26",
-      "kita",
       "kobo-ai",
-      "kurumi",
-      "ling30flash",
-      "ling30vl",
-      "ling31flash",
-      "llama318b",
-      "llama3370b",
       "luffyai",
-      "luna",
-      "lunaris8b",
       "mahiru",
       "makima",
       "matematika",
       "mega",
-      "meguminai",
       "mikasa",
-      "mikuai",
-      "mimov26flash",
-      "mini",
-      "mistral",
-      "mistral24b",
-      "mistralnemo",
-      "moe",
-      "museglimmer",
       "musicmaker",
       "muslimai",
       "nano",
       "nanobanana",
       "nanoedit",
-      "nemotron35light",
-      "nemotron35vl",
-      "nemotron3super",
-      "nijika",
-      "o1",
-      "o3mini",
       "oguri",
-      "openai",
       "opennana",
-      "opus",
-      "opus46",
-      "opus47",
-      "opus48",
       "perplexity",
-      "phi4",
       "powerbrain",
       "prabowo-ai",
       "publicai",
       "quilbot",
       "quillbot",
       "quillbotai",
-      "qwen2572b",
       "qwen3",
-      "qwen314b",
-      "qwen3235b",
-      "qwen330b",
-      "qwen332b",
-      "qwen35",
-      "qwen3527b",
-      "qwen3535b",
-      "qwen35397b",
-      "qwen359b",
-      "qwen35omniplus",
-      "qwen36",
-      "qwen3627b",
-      "qwen3635b",
-      "qwen37",
-      "qwen37max",
-      "qwen38",
-      "qwen3827b",
-      "qwen38flash",
-      "qwen38omniflash",
-      "qwen3next80b",
-      "qwen3vl235b",
-      "qwen3vl30b",
       "rimuru-ai",
       "rimuru-blackbox",
       "rimurubanana",
       "rimurubanana2",
-      "seed18",
-      "seed20mini",
-      "seed20pro",
       "simi",
-      "smith",
       "sologo",
-      "sonnet",
-      "sonnet45",
       "sora2",
-      "syside",
       "text2img",
       "text2img2",
       "text2img3",
       "text2img4",
-      "thinking",
       "toblack",
       "tochibi",
       "toemotebatu",
@@ -874,8 +776,7 @@ const MENU = {
       "waguri",
       "waguri-ai",
       "webpilot",
-      "wormgpt",
-      "zetavoice"
+      "wormgpt"
     ]
   },
   "GROUP": {
@@ -1052,6 +953,7 @@ const MENU = {
       "tafsir",
       "tahlil",
       "taubat",
+      "zakat",
       "zikir"
     ]
   },
@@ -1534,7 +1436,14 @@ const MENU = {
   "CONVERT": {
     "emoji": "🔄",
     "commands": [
-      "audiofx"
+      "audiofx",
+      "bass"
+    ]
+  },
+  "DISCORD": {
+    "emoji": "✨",
+    "commands": [
+      "dtoggle"
     ]
   },
   "NSFW": {
@@ -1794,6 +1703,8 @@ let searchDebounce = null;
 const collapsedCategories = new Set();
 
 // 4. HELPER UTILS
+const prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
 function normalizeNumber(num) {
   let clean = String(num || '').replace(/[^0-9]/g, '');
   if (clean.startsWith('0')) clean = '62' + clean.slice(1);
@@ -1803,7 +1714,6 @@ function normalizeNumber(num) {
 function formatPhoneDisplay(num) {
   const n = normalizeNumber(num);
   if (n.startsWith('62') && n.length >= 11) {
-    // return n.slice(2, 5) + '-' + n.slice(5, 9) + '-' + n.slice(9);
     return '+62 ' + n.slice(2, 5) + '-' + n.slice(5, 9) + '-' + n.slice(9);
   }
   return '+' + n;
@@ -1818,135 +1728,173 @@ function createWaUrl(number, message = '.menu') {
   return 'https://wa.me/' + clean + '?text=' + encodeURIComponent(message);
 }
 
+function escapeHtml(str) {
+  return String(str).replace(/[&<>"']/g, (c) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+
+function highlightMatch(text, q) {
+  if (!q) return escapeHtml(text);
+  const idx = text.toLowerCase().indexOf(q);
+  if (idx === -1) return escapeHtml(text);
+  return escapeHtml(text.slice(0, idx)) +
+    '<mark>' + escapeHtml(text.slice(idx, idx + q.length)) + '</mark>' +
+    escapeHtml(text.slice(idx + q.length));
+}
+
+function isMobileLayout() {
+  return window.matchMedia('(max-width: 860px)').matches;
+}
+
 // 5. TOAST NOTIFICATION
+let toastTimer = null;
 function showToast(message, type = 'success') {
   const container = document.getElementById('toastContainer');
   if (!container) return;
 
+  // Hanya satu toast dalam satu waktu supaya tidak menumpuk saat klik beruntun
+  container.querySelectorAll('.toast').forEach((t) => t.remove());
+  clearTimeout(toastTimer);
+
   const toast = document.createElement('div');
   toast.className = 'toast toast-' + type;
-
-  const icon = type === 'success' ? '✓' : 'ℹ';
+  const icon = type === 'success' ? '✓' : '!';
   toast.innerHTML = '<span class="toast-icon">' + icon + '</span><span class="toast-msg">' + message + '</span>';
-
   container.appendChild(toast);
 
   requestAnimationFrame(() => {
-    toast.classList.add('show');
+    requestAnimationFrame(() => toast.classList.add('show'));
   });
 
-  setTimeout(() => {
+  toastTimer = setTimeout(() => {
     toast.classList.remove('show');
-    setTimeout(() => toast.remove(), 250);
-  }, 2200);
+    setTimeout(() => toast.remove(), 300);
+  }, 2000);
 }
 
 // 6. COPY TO CLIPBOARD
+function legacyCopy(text) {
+  const ta = document.createElement('textarea');
+  ta.value = text;
+  ta.setAttribute('readonly', '');
+  ta.style.position = 'fixed';
+  ta.style.top = '0';
+  ta.style.opacity = '0';
+  document.body.appendChild(ta);
+  ta.select();
+  ta.setSelectionRange(0, text.length);
+  let ok = false;
+  try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+  ta.remove();
+  return ok;
+}
+
 async function copyText(text, label = text) {
-  try {
-    if (navigator.clipboard && window.isSecureContext) {
+  let ok = false;
+  if (navigator.clipboard && window.isSecureContext) {
+    try {
       await navigator.clipboard.writeText(text);
-    } else {
-      const ta = document.createElement('textarea');
-      ta.value = text;
-      ta.style.position = 'fixed';
-      ta.style.opacity = '0';
-      document.body.appendChild(ta);
-      ta.focus();
-      ta.select();
-      document.execCommand('copy');
-      ta.remove();
+      ok = true;
+    } catch (err) {
+      ok = legacyCopy(text); // mis. izin clipboard ditolak browser
     }
-    showToast('Perintah <strong>' + label + '</strong> disalin ke clipboard!');
-    return true;
-  } catch (err) {
-    showToast('Gagal menyalin teks', 'error');
-    return false;
+  } else {
+    ok = legacyCopy(text);
   }
+
+  if (ok) showToast('<strong>' + escapeHtml(label) + '</strong> disalin ke clipboard');
+  else showToast('Gagal menyalin teks', 'error');
+  return ok;
 }
 
 // 7. RENDER DAFTAR BOT
 function updateFloatingWa() {
   const bot = getSelectedBot();
-  const floatingBtn = document.getElementById('floatingWaBtn');
-  if (floatingBtn && bot) {
-    floatingBtn.href = createWaUrl(bot.number, '.menu');
-    floatingBtn.title = 'Chat WhatsApp (' + bot.name + ' - ' + bot.tag + ')';
-  }
+  if (!bot) return;
+  const url = createWaUrl(bot.number, '.menu');
+  const title = 'Chat WhatsApp (' + bot.name + (bot.tag ? ' - ' + bot.tag : '') + ')';
+  ['floatingWaBtn', 'headerWaBtn'].forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.href = url;
+      el.title = title;
+    }
+  });
 }
+
+const AVATAR_GRADIENTS = [
+  'linear-gradient(140deg, #22c55e, #14b8a6)',
+  'linear-gradient(140deg, #06b6d4, #6366f1)',
+  'linear-gradient(140deg, #8b5cf6, #ec4899)',
+  'linear-gradient(140deg, #f59e0b, #ef4444)'
+];
 
 function renderBotsList() {
   const container = document.getElementById('botListContainer');
   if (!container) return;
 
-  container.innerHTML = '';
-  BOTS.forEach((bot, idx) => {
+  container.innerHTML = BOTS.map((bot, idx) => {
     const isSelected = idx === selectedBotIndex;
-    const card = document.createElement('div');
-    card.className = 'bot-item-card' + (isSelected ? ' is-selected' : '');
-
-    const waLink = createWaUrl(bot.number, '.menu');
-    const avatarGradients = [
-      'linear-gradient(135deg, #10b981, #06b6d4)',
-      'linear-gradient(135deg, #06b6d4, #6366f1)',
-      'linear-gradient(135deg, #8b5cf6, #ec4899)',
-      'linear-gradient(135deg, #f59e0b, #ef4444)'
-    ];
-    const grad = avatarGradients[idx % avatarGradients.length];
-
-    card.innerHTML = `
-      <div class="bot-item-left" data-action="select" data-idx="${idx}">
-        <div class="bot-item-radio">
-          <span class="radio-circle ${isSelected ? 'checked' : ''}"></span>
+    const grad = AVATAR_GRADIENTS[idx % AVATAR_GRADIENTS.length];
+    const name = escapeHtml(bot.name);
+    return `
+      <div class="bot-item-card${isSelected ? ' is-selected' : ''}">
+        <button type="button" class="bot-item-left" data-action="select" data-idx="${idx}"
+          role="radio" aria-checked="${isSelected}" aria-label="Pilih bot ${name}">
+          <span class="radio-circle${isSelected ? ' checked' : ''}"></span>
+          <span class="bot-avatar" style="background: ${grad};">
+            <span>${escapeHtml(bot.name.charAt(0))}</span>
+            <span class="dot-online"></span>
+          </span>
+          <span class="bot-info-meta">
+            <span class="bot-name-line">
+              <strong class="bot-title">${name}</strong>
+              ${bot.tag ? `<span class="bot-server-tag">${escapeHtml(bot.tag)}</span>` : ''}
+              ${isSelected ? '<span class="bot-selected-pill">Aktif</span>' : ''}
+            </span>
+            <span class="bot-number-text">${formatPhoneDisplay(bot.number)}</span>
+          </span>
+        </button>
+        <div class="bot-item-actions">
+          <a href="${createWaUrl(bot.number, '.menu')}" target="_blank" rel="noopener noreferrer" class="btn-item-wa"
+            title="Chat WhatsApp dengan ${name}">
+            <svg width="15" height="15" aria-hidden="true"><use href="#i-wa"/></svg>
+            <span>Chat</span>
+          </a>
         </div>
-        <div class="bot-avatar" style="background: ${grad};">
-          <span>${bot.name.charAt(0)}</span>
-        </div>
-        <div class="bot-info-meta">
-          <div class="bot-name-line">
-            <strong class="bot-title">${bot.name}</strong>
-            <span class="bot-server-tag">${bot.tag}</span>
-            ${isSelected ? '<span class="bot-selected-pill">Selected</span>' : ''}
-          </div>
-          <div class="bot-number-text">${formatPhoneDisplay(bot.number)}</div>
-        </div>
-      </div>
-      <div class="bot-item-actions">
-        <a href="${waLink}" target="_blank" rel="noopener noreferrer" class="btn-item-wa" title="Chat WhatsApp dengan ${bot.name}">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15">
-            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 18.06c-1.49 0-2.94-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.134 8.134 0 0 1-1.25-4.29c0-4.51 3.67-8.18 8.18-8.18 2.19 0 4.24.85 5.79 2.4 1.54 1.55 2.4 3.6 2.4 5.79 0 4.51-3.67 8.18-8.18 8.18zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07s.89 2.4 1.02 2.57c.12.17 1.76 2.68 4.25 3.76.59.26 1.06.41 1.42.53.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.17-.48-.29z"/>
-          </svg>
-          <span>Chat</span>
-        </a>
-      </div>
-    `;
-
-    card.querySelector('[data-action="select"]').addEventListener('click', () => {
-      selectBot(idx);
-    });
-
-    container.appendChild(card);
-  });
+      </div>`;
+  }).join('');
 
   updateFloatingWa();
 }
 
 function selectBot(idx) {
   if (idx < 0 || idx >= BOTS.length) return;
+  if (idx === selectedBotIndex) return;
   selectedBotIndex = idx;
   try {
     localStorage.setItem('rimuru_selected_bot', String(idx));
   } catch (e) { }
 
   renderBotsList();
-  renderMenu();
-  showToast('Bot target dipilih: <strong>' + BOTS[idx].name + ' (' + BOTS[idx].tag + ')</strong>');
+  updateCommandLinks();
+  showToast('Bot aktif: <strong>' + escapeHtml(BOTS[idx].name) + (BOTS[idx].tag ? ' (' + escapeHtml(BOTS[idx].tag) + ')' : '') + '</strong>');
+}
+
+// Update link WA tiap perintah tanpa re-render seluruh daftar
+function updateCommandLinks() {
+  const bot = getSelectedBot();
+  document.querySelectorAll('#categoriesContainer .cmd-send-wa').forEach((a) => {
+    const cmd = a.dataset.cmd;
+    a.href = createWaUrl(bot.number, cmd);
+    a.title = 'Kirim ' + cmd + ' ke ' + bot.name;
+  });
 }
 
 // 8. RENDER CHIPS & DROPDOWN FILTER KATEGORI
 function setupCategoriesFilter() {
   const selectEl = document.getElementById('categorySelect');
-  const chipsScroll = document.getElementById('chipsScrollArea');
 
   if (selectEl) {
     const totalCats = Object.keys(MENU).length;
@@ -1963,86 +1911,132 @@ function setupCategoriesFilter() {
     });
   }
 
-  if (chipsScroll) {
-    renderChips();
-  }
+  renderChips();
 }
 
 function renderChips() {
   const chipsScroll = document.getElementById('chipsScrollArea');
   if (!chipsScroll) return;
 
-  chipsScroll.innerHTML = '';
-
   let totalAll = 0;
   for (const k in MENU) totalAll += MENU[k].commands.length;
 
   const allCategories = ['ALL', ...Object.keys(MENU)];
 
-  allCategories.forEach((cat) => {
+  chipsScroll.innerHTML = allCategories.map((cat) => {
     const isAll = cat === 'ALL';
     const count = isAll ? totalAll : MENU[cat].commands.length;
     const emoji = isAll ? '🌟' : MENU[cat].emoji;
-    const label = isAll ? 'Semua' : cat;
+    const label = isAll ? 'Semua' : cat.toLowerCase();
+    const active = activeCategory === cat;
+    return `
+      <button type="button" class="filter-chip${active ? ' active' : ''}" data-cat="${escapeHtml(cat)}"
+        role="tab" aria-selected="${active}">
+        <span class="chip-emoji">${emoji}</span>
+        <span class="chip-name">${escapeHtml(label)}</span>
+        <span class="chip-count">${count.toLocaleString('id-ID')}</span>
+      </button>`;
+  }).join('');
 
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'filter-chip' + (activeCategory === cat ? ' active' : '');
-    btn.innerHTML = `
-      <span class="chip-emoji">${emoji}</span>
-      <span class="chip-name">${label}</span>
-      <span class="chip-count">${count}</span>
-    `;
-
-    btn.addEventListener('click', () => {
-      setCategory(cat);
-      btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
-    });
-
-    chipsScroll.appendChild(btn);
+  chipsScroll.addEventListener('click', (e) => {
+    const chip = e.target.closest('.filter-chip');
+    if (chip) setCategory(chip.dataset.cat);
   });
+
+  // Scroll horizontal pakai mouse wheel di desktop
+  chipsScroll.addEventListener('wheel', (e) => {
+    if (Math.abs(e.deltaY) <= Math.abs(e.deltaX) || e.shiftKey) return;
+    if (chipsScroll.scrollWidth <= chipsScroll.clientWidth) return;
+    e.preventDefault();
+    chipsScroll.scrollBy({ left: e.deltaY, behavior: 'auto' });
+  }, { passive: false });
+}
+
+function scrollChipIntoView(chip) {
+  const area = document.getElementById('chipsScrollArea');
+  if (!area || !chip) return;
+  const target = chip.offsetLeft - (area.clientWidth - chip.offsetWidth) / 2;
+  area.scrollTo({ left: Math.max(0, target), behavior: prefersReducedMotion ? 'auto' : 'smooth' });
 }
 
 function setCategory(cat) {
+  if (cat !== 'ALL' && !MENU[cat]) cat = 'ALL';
+  const changed = activeCategory !== cat;
   activeCategory = cat;
 
   const selectEl = document.getElementById('categorySelect');
-  if (selectEl && selectEl.value !== cat) {
-    selectEl.value = cat;
-  }
+  if (selectEl && selectEl.value !== cat) selectEl.value = cat;
 
+  let activeChip = null;
   document.querySelectorAll('.filter-chip').forEach((c) => {
-    const chipName = c.querySelector('.chip-name')?.textContent;
-    const isMatch = (cat === 'ALL' && chipName === 'Semua') || chipName === cat;
+    const isMatch = c.dataset.cat === cat;
     c.classList.toggle('active', isMatch);
+    c.setAttribute('aria-selected', String(isMatch));
+    if (isMatch) activeChip = c;
   });
+  scrollChipIntoView(activeChip);
 
   const filterBadge = document.getElementById('activeFilterBadge');
   if (filterBadge) {
     if (cat !== 'ALL') {
-      filterBadge.textContent = 'Kategori: ' + cat;
-      filterBadge.style.display = 'inline-flex';
+      filterBadge.textContent = MENU[cat].emoji + ' ' + cat;
+      filterBadge.hidden = false;
     } else {
-      filterBadge.style.display = 'none';
+      filterBadge.hidden = true;
     }
   }
 
-  renderMenu();
+  if (changed) {
+    renderMenu({ animate: true });
+    keepListInView();
+  }
+}
+
+// Kalau user sudah scroll jauh lalu ganti filter / cari, bawa kembali ke awal daftar
+function keepListInView() {
+  const list = document.getElementById('categoriesContainer');
+  const controls = document.getElementById('controlsCard');
+  if (!list || !controls) return;
+  const controlsBottom = controls.getBoundingClientRect().bottom;
+  const listTop = list.getBoundingClientRect().top;
+  if (listTop < controlsBottom) {
+    const target = window.scrollY + listTop - controlsBottom - 12;
+    window.scrollTo({ top: Math.max(0, target), behavior: prefersReducedMotion ? 'auto' : 'smooth' });
+  }
 }
 
 // 9. RENDER MENU COMMANDS
-function renderMenu() {
+function renderCommand(cmd, q, bot) {
+  const fullCmd = '.' + cmd;
+  const safeCmd = escapeHtml(fullCmd);
+  return `
+    <div class="command-item">
+      <button type="button" class="command-main-btn" data-action="copy" data-cmd="${safeCmd}" title="Klik untuk salin ${safeCmd}">
+        <span class="cmd-dot">.</span><span class="cmd-name">${highlightMatch(cmd, q)}</span>
+        <span class="cmd-action-hint" aria-hidden="true">
+          <svg class="ico-copy"><use href="#i-copy"/></svg>
+          <svg class="ico-check"><use href="#i-check"/></svg>
+        </span>
+      </button>
+      <a href="${createWaUrl(bot.number, fullCmd)}" target="_blank" rel="noopener noreferrer" class="cmd-send-wa"
+        data-cmd="${safeCmd}" title="Kirim ${safeCmd} ke ${escapeHtml(bot.name)}" aria-label="Kirim ${safeCmd} lewat WhatsApp">
+        <svg aria-hidden="true"><use href="#i-wa"/></svg>
+      </a>
+    </div>`;
+}
+
+function renderMenu(opts = {}) {
   const container = document.getElementById('categoriesContainer');
   const emptyState = document.getElementById('emptyState');
   const countEl = document.getElementById('displayedCount');
   if (!container) return;
 
-  container.innerHTML = '';
-  const q = searchQuery.trim().toLowerCase();
+  const q = searchQuery.trim().toLowerCase().replace(/^\.+/, '');
   const currentBot = getSelectedBot();
 
   let totalMatches = 0;
-  let categoryMatches = 0;
+  let idx = 0;
+  const parts = [];
 
   for (const [catName, catData] of Object.entries(MENU)) {
     if (activeCategory !== 'ALL' && activeCategory !== catName) continue;
@@ -2053,106 +2047,92 @@ function renderMenu() {
 
     if (filteredCommands.length === 0) continue;
 
-    categoryMatches++;
     totalMatches += filteredCommands.length;
 
-    const isCollapsed = collapsedCategories.has(catName);
+    // Saat mencari, kategori yang ditutup tetap dibuka agar hasil terlihat
+    const isCollapsed = !q && collapsedCategories.has(catName);
+    const safeCat = escapeHtml(catName);
+    const n = filteredCommands.length;
 
-    const catCard = document.createElement('section');
-    catCard.className = 'category-group' + (isCollapsed ? ' is-collapsed' : '');
-    catCard.id = 'cat-' + catName.toLowerCase();
-
-    const catHead = document.createElement('div');
-    catHead.className = 'category-header';
-    catHead.innerHTML = `
-      <div class="cat-header-left">
-        <span class="cat-icon-badge">${catData.emoji}</span>
-        <div class="cat-title-wrap">
-          <h2 class="cat-title-text">${catName}</h2>
-          <span class="cat-subtitle">${filteredCommands.length} perintah ${q ? 'ditemukan' : 'tersedia'}</span>
+    parts.push(`
+      <section class="category-group${isCollapsed ? ' is-collapsed' : ''}" id="cat-${safeCat.toLowerCase()}"
+        data-cat="${safeCat}" style="--i:${Math.min(idx, 8)}">
+        <div class="category-header" role="button" tabindex="0" aria-expanded="${!isCollapsed}">
+          <div class="cat-header-left">
+            <span class="cat-icon-badge">${catData.emoji}</span>
+            <div class="cat-title-wrap">
+              <h2 class="cat-title-text">${safeCat}</h2>
+              <span class="cat-subtitle">${n} perintah ${q ? 'ditemukan' : 'tersedia'}</span>
+            </div>
+          </div>
+          <div class="cat-header-right">
+            <span class="cat-pill-count">${n}</span>
+            <span class="cat-toggle-btn" aria-hidden="true">
+              <svg class="arrow-icon"><use href="#i-chevron"/></svg>
+            </span>
+          </div>
         </div>
-      </div>
-      <div class="cat-header-right">
-        <span class="cat-pill-count">${filteredCommands.length}</span>
-        <button type="button" class="cat-toggle-btn" aria-label="Buka atau tutup kategori ${catName}">
-          <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
-        </button>
-      </div>
-    `;
-
-    catHead.addEventListener('click', (e) => {
-      if (collapsedCategories.has(catName)) {
-        collapsedCategories.delete(catName);
-        catCard.classList.remove('is-collapsed');
-      } else {
-        collapsedCategories.add(catName);
-        catCard.classList.add('is-collapsed');
-      }
-    });
-
-    const catBody = document.createElement('div');
-    catBody.className = 'category-body';
-
-    const grid = document.createElement('div');
-    grid.className = 'commands-grid';
-
-    filteredCommands.forEach((cmd) => {
-      const fullCmd = '.' + cmd;
-      const cmdItem = document.createElement('div');
-      cmdItem.className = 'command-item';
-      cmdItem.title = 'Klik untuk salin ' + fullCmd;
-
-      const cmdWaLink = createWaUrl(currentBot.number, fullCmd);
-
-      cmdItem.innerHTML = `
-        <div class="command-main-btn" data-action="copy" data-cmd="${fullCmd}">
-          <span class="cmd-dot">.</span>
-          <span class="cmd-name">${cmd}</span>
-          <span class="cmd-action-hint">
-            <svg class="icon-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-            </svg>
-            <span class="hint-text">Copy</span>
-          </span>
+        <div class="category-body">
+          <div class="category-inner">
+            <div class="commands-grid">${filteredCommands.map(cmd => renderCommand(cmd, q, currentBot)).join('')}</div>
+          </div>
         </div>
-        <a href="${cmdWaLink}" target="_blank" rel="noopener noreferrer" class="cmd-send-wa" title="Kirim ${fullCmd} ke ${currentBot.name}" aria-label="Kirim ke WhatsApp">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13">
-            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 18.06c-1.49 0-2.94-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.134 8.134 0 0 1-1.25-4.29c0-4.51 3.67-8.18 8.18-8.18 2.19 0 4.24.85 5.79 2.4 1.54 1.55 2.4 3.6 2.4 5.79 0 4.51-3.67 8.18-8.18 8.18zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07s.89 2.4 1.02 2.57c.12.17 1.76 2.68 4.25 3.76.59.26 1.06.41 1.42.53.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.17-.48-.29z"/>
-          </svg>
-        </a>
-      `;
+      </section>`);
+    idx++;
+  }
 
-      const copyBtn = cmdItem.querySelector('[data-action="copy"]');
-      copyBtn.addEventListener('click', async () => {
-        const ok = await copyText(fullCmd);
-        if (ok) {
-          cmdItem.classList.add('copied');
-          const hint = cmdItem.querySelector('.hint-text');
-          if (hint) hint.textContent = 'Tersalin!';
-          setTimeout(() => {
-            cmdItem.classList.remove('copied');
-            if (hint) hint.textContent = 'Copy';
-          }, 1200);
-        }
-      });
-
-      grid.appendChild(cmdItem);
-    });
-
-    catBody.appendChild(grid);
-    catCard.appendChild(catHead);
-    catCard.appendChild(catBody);
-    container.appendChild(catCard);
+  const animate = opts.animate && !prefersReducedMotion;
+  container.classList.remove('animate-in');
+  container.innerHTML = parts.join('');
+  if (animate) {
+    void container.offsetWidth; // restart animation
+    container.classList.add('animate-in');
   }
 
   if (countEl) countEl.textContent = totalMatches.toLocaleString('id-ID');
+  if (emptyState) emptyState.hidden = totalMatches !== 0;
+}
 
-  if (emptyState) {
-    emptyState.style.display = totalMatches === 0 ? 'block' : 'none';
-  }
+// Event delegation: satu listener untuk ribuan perintah
+function setupMenuInteractions() {
+  const container = document.getElementById('categoriesContainer');
+  if (!container) return;
+
+  const toggleCategory = (header) => {
+    const group = header.closest('.category-group');
+    const cat = group.dataset.cat;
+    const willCollapse = !group.classList.contains('is-collapsed');
+    group.classList.toggle('is-collapsed', willCollapse);
+    header.setAttribute('aria-expanded', String(!willCollapse));
+    if (willCollapse) collapsedCategories.add(cat);
+    else collapsedCategories.delete(cat);
+  };
+
+  container.addEventListener('click', async (e) => {
+    const copyBtn = e.target.closest('[data-action="copy"]');
+    if (copyBtn) {
+      const item = copyBtn.closest('.command-item');
+      const ok = await copyText(copyBtn.dataset.cmd);
+      if (ok && item) {
+        item.classList.add('copied');
+        clearTimeout(item._copiedTimer);
+        item._copiedTimer = setTimeout(() => item.classList.remove('copied'), 1300);
+      }
+      return;
+    }
+
+    const header = e.target.closest('.category-header');
+    if (header) toggleCategory(header);
+  });
+
+  container.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const header = e.target.closest('.category-header');
+    if (header && e.target === header) {
+      e.preventDefault();
+      toggleCategory(header);
+    }
+  });
 }
 
 // 10. SETUP SEARCH & INPUT LISTENERS
@@ -2163,43 +2143,55 @@ function setupSearch() {
 
   if (!input) return;
 
-  input.addEventListener('input', (e) => {
-    const val = e.target.value;
+  const applySearch = (val, immediate) => {
     searchQuery = val;
-    if (clearBtn) {
-      clearBtn.style.display = val.length > 0 ? 'flex' : 'none';
-    }
-
+    if (clearBtn) clearBtn.hidden = val.length === 0;
     clearTimeout(searchDebounce);
-    searchDebounce = setTimeout(() => {
+    const run = () => {
       renderMenu();
-    }, 60);
+      keepListInView();
+    };
+    if (immediate) run();
+    else searchDebounce = setTimeout(run, 120);
+  };
+
+  input.addEventListener('input', (e) => applySearch(e.target.value, false));
+
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && input.value) {
+      e.preventDefault();
+      input.value = '';
+      applySearch('', true);
+    } else if (e.key === 'Enter') {
+      input.blur(); // tutup keyboard di HP
+    }
   });
 
   if (clearBtn) {
     clearBtn.addEventListener('click', () => {
       input.value = '';
-      searchQuery = '';
-      clearBtn.style.display = 'none';
+      applySearch('', true);
       input.focus();
-      renderMenu();
     });
   }
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
       input.value = '';
-      searchQuery = '';
-      if (clearBtn) clearBtn.style.display = 'none';
+      applySearch('', false);
+      clearTimeout(searchDebounce);
+      if (activeCategory === 'ALL') renderMenu({ animate: true });
       setCategory('ALL');
       input.focus();
     });
   }
 
-  // Shortcut Ctrl+K / Cmd+K
+  // Shortcut Ctrl+K / Cmd+K dan "/"
   document.addEventListener('keydown', (e) => {
-    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+    const isTyping = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName || '');
+    if (((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') || (e.key === '/' && !isTyping)) {
       e.preventDefault();
+      if (isMobileLayout()) switchMobileTab('menu');
       input.focus();
       input.select();
     }
@@ -2211,102 +2203,182 @@ function setupExpandCollapse() {
   const expandBtn = document.getElementById('expandAllBtn');
   const collapseBtn = document.getElementById('collapseAllBtn');
 
+  const setAll = (collapsed) => {
+    if (collapsed) for (const k in MENU) collapsedCategories.add(k);
+    else collapsedCategories.clear();
+    document.querySelectorAll('.category-group').forEach((g) => {
+      g.classList.toggle('is-collapsed', collapsed);
+      g.querySelector('.category-header')?.setAttribute('aria-expanded', String(!collapsed));
+    });
+  };
+
   if (expandBtn) {
     expandBtn.addEventListener('click', () => {
-      collapsedCategories.clear();
-      document.querySelectorAll('.category-group').forEach((g) => {
-        g.classList.remove('is-collapsed');
-      });
+      setAll(false);
       showToast('Semua kategori dibuka');
     });
   }
 
   if (collapseBtn) {
     collapseBtn.addEventListener('click', () => {
-      for (const k in MENU) {
-        collapsedCategories.add(k);
-      }
-      document.querySelectorAll('.category-group').forEach((g) => {
-        g.classList.add('is-collapsed');
-      });
+      setAll(true);
+      keepListInView();
       showToast('Semua kategori ditutup');
     });
   }
 }
 
 // 12. MOBILE NAVIGATION TABS
-function setupMobileNav() {
-  const tabButtons = document.querySelectorAll('.mobile-nav-bar .tab-btn');
+const tabScrollMemory = { bots: 0, menu: 0 };
+
+function switchMobileTab(tab) {
   const layout = document.getElementById('layoutContainer');
+  const nav = document.getElementById('mobileNavBar');
+  if (!layout) return;
+  const current = layout.getAttribute('data-mobile-view');
+  if (current === tab) {
+    window.scrollTo({ top: 0, behavior: prefersReducedMotion ? 'auto' : 'smooth' });
+    return;
+  }
 
-  tabButtons.forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const tab = btn.dataset.tab;
-      tabButtons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      if (layout) {
-        layout.setAttribute('data-mobile-view', tab);
-      }
-
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
+  tabScrollMemory[current] = window.scrollY;
+  layout.setAttribute('data-mobile-view', tab);
+  if (nav) nav.setAttribute('data-active', tab);
+  document.querySelectorAll('.mobile-nav-bar .tab-btn').forEach((b) => {
+    const isActive = b.dataset.tab === tab;
+    b.classList.toggle('active', isActive);
+    b.setAttribute('aria-pressed', String(isActive));
   });
+
+  // Kembalikan posisi scroll terakhir di tab tersebut
+  window.scrollTo({ top: tabScrollMemory[tab] || 0, behavior: 'instant' });
 }
 
-// 13. BACK TO TOP BUTTON
-function setupBackToTop() {
+function setupMobileNav() {
+  document.querySelectorAll('.mobile-nav-bar .tab-btn').forEach((btn) => {
+    btn.addEventListener('click', () => switchMobileTab(btn.dataset.tab));
+  });
+
+  const gotoMenuBtn = document.getElementById('gotoMenuBtn');
+  if (gotoMenuBtn) gotoMenuBtn.addEventListener('click', () => switchMobileTab('menu'));
+
+  // Link "Katalog Menu" di header
+  const navCatalogBtn = document.getElementById('navCatalogBtn');
+  if (navCatalogBtn) {
+    navCatalogBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (isMobileLayout()) switchMobileTab('menu');
+      document.getElementById('menuSection')?.scrollIntoView({ behavior: prefersReducedMotion ? 'auto' : 'smooth' });
+    });
+  }
+
+  // Pilih bot (delegation)
+  const botList = document.getElementById('botListContainer');
+  if (botList) {
+    botList.addEventListener('click', (e) => {
+      const sel = e.target.closest('[data-action="select"]');
+      if (sel) selectBot(parseInt(sel.dataset.idx, 10));
+    });
+  }
+}
+
+// 13. SCROLL EFFECTS (header shadow + back to top) — throttled via rAF
+function setupScrollEffects() {
   const btn = document.getElementById('backToTopBtn');
-  if (!btn) return;
+  const nav = document.getElementById('topNav');
+  const controls = document.getElementById('controlsCard');
+  let ticking = false;
+
+  const update = () => {
+    const y = window.scrollY;
+    if (btn) btn.classList.toggle('visible', y > 500);
+    if (nav) nav.classList.toggle('is-scrolled', y > 8);
+    if (controls && controls.offsetParent !== null) {
+      if (!stickyTop) stickyTop = parseFloat(getComputedStyle(controls).top) || 0; // panel sempat tersembunyi (tab mobile)
+      controls.classList.toggle('is-stuck', controls.getBoundingClientRect().top <= stickyTop + 1 && y > 0);
+    }
+    ticking = false;
+  };
+
+  let stickyTop = 0;
+  const measure = () => {
+    stickyTop = controls ? parseFloat(getComputedStyle(controls).top) || 0 : 0;
+    update();
+  };
+  window.addEventListener('resize', measure, { passive: true });
 
   window.addEventListener('scroll', () => {
-    if (window.scrollY > 400) {
-      btn.classList.add('visible');
-    } else {
-      btn.classList.remove('visible');
+    if (!ticking) {
+      ticking = true;
+      requestAnimationFrame(update);
     }
   }, { passive: true });
+  measure();
 
-  btn.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
+  if (btn) {
+    btn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: prefersReducedMotion ? 'auto' : 'smooth' });
+    });
+  }
+}
+
+// Animasi angka statistik
+function countUp(el, target, duration = 900) {
+  if (!el) return;
+  if (prefersReducedMotion) {
+    el.textContent = target.toLocaleString('id-ID');
+    return;
+  }
+  const start = performance.now();
+  const step = (now) => {
+    const p = Math.min(1, (now - start) / duration);
+    const eased = 1 - Math.pow(1 - p, 3);
+    el.textContent = Math.round(target * eased).toLocaleString('id-ID');
+    if (p < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
 }
 
 // 14. INITIALIZATION
+let appInitialized = false;
 function initApp() {
+  if (appInitialized) return;
+  appInitialized = true;
+
   let totalCommands = 0;
   for (const k in MENU) {
     totalCommands += MENU[k].commands.length;
   }
   const totalCats = Object.keys(MENU).length;
-
-  const statCmd = document.getElementById('statTotalCommands');
-  const statCat = document.getElementById('statTotalCategories');
-  const totalFeatureCount = document.getElementById('totalFeatureCount');
-  const tabCmdCount = document.getElementById('tabCmdCount');
-  const botBadgeCount = document.getElementById('botBadgeCount');
-  const tabBotCount = document.getElementById('tabBotCount');
-
   const formattedTotal = totalCommands.toLocaleString('id-ID');
-  if (statCmd) statCmd.textContent = formattedTotal;
-  if (statCat) statCat.textContent = totalCats;
-  if (totalFeatureCount) totalFeatureCount.textContent = formattedTotal;
-  if (tabCmdCount) tabCmdCount.textContent = formattedTotal;
-  if (botBadgeCount) botBadgeCount.textContent = BOTS.length + ' Bot';
-  if (tabBotCount) tabBotCount.textContent = BOTS.length;
+
+  countUp(document.getElementById('statTotalCommands'), totalCommands);
+  countUp(document.getElementById('statTotalCategories'), totalCats, 700);
+
+  const setText = (id, val) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = val;
+  };
+  setText('totalFeatureCount', formattedTotal);
+  setText('tabCmdCount', formattedTotal);
+  setText('displayedCount', formattedTotal);
+  setText('botBadgeCount', BOTS.length + ' Bot');
+  setText('tabBotCount', BOTS.length);
 
   renderBotsList();
   setupCategoriesFilter();
   setupSearch();
+  setupMenuInteractions();
   setupExpandCollapse();
   setupMobileNav();
-  setupBackToTop();
-  renderMenu();
+  setupScrollEffects();
+  renderMenu({ animate: true });
 
   console.log('Rimuru-MD Dashboard loaded successfully with', totalCats, 'categories and', totalCommands, 'commands.');
 }
 
-document.addEventListener('DOMContentLoaded', initApp);
-if (document.readyState === 'interactive' || document.readyState === 'complete') {
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initApp);
+} else {
   initApp();
 }
