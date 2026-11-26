@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
   <title>Rimuru-MD | Official WhatsApp Bot Portal & Menu List</title>
   <meta name="description"
     content="Katalog resmi perintah Rimuru-MD WhatsApp Bot. Jelajahi 1.400+ fitur AI, Game, RPG, Tools, Downloader, dan chat langsung ke bot aktif!">
@@ -44,6 +44,20 @@
     <symbol id="i-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
       stroke-linecap="round" stroke-linejoin="round">
       <polyline points="6 9 12 15 18 9" />
+    </symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2.5c.4 0 .7.3.8.6l1.3 4.1a3 3 0 0 0 1.9 1.9l4.1 1.3a.85.85 0 0 1 0 1.6l-4.1 1.3a3 3 0 0 0-1.9 1.9l-1.3 4.1a.85.85 0 0 1-1.6 0l-1.3-4.1a3 3 0 0 0-1.9-1.9L2.9 12a.85.85 0 0 1 0-1.6L7 9.1A3 3 0 0 0 8.9 7.2l1.3-4.1c.1-.3.4-.6.8-.6z" />
+      <path d="M19 1.5c.2 0 .4.1.4.3l.4 1.2c.1.3.3.5.6.6l1.2.4a.4.4 0 0 1 0 .8l-1.2.4a1 1 0 0 0-.6.6l-.4 1.2a.4.4 0 0 1-.8 0l-.4-1.2a1 1 0 0 0-.6-.6L16.6 4.8a.4.4 0 0 1 0-.8l1.2-.4a1 1 0 0 0 .6-.6l.4-1.2c.1-.2.2-.3.4-.3z" opacity=".7" />
+    </symbol>
+    <symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 19V5" />
+      <path d="M5 12l7-7 7 7" />
+    </symbol>
+    <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round">
+      <line x1="18" y1="6" x2="6" y2="18" />
+      <line x1="6" y1="6" x2="18" y2="18" />
     </symbol>
   </svg>
 
@@ -189,6 +203,12 @@
             Klik perintah untuk <strong>menyalin otomatis</strong>, atau tekan ikon
             <strong class="wa-text">WhatsApp</strong> untuk langsung mengirimnya ke bot yang sedang dipilih.
           </p>
+          <button type="button" class="btn-ask-ai" id="heroAskBtn">
+            <svg width="16" height="16" aria-hidden="true">
+              <use href="#i-sparkle" />
+            </svg>
+            <span>Bingung cari fitur? <strong>Tanya asisten</strong></span>
+          </button>
         </div>
 
         <div class="hero-stats">
@@ -281,9 +301,17 @@
         <div class="empty-illustration">🔍</div>
         <h3>Perintah tidak ditemukan</h3>
         <p>Tidak ada perintah yang cocok dengan kata kunci atau filter yang kamu pilih.</p>
-        <button type="button" class="btn-reset-filter" id="resetFilterBtn">
-          Reset pencarian
-        </button>
+        <div class="empty-actions">
+          <button type="button" class="btn-ask-ai" id="emptyAskBtn">
+            <svg width="16" height="16" aria-hidden="true">
+              <use href="#i-sparkle" />
+            </svg>
+            <span>Tanya asisten</span>
+          </button>
+          <button type="button" class="btn-reset-filter" id="resetFilterBtn">
+            Reset pencarian
+          </button>
+        </div>
       </div>
 
     </main>
@@ -324,7 +352,50 @@
         <path d="M18 15l-6-6-6 6" />
       </svg>
     </button>
+    <button type="button" id="finderFab" class="fab-finder" aria-haspopup="dialog" aria-controls="finderPanel"
+      title="Tanya asisten fitur">
+      <svg width="20" height="20" aria-hidden="true">
+        <use href="#i-sparkle" />
+      </svg>
+      <span class="fab-finder-label">Tanya fitur</span>
+    </button>
   </div>
+
+  <!-- ═══════════ CHATBOT ASISTEN FITUR ═══════════ -->
+  <div class="finder-backdrop" id="finderBackdrop" hidden></div>
+  <section class="finder-panel" id="finderPanel" role="dialog" aria-modal="true" aria-labelledby="finderTitle"
+    hidden>
+    <header class="finder-head">
+      <div class="finder-avatar" aria-hidden="true">
+        <svg width="18" height="18">
+          <use href="#i-sparkle" />
+        </svg>
+      </div>
+      <div class="finder-head-text">
+        <h2 id="finderTitle">Asisten Fitur</h2>
+        <p><span class="finder-status-dot"></span>Ceritain kebutuhanmu, aku carikan fiturnya</p>
+      </div>
+      <button type="button" class="finder-close" id="finderClose" aria-label="Tutup asisten">
+        <svg width="16" height="16" aria-hidden="true">
+          <use href="#i-close" />
+        </svg>
+      </button>
+    </header>
+
+    <div class="finder-messages" id="finderMessages" aria-live="polite">
+      <!-- Pesan dirender oleh JS -->
+    </div>
+
+    <form class="finder-form" id="finderForm" autocomplete="off">
+      <input type="text" id="finderInput" maxlength="300" enterkeyhint="send"
+        placeholder="Contoh: aku mau download video tiktok" aria-label="Tulis fitur yang kamu cari">
+      <button type="submit" class="finder-send" id="finderSend" aria-label="Kirim">
+        <svg width="18" height="18" aria-hidden="true">
+          <use href="#i-send" />
+        </svg>
+      </button>
+    </form>
+  </section>
 
   <!-- ═══════════ TOAST NOTIFICATION ═══════════ -->
   <div class="toast-container" id="toastContainer" aria-live="polite"></div>

@@ -2339,7 +2339,281 @@ function countUp(el, target, duration = 900) {
   requestAnimationFrame(step);
 }
 
-// 14. INITIALIZATION
+// 14. CHATBOT ASISTEN FITUR
+// API di prod (rimuru services/menu-finder) — membaca menu.json web ini + model AI kecil.
+const FINDER_API = 'https://status.paridx.my.id/api/finder/ask';
+const FINDER_SUGGESTIONS = [
+  'Download video TikTok tanpa watermark',
+  'Bikin stiker dari foto',
+  'Hapus background gambar',
+  'Aku bosen, ada game apa?',
+  'Ubah foto burik jadi HD'
+];
+const finder = { open: false, busy: false, greeted: false, lastFocus: null };
+
+function finderEls() {
+  return {
+    panel: document.getElementById('finderPanel'),
+    backdrop: document.getElementById('finderBackdrop'),
+    messages: document.getElementById('finderMessages'),
+    form: document.getElementById('finderForm'),
+    input: document.getElementById('finderInput'),
+    send: document.getElementById('finderSend'),
+    fab: document.getElementById('finderFab')
+  };
+}
+
+function el(tag, className, text) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text !== undefined && text !== null) node.textContent = text; // selalu teks → aman dari XSS
+  return node;
+}
+
+function finderScrollToEnd() {
+  const { messages } = finderEls();
+  requestAnimationFrame(() => {
+    messages.scrollTo({ top: messages.scrollHeight, behavior: prefersReducedMotion ? 'auto' : 'smooth' });
+  });
+}
+
+function finderAddUser(text) {
+  const row = el('div', 'fmsg fmsg-user');
+  row.appendChild(el('div', 'fbubble', text));
+  finderEls().messages.appendChild(row);
+  finderScrollToEnd();
+}
+
+function finderBotRow() {
+  const row = el('div', 'fmsg fmsg-bot');
+  const avatar = el('div', 'fmsg-avatar');
+  avatar.innerHTML = '<svg width="14" height="14" aria-hidden="true"><use href="#i-sparkle"/></svg>';
+  const body = el('div', 'fmsg-body');
+  row.append(avatar, body);
+  finderEls().messages.appendChild(row);
+  return { row, body };
+}
+
+function finderAddBot(text, results = [], meta = '') {
+  const { body } = finderBotRow();
+  if (text) body.appendChild(el('div', 'fbubble', text));
+  if (results.length) {
+    const list = el('div', 'fresults');
+    results.forEach((r, i) => list.appendChild(finderCard(r, i)));
+    body.appendChild(list);
+  }
+  if (meta) body.appendChild(el('div', 'fmeta', meta));
+  finderScrollToEnd();
+  return body;
+}
+
+function finderCard(r, i) {
+  const cmd = '.' + String(r.name || '').replace(/^\.+/, '');
+  const card = el('div', 'fcard');
+  card.style.setProperty('--i', i);
+
+  const top = el('div', 'fcard-top');
+  top.appendChild(el('span', 'fcmd', cmd));
+  if (r.category) top.appendChild(el('span', 'fcat', r.category));
+  if (r.premium) top.appendChild(el('span', 'fprem', 'Premium'));
+  card.appendChild(top);
+
+  const desc = r.reason || r.description;
+  if (desc) card.appendChild(el('p', 'fcard-desc', desc));
+  if (r.usage) card.appendChild(el('code', 'fcard-usage', r.usage));
+  if (Array.isArray(r.aliases) && r.aliases.length) {
+    const alias = el('div', 'fcard-alias', 'Alias: ');
+    alias.appendChild(el('span', '', r.aliases.slice(0, 4).map((a) => '.' + a).join('  ')));
+    card.appendChild(alias);
+  }
+
+  const actions = el('div', 'fcard-actions');
+  const copyBtn = el('button', '');
+  copyBtn.type = 'button';
+  copyBtn.innerHTML = '<svg aria-hidden="true"><use href="#i-copy"/></svg><span>Salin</span>';
+  copyBtn.addEventListener('click', async () => {
+    if (await copyText(cmd)) {
+      copyBtn.classList.add('is-done');
+      copyBtn.querySelector('span').textContent = 'Tersalin';
+      setTimeout(() => {
+        copyBtn.classList.remove('is-done');
+        copyBtn.querySelector('span').textContent = 'Salin';
+      }, 1400);
+    }
+  });
+
+  const bot = getSelectedBot();
+  const wa = el('a', '');
+  wa.href = createWaUrl(bot.number, cmd);
+  wa.target = '_blank';
+  wa.rel = 'noopener noreferrer';
+  wa.title = 'Kirim ' + cmd + ' ke ' + bot.name;
+  wa.innerHTML = '<svg aria-hidden="true"><use href="#i-wa"/></svg><span>Kirim ke WA</span>';
+  // Pakai bot yang terpilih saat diklik (bisa saja diganti setelah jawaban muncul)
+  wa.addEventListener('click', () => {
+    const b = getSelectedBot();
+    wa.href = createWaUrl(b.number, cmd);
+  });
+
+  actions.append(copyBtn, wa);
+  card.appendChild(actions);
+  return card;
+}
+
+function finderShowTyping() {
+  const { row, body } = finderBotRow();
+  row.classList.add('is-typing');
+  const bubble = el('div', 'fbubble ftyping');
+  bubble.innerHTML = '<span></span><span></span><span></span>';
+  bubble.setAttribute('aria-label', 'Sedang mencari');
+  body.appendChild(bubble);
+  finderScrollToEnd();
+  return row;
+}
+
+function finderGreet() {
+  if (finder.greeted) return;
+  finder.greeted = true;
+  const body = finderAddBot('Halo! 👋 Ceritain aja kamu mau ngapain, nanti aku carikan fitur Rimuru-MD yang cocok.');
+  const chips = el('div', 'fsuggest');
+  FINDER_SUGGESTIONS.forEach((s) => {
+    const b = el('button', '', s);
+    b.type = 'button';
+    b.addEventListener('click', () => finderAsk(s));
+    chips.appendChild(b);
+  });
+  body.appendChild(chips);
+}
+
+// Cadangan kalau API tidak bisa dihubungi: cocokkan nama command di katalog lokal
+function finderLocalSearch(q) {
+  const words = q.toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length > 2);
+  if (!words.length) return [];
+  const hits = [];
+  for (const [cat, data] of Object.entries(MENU)) {
+    for (const name of data.commands) {
+      const score = words.reduce((s, w) => s + (name === w ? 5 : name.includes(w) ? 2 : 0), 0);
+      if (score) hits.push({ name, category: cat.toLowerCase(), score });
+    }
+  }
+  return hits.sort((a, b) => b.score - a.score).slice(0, 5);
+}
+
+async function finderAsk(text) {
+  const q = String(text || '').replace(/\s+/g, ' ').trim();
+  const { input, send, panel } = finderEls();
+  if (!q || finder.busy) return;
+  if (q.length > 300) {
+    showToast('Maksimal 300 karakter ya', 'error');
+    return;
+  }
+
+  finder.busy = true;
+  send.disabled = true;
+  input.value = '';
+  document.querySelectorAll('#finderMessages .fsuggest').forEach((s) => s.remove());
+  finderAddUser(q);
+  const typing = finderShowTyping();
+  const started = performance.now();
+
+  try {
+    const res = await fetch(FINDER_API, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ q }),
+      signal: AbortSignal.timeout ? AbortSignal.timeout(30000) : undefined
+    });
+    const data = await res.json().catch(() => ({}));
+    typing.remove();
+    panel.classList.remove('is-offline');
+
+    if (!res.ok || !data.ok) {
+      finderAddBot(data.message || 'Waduh, lagi ada gangguan. Coba lagi sebentar ya.');
+      return;
+    }
+
+    const secs = ((data.ms || performance.now() - started) / 1000).toFixed(1);
+    const meta = (data.source === 'ai' ? 'Dijawab AI' : 'Hasil pencarian') + ' · ' + secs + ' dtk';
+    finderAddBot(data.reply, Array.isArray(data.results) ? data.results : [], meta);
+  } catch (err) {
+    typing.remove();
+    panel.classList.add('is-offline');
+    const local = finderLocalSearch(q);
+    finderAddBot(
+      local.length
+        ? 'Asisten lagi offline, tapi ini hasil pencarian dari katalog:'
+        : 'Asisten lagi offline dan aku belum nemu yang cocok. Coba cari lewat kolom pencarian di katalog ya.',
+      local,
+      local.length ? 'Pencarian lokal' : ''
+    );
+  } finally {
+    finder.busy = false;
+    send.disabled = false;
+    if (finder.open && !isMobileLayout()) input.focus();
+  }
+}
+
+function openFinder(prefill) {
+  const { panel, backdrop, input } = finderEls();
+  if (!panel) return;
+  if (!finder.open) {
+    finder.open = true;
+    finder.lastFocus = document.activeElement;
+    panel.hidden = false;
+    backdrop.hidden = false;
+    document.body.classList.add('finder-open');
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        panel.classList.add('is-open');
+        backdrop.classList.add('is-open');
+      });
+    });
+    finderGreet();
+  }
+  if (prefill) finderAsk(prefill);
+  else setTimeout(() => input.focus(), prefersReducedMotion ? 0 : 200);
+}
+
+function closeFinder() {
+  const { panel, backdrop } = finderEls();
+  if (!finder.open) return;
+  finder.open = false;
+  panel.classList.remove('is-open');
+  backdrop.classList.remove('is-open');
+  document.body.classList.remove('finder-open');
+  setTimeout(() => {
+    if (!finder.open) {
+      panel.hidden = true;
+      backdrop.hidden = true;
+    }
+  }, prefersReducedMotion ? 0 : 420);
+  if (finder.lastFocus && typeof finder.lastFocus.focus === 'function') finder.lastFocus.focus();
+}
+
+function setupFinder() {
+  const { panel, backdrop, form, input, fab } = finderEls();
+  if (!panel) return;
+
+  fab?.addEventListener('click', () => openFinder());
+  document.getElementById('heroAskBtn')?.addEventListener('click', () => openFinder());
+  document.getElementById('emptyAskBtn')?.addEventListener('click', () => openFinder(searchQuery.trim()));
+  document.getElementById('finderClose')?.addEventListener('click', closeFinder);
+  backdrop?.addEventListener('click', closeFinder);
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    finderAsk(input.value);
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && finder.open) {
+      e.preventDefault();
+      closeFinder();
+    }
+  });
+}
+
+// 15. INITIALIZATION
 let appInitialized = false;
 function initApp() {
   if (appInitialized) return;
@@ -2372,6 +2646,7 @@ function initApp() {
   setupExpandCollapse();
   setupMobileNav();
   setupScrollEffects();
+  setupFinder();
   renderMenu({ animate: true });
 
   console.log('Rimuru-MD Dashboard loaded successfully with', totalCats, 'categories and', totalCommands, 'commands.');
