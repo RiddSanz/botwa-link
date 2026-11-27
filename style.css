@@ -2017,3 +2017,84 @@ body.finder-open .fab-finder { opacity: 0; transform: scale(0.8); pointer-events
   body.finder-open { overflow: hidden; }
   .fbubble { max-width: 90%; }
 }
+
+/* ==========================================================================
+   BOT TELEGRAM
+   ========================================================================== */
+:root { --tg: #2aabee; --tg-soft: rgba(42, 171, 238, 0.12); --tg-line: rgba(42, 171, 238, 0.3); }
+
+.btn-tg {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  color: var(--tg);
+  background: var(--tg-soft);
+  border: 1px solid var(--tg-line);
+  transition: background-color var(--t-fast) ease, color var(--t-fast) ease, transform var(--t-fast) var(--ease-out);
+}
+
+.btn-tg:hover { background: var(--tg); color: #fff; transform: translateY(-1px); }
+.btn-tg:active { transform: scale(0.94); }
+
+.tg-card {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-top: 10px;
+  padding: 11px 12px;
+  border-radius: var(--r-md);
+  text-decoration: none;
+  background: linear-gradient(135deg, rgba(42, 171, 238, 0.1), rgba(42, 171, 238, 0.03)) var(--surface-2);
+  border: 1px solid var(--tg-line);
+  transition: border-color var(--t-fast) ease, transform var(--t-fast) var(--ease-out), box-shadow var(--t-med) ease;
+}
+
+.tg-card:hover { border-color: rgba(42, 171, 238, 0.6); box-shadow: 0 0 0 3px rgba(42, 171, 238, 0.08); }
+.tg-card:active { transform: scale(0.99); }
+
+.tg-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  color: #fff;
+  background: linear-gradient(140deg, #37bbfe, #1e96d4);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.tg-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.tg-text strong { font-family: var(--font-display); font-size: 0.92rem; font-weight: 600; color: var(--text-1); }
+.tg-text span { font-size: 0.74rem; color: var(--text-3); line-height: 1.35; }
+
+.tg-cta {
+  flex-shrink: 0;
+  padding: 5px 12px;
+  border-radius: var(--r-pill);
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--tg);
+  background: var(--tg-soft);
+  transition: background-color var(--t-fast) ease, color var(--t-fast) ease;
+}
+
+.tg-card:hover .tg-cta { background: var(--tg); color: #fff; }
+
+@media (max-width: 480px) {
+  .btn-tg { width: 40px; height: 40px; }
+  .btn-tg svg { width: 19px; height: 19px; }
+}
+
+.flink {
+  color: var(--teal);
+  text-decoration: underline;
+  text-decoration-color: rgba(45, 212, 191, 0.4);
+  text-underline-offset: 2px;
+  word-break: break-all;
+}
+
+.flink:hover { color: #99f6e4; text-decoration-color: currentColor; }

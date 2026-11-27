@@ -2394,9 +2394,41 @@ function finderBotRow() {
   return { row, body };
 }
 
+// Teks jawaban → node aman: URL https:// dan @handle Telegram/IG jadi link, sisanya teks biasa
+const FINDER_HANDLE_LINKS = {
+  '@parid_telebot': 'https://t.me/Parid_TeleBot',
+  '@ridxdevs': 'https://t.me/ridxdevs',
+  '@itsmeridd_': 'https://instagram.com/itsmeridd_'
+};
+
+function finderRichText(text) {
+  const bubble = el('div', 'fbubble');
+  const re = /(https:\/\/[^\s)]+)|(@[A-Za-z0-9_]{3,})/g;
+  let last = 0;
+  let m;
+  while ((m = re.exec(text))) {
+    if (m.index > last) bubble.appendChild(document.createTextNode(text.slice(last, m.index)));
+    const token = m[0].replace(/[.,!?]+$/, '');
+    const href = m[1] ? token : FINDER_HANDLE_LINKS[token.toLowerCase()];
+    if (href) {
+      const a = el('a', 'flink', token);
+      a.href = href;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      bubble.appendChild(a);
+    } else {
+      bubble.appendChild(document.createTextNode(token));
+    }
+    last = m.index + token.length;
+    re.lastIndex = last;
+  }
+  if (last < text.length) bubble.appendChild(document.createTextNode(text.slice(last)));
+  return bubble;
+}
+
 function finderAddBot(text, results = [], meta = '') {
   const { body } = finderBotRow();
-  if (text) body.appendChild(el('div', 'fbubble', text));
+  if (text) body.appendChild(finderRichText(text));
   if (results.length) {
     const list = el('div', 'fresults');
     results.forEach((r, i) => list.appendChild(finderCard(r, i)));
