@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T06:47:55.090Z",
+  "generatedAt": "2026-11-27T09:15:37.993Z",
   "bot": {
     "name": "Rimuru-MD",
     "version": "5.0-rev",
@@ -8,8 +8,8 @@
   "stats": {
     "commands": 1388,
     "categories": 36,
-    "aliases": 2858,
-    "withDescription": 1068
+    "aliases": 2857,
+    "withDescription": 1384
   },
   "categories": [
     {
@@ -353,7 +353,7 @@
       "name": "dashboard",
       "aliases": [],
       "category": "main",
-      "description": null,
+      "description": "Statistik command yang paling sering dipakai",
       "usage": ".dashboard",
       "examples": [],
       "flags": {
@@ -451,7 +451,7 @@
       "name": "help",
       "aliases": [],
       "category": "main",
-      "description": null,
+      "description": "Panduan singkat cara memakai bot",
       "usage": ".help",
       "examples": [],
       "flags": {
@@ -463,7 +463,7 @@
       "name": "jadian",
       "aliases": [],
       "category": "main",
-      "description": null,
+      "description": "Jodohkan dua anggota grup secara acak",
       "usage": ".jadian",
       "examples": [],
       "flags": {
@@ -535,7 +535,8 @@
       "name": "menucat",
       "aliases": [
         "mc",
-        "category"
+        "category",
+        "cat"
       ],
       "category": "main",
       "description": "Menampilkan commands dalam kategori tertentu",
@@ -660,7 +661,7 @@
         "premium"
       ],
       "category": "main",
-      "description": null,
+      "description": "Info harga sewa bot dan paket premium",
       "usage": ".sewa",
       "examples": [],
       "flags": {
@@ -965,7 +966,7 @@
       "name": "breach",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Cek apakah email pernah bocor di data breach",
       "usage": ".breach <email>",
       "examples": [],
       "flags": {
@@ -996,11 +997,12 @@
       "name": "calc",
       "aliases": [
         "calculate",
-        "or",
+        "calculator",
+        "kalk",
         "kalkulator"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Kalkulator: hitung ekspresi matematika",
       "usage": ".calc <expression>",
       "examples": [],
       "flags": {
@@ -1046,7 +1048,7 @@
       "name": "catbox",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Upload media ke Catbox dan dapatkan link",
       "usage": ".catbox",
       "examples": [],
       "flags": {
@@ -1058,7 +1060,7 @@
       "name": "ccgen",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Buat nomor kartu kredit dummy untuk testing (Visa, MasterCard, dll.)",
       "usage": ".ccgen <type> <jumlah>",
       "examples": [],
       "flags": {
@@ -1087,7 +1089,7 @@
       "name": "cekml",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Cek nickname dan region akun Mobile Legends dari ID",
       "usage": ".cekml",
       "examples": [],
       "flags": {
@@ -1135,7 +1137,7 @@
         "cekrekening"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Cek nama pemilik rekening bank atau e-wallet",
       "usage": ".cekrek <bank>|<nomor>",
       "examples": [],
       "flags": {
@@ -1147,7 +1149,7 @@
       "name": "cekresi",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Lacak paket dari nomor resi dan ekspedisi",
       "usage": ".cekresi <no resi>|<ekspedisi>",
       "examples": [],
       "flags": {
@@ -1180,7 +1182,7 @@
         "check"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Cek status/ping sebuah host dari berbagai negara",
       "usage": ".checkhost",
       "examples": [],
       "flags": {},
@@ -1349,7 +1351,7 @@
       "name": "cuaca",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Cek prakiraan cuaca dari BMKG berdasarkan lokasi",
       "usage": ".cuaca",
       "examples": [],
       "flags": {
@@ -1447,7 +1449,7 @@
       "name": "ekspedisilist",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Daftar ekspedisi yang didukung cek resi",
       "usage": ".ekspedisilist",
       "examples": [],
       "flags": {},
@@ -1495,7 +1497,7 @@
         "decode"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Encode/decode teks Base64",
       "usage": ".encode",
       "examples": [],
       "flags": {},
@@ -1758,7 +1760,7 @@
         "ghgist"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Cari user, repository, atau gist di GitHub",
       "usage": ".ghuser",
       "examples": [],
       "flags": {},
@@ -1786,7 +1788,7 @@
       "name": "grepplugin",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Cari kata kunci di semua kode plugin (owner)",
       "usage": ".grepplugin <keyword>",
       "examples": [],
       "flags": {
@@ -1801,7 +1803,7 @@
         "hpspek"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Lihat spesifikasi HP dari GSMArena",
       "usage": ".gsmarena <nama hp>",
       "examples": [],
       "flags": {
@@ -1830,7 +1832,7 @@
       "name": "hapuswm",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Hapus watermark dari gambar (reply gambar)",
       "usage": ".hapuswm",
       "examples": [],
       "flags": {
@@ -1984,7 +1986,7 @@
         "ascii"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Ubah gambar jadi seni teks ASCII",
       "usage": ".imagetoasci",
       "examples": [],
       "flags": {
@@ -1996,7 +1998,7 @@
       "name": "imgtools",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Edit gambar: hapus background, enhance, upscale, restore, colorize",
       "usage": ".imgtools <type>",
       "examples": [],
       "flags": {
@@ -2044,7 +2046,7 @@
       "name": "ip",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Cek info lokasi dan provider dari alamat IP",
       "usage": ".ip",
       "examples": [],
       "flags": {
@@ -2086,7 +2088,7 @@
       "name": "jadwaltv",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Lihat jadwal acara TV per channel",
       "usage": ".jadwaltv",
       "examples": [],
       "flags": {
@@ -2098,7 +2100,7 @@
       "name": "jarak",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Hitung jarak dan rute antar kota beserta peta",
       "usage": ".jarak dari|ke",
       "examples": [],
       "flags": {
@@ -2194,7 +2196,7 @@
       "name": "kodepos",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Cari kode pos berdasarkan nama daerah",
       "usage": ".kodepos <query>",
       "examples": [],
       "flags": {
@@ -2283,7 +2285,7 @@
       "name": "mikutalk",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Ubah teks jadi suara Hatsune Miku",
       "usage": ".mikutalk <teks>",
       "examples": [],
       "flags": {
@@ -2362,7 +2364,7 @@
       "name": "nik",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Baca info dari nomor NIK (jenis kelamin, tanggal lahir, wilayah)",
       "usage": ".nik <nomor>",
       "examples": [],
       "flags": {
@@ -2406,7 +2408,7 @@
       "name": "npmshield",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Buat badge Shields.io, mis. jumlah download NPM",
       "usage": ".npmshield",
       "examples": [],
       "flags": {
@@ -2451,7 +2453,7 @@
         "ocekidgrup"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Lihat ID grup ini (owner)",
       "usage": ".ocekidgc",
       "examples": [],
       "flags": {
@@ -2601,7 +2603,7 @@
         "imagesolve"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Alat bantu coding AI: buat kode, cari bug, konversi, jelaskan kode, atau solve dari gambar",
       "usage": ".promptcode",
       "examples": [],
       "flags": {
@@ -2613,7 +2615,7 @@
       "name": "proxy",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Cari proxy gratis yang aktif",
       "usage": ".proxy",
       "examples": [],
       "flags": {
@@ -2709,7 +2711,7 @@
       "name": "randomname",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Buat nama acak sesuai gender, jumlah kata, dan asal",
       "usage": ".randomname gender|kata|surname(optional)|kategori(optional)",
       "examples": [],
       "flags": {
@@ -2755,7 +2757,7 @@
       "name": "readqr",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Baca isi QR code dari gambar",
       "usage": ".readqr",
       "examples": [],
       "flags": {
@@ -2821,7 +2823,7 @@
       "name": "resize",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Ubah ukuran gambar",
       "usage": ".resize",
       "examples": [],
       "flags": {
@@ -2851,7 +2853,7 @@
         "screenshot2code"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Ubah screenshot desain jadi kode HTML dengan AI",
       "usage": ".s2c <url>",
       "examples": [],
       "flags": {},
@@ -2877,7 +2879,7 @@
       "name": "searchcode",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Cari contoh kode/script berdasarkan kata kunci",
       "usage": ".searchcode <query>",
       "examples": [],
       "flags": {},
@@ -2887,7 +2889,7 @@
       "name": "searchgist",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Cari gist di GitHub",
       "usage": ".searchgist",
       "examples": [],
       "flags": {
@@ -2965,7 +2967,7 @@
         "bagiteks"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Bagikan teks panjang lewat link",
       "usage": ".shareteks teks",
       "examples": [],
       "flags": {
@@ -3324,7 +3326,7 @@
         "tocjs"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Ubah kode CommonJS jadi ES Module (reply kode)",
       "usage": ".toesm",
       "examples": [],
       "flags": {},
@@ -3352,7 +3354,7 @@
       "name": "tomp3",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Konversi video jadi audio MP3",
       "usage": ".tomp3",
       "examples": [],
       "flags": {
@@ -3504,7 +3506,7 @@
       "name": "uguu",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Upload file ke Uguu dan dapatkan link",
       "usage": ".uguu",
       "examples": [],
       "flags": {},
@@ -3533,7 +3535,7 @@
       "name": "upload",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Upload gambar dan dapatkan link",
       "usage": ".upload",
       "examples": [],
       "flags": {},
@@ -3543,7 +3545,7 @@
       "name": "upvidey",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Upload video/audio ke Videy dan dapatkan link",
       "usage": ".upvidey",
       "examples": [],
       "flags": {
@@ -3569,7 +3571,7 @@
       "name": "vgist",
       "aliases": [],
       "category": "tools",
-      "description": null,
+      "description": "Lihat isi file GitHub Gist",
       "usage": ".vgist <url/id>",
       "examples": [],
       "flags": {
@@ -3619,7 +3621,7 @@
         "aivocal"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Pisahkan vokal dan musik dari audio",
       "usage": ".vocalremover",
       "examples": [],
       "flags": {
@@ -3664,7 +3666,7 @@
         "wmusic"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Kenali judul lagu dari audio (reply audio)",
       "usage": ".whatmusic",
       "examples": [],
       "flags": {
@@ -3698,7 +3700,7 @@
         "waktuglobal"
       ],
       "category": "tools",
-      "description": null,
+      "description": "Lihat waktu saat ini di berbagai negara",
       "usage": ".worldtime",
       "examples": [],
       "flags": {
@@ -3725,7 +3727,7 @@
       "name": "alay",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Ubah teks jadi gaya tulisan alay",
       "usage": ".alay",
       "examples": [],
       "flags": {
@@ -3737,7 +3739,7 @@
       "name": "angka",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Tebak angka 0–9 melawan bot, dapat XP kalau sama",
       "usage": ".angka <0-9>",
       "examples": [],
       "flags": {
@@ -3771,7 +3773,7 @@
         "iloveyou"
       ],
       "category": "fun",
-      "description": null,
+      "description": "Kirim VN lucu (ara ara, love you, dll.)",
       "usage": ".ara",
       "examples": [],
       "flags": {
@@ -3880,7 +3882,7 @@
       "name": "benarkah",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Jawaban acak benar atau tidak untuk pertanyaanmu (hiburan)",
       "usage": ".benarkah <text>",
       "examples": [],
       "flags": {
@@ -3954,7 +3956,7 @@
       "name": "cantikcek",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Cek seberapa cantik seseorang (hiburan)",
       "usage": ".cantikcek",
       "examples": [],
       "flags": {
@@ -3964,9 +3966,11 @@
     },
     {
       "name": "cekfemboy",
-      "aliases": [],
+      "aliases": [
+        "femboy"
+      ],
       "category": "fun",
-      "description": null,
+      "description": "Cek seberapa femboy seseorang (hiburan)",
       "usage": ".cekfemboy",
       "examples": [],
       "flags": {
@@ -4011,7 +4015,7 @@
         "cekmmk"
       ],
       "category": "fun",
-      "description": null,
+      "description": "Cek lucu-lucuan tentang seseorang (hiburan dewasa)",
       "usage": ".cekmemek <name>",
       "examples": [],
       "flags": {
@@ -4073,7 +4077,7 @@
         "cekpentil"
       ],
       "category": "fun",
-      "description": null,
+      "description": "Cek lucu-lucuan tentang seseorang (hiburan dewasa)",
       "usage": ".cektt <name>",
       "examples": [],
       "flags": {
@@ -4133,7 +4137,7 @@
       "name": "dimanakah",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Jawaban acak untuk pertanyaan 'di mana' (hiburan)",
       "usage": ".dimanakah <pertanyaan>",
       "examples": [],
       "flags": {
@@ -4321,7 +4325,7 @@
         "cekkul"
       ],
       "category": "fun",
-      "description": null,
+      "description": "Cek persentase acak (goblok, jelek, ganteng, dll.) untuk seseorang",
       "usage": ".goblokcek",
       "examples": [],
       "flags": {
@@ -4401,7 +4405,7 @@
       "name": "jomok",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Cek level jomok seseorang (hiburan)",
       "usage": ".jomok",
       "examples": [],
       "flags": {
@@ -4427,7 +4431,7 @@
       "name": "kapankah",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Jawaban acak untuk pertanyaan 'kapan' (hiburan)",
       "usage": ".kapankah <pertanyaan>",
       "examples": [],
       "flags": {
@@ -4439,7 +4443,7 @@
       "name": "kematian",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Ramalan lucu penyebab kematian seseorang (hiburan)",
       "usage": ".kematian <nama opsional>",
       "examples": [],
       "flags": {},
@@ -4448,10 +4452,12 @@
     {
       "name": "kerang",
       "aliases": [
-        "kerangajaib"
+        "kerangajaib",
+        "kulitkerang",
+        "kulitkerangajaib"
       ],
       "category": "fun",
-      "description": null,
+      "description": "Tanya kerang ajaib, dapat jawaban acak",
       "usage": ".kerang <teks>",
       "examples": [
         ".kerangajaib <teks>"
@@ -4482,7 +4488,7 @@
       "name": "lupakan",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Kata-kata penyemangat untuk melupakan masa lalu",
       "usage": ".lupakan",
       "examples": [],
       "flags": {
@@ -4526,7 +4532,7 @@
       "name": "mimpi2",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Cari arti/tafsir mimpi dari kata kunci",
       "usage": ".mimpi2 <kata>",
       "examples": [],
       "flags": {
@@ -4540,7 +4546,7 @@
         "demorse"
       ],
       "category": "fun",
-      "description": null,
+      "description": "Ubah teks ke kode Morse dan sebaliknya",
       "usage": ".morse",
       "examples": [],
       "flags": {},
@@ -4550,7 +4556,7 @@
       "name": "moveon",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Simulasi lucu proses move on dari mantan",
       "usage": ".moveon",
       "examples": [],
       "flags": {
@@ -4611,7 +4617,7 @@
       "name": "ramal",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Ramalan nasib lucu untuk seseorang (hiburan)",
       "usage": ".ramal <nama opsional>",
       "examples": [],
       "flags": {},
@@ -4653,7 +4659,7 @@
       "name": "seberapagila",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Cek seberapa gila seseorang (hiburan)",
       "usage": ".seberapagila <nama opsional>",
       "examples": [],
       "flags": {},
@@ -4678,7 +4684,7 @@
       "name": "sertifikatlemot",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Buat sertifikat orang paling lemot (hiburan)",
       "usage": ".sertifikatlemot <nama>",
       "examples": [],
       "flags": {},
@@ -4690,7 +4696,7 @@
         "simisimi"
       ],
       "category": "fun",
-      "description": null,
+      "description": "Ngobrol santai dengan SimSimi",
       "usage": ".simi",
       "examples": [],
       "flags": {
@@ -4718,7 +4724,7 @@
       "name": "sipaling",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Buat julukan 'si paling …' untuk seseorang",
       "usage": ".sipaling <teks>",
       "examples": [],
       "flags": {
@@ -4764,7 +4770,7 @@
       "name": "suratcinta",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Buat surat cinta lucu untuk seseorang",
       "usage": ".suratcinta <nama>",
       "examples": [],
       "flags": {},
@@ -4791,7 +4797,7 @@
       "name": "tebakumur",
       "aliases": [],
       "category": "fun",
-      "description": null,
+      "description": "Tebak umur seseorang dari namanya (hiburan)",
       "usage": ".tebakumur <name>",
       "examples": [],
       "flags": {
@@ -4907,7 +4913,7 @@
       "name": "akunyt",
       "aliases": [],
       "category": "game",
-      "description": null,
+      "description": "Lihat profil channel YouTube simulasi milikmu (RPG)",
       "usage": ".akunyt",
       "examples": [],
       "flags": {
@@ -4950,7 +4956,7 @@
         "atk"
       ],
       "category": "game",
-      "description": null,
+      "description": "Serang lawan dalam game War Zone (tag pemain)",
       "usage": ".attack",
       "examples": [],
       "flags": {
@@ -5128,7 +5134,7 @@
       "name": "createakun",
       "aliases": [],
       "category": "game",
-      "description": null,
+      "description": "Buat atau ganti nama channel YouTube simulasi (RPG)",
       "usage": ".createakun",
       "examples": [],
       "flags": {
@@ -5172,7 +5178,7 @@
       "name": "fightnaga",
       "aliases": [],
       "category": "game",
-      "description": null,
+      "description": "Adu naga peliharaanmu dengan naga lain (RPG)",
       "usage": ".fightnaga",
       "examples": [],
       "flags": {
@@ -5215,7 +5221,7 @@
       "name": "genshinprofile",
       "aliases": [],
       "category": "game",
-      "description": null,
+      "description": "Lihat profil pemain Genshin Impact dari UID",
       "usage": ".genshinprofile <uid>",
       "examples": [],
       "flags": {},
@@ -5306,7 +5312,7 @@
         "heroml"
       ],
       "category": "game",
-      "description": null,
+      "description": "Lihat daftar dan info hero Mobile Legends",
       "usage": ".listhero",
       "examples": [],
       "flags": {},
@@ -5332,7 +5338,7 @@
       "name": "maths",
       "aliases": [],
       "category": "game",
-      "description": null,
+      "description": "Game kuis tebak hasil soal matematika",
       "usage": ".maths",
       "examples": [],
       "flags": {},
@@ -5452,7 +5458,7 @@
       "name": "pelabuhan",
       "aliases": [],
       "category": "game",
-      "description": null,
+      "description": "Kelola dan upgrade pelabuhan untuk dapat penghasilan (RPG)",
       "usage": ".pelabuhan <command>",
       "examples": [],
       "flags": {
@@ -5465,7 +5471,7 @@
       "name": "perangsarung",
       "aliases": [],
       "category": "game",
-      "description": null,
+      "description": "Tantang anggota grup bermain perang sarung",
       "usage": ".perangsarung @user",
       "examples": [],
       "flags": {
@@ -5478,7 +5484,7 @@
       "name": "polisi",
       "aliases": [],
       "category": "game",
-      "description": null,
+      "description": "Game polisi dan pencuri: cari dan tangkap pencuri",
       "usage": ".polisi",
       "examples": [
         ".polisi cari",
@@ -5791,7 +5797,7 @@
         "whoff"
       ],
       "category": "game",
-      "description": null,
+      "description": "Game tebak karakter Free Fire dari gambar",
       "usage": ".tebakff",
       "examples": [],
       "flags": {},
@@ -5827,7 +5833,7 @@
       "name": "tebakgame",
       "aliases": [],
       "category": "game",
-      "description": null,
+      "description": "Game tebak logo game",
       "usage": ".tebakgame",
       "examples": [],
       "flags": {
@@ -5911,7 +5917,7 @@
         "whokartun"
       ],
       "category": "game",
-      "description": null,
+      "description": "Game tebak judul kartun dari gambar",
       "usage": ".tebakkartun",
       "examples": [],
       "flags": {},
@@ -5971,7 +5977,7 @@
       "name": "tebaklogo",
       "aliases": [],
       "category": "game",
-      "description": null,
+      "description": "Game tebak logo merek dari gambar",
       "usage": ".tebaklogo",
       "examples": [],
       "flags": {
@@ -6038,7 +6044,7 @@
         "whosurah"
       ],
       "category": "game",
-      "description": null,
+      "description": "Game tebak nama surah dari potongan ayat Al-Qur'an",
       "usage": ".tebaksurah",
       "examples": [],
       "flags": {},
@@ -6064,7 +6070,7 @@
         "whowarna"
       ],
       "category": "game",
-      "description": null,
+      "description": "Tes buta warna Ishihara: tebak angka di dalam gambar",
       "usage": ".tebakwarna",
       "examples": [],
       "flags": {},
@@ -6119,7 +6125,7 @@
         "stoptogel"
       ],
       "category": "game",
-      "description": null,
+      "description": "Game taruhan togel virtual memakai saldo bot",
       "usage": ".togel",
       "examples": [],
       "flags": {
@@ -6146,7 +6152,7 @@
       "name": "truthordare",
       "aliases": [],
       "category": "game",
-      "description": null,
+      "description": "Main truth or dare: dapat pertanyaan atau tantangan acak",
       "usage": ".truthordare",
       "examples": [],
       "flags": {
@@ -6195,7 +6201,7 @@
       "name": "war",
       "aliases": [],
       "category": "game",
-      "description": null,
+      "description": "Game War Zone: perang tim bergiliran memakai saldo bot",
       "usage": ".war",
       "examples": [],
       "flags": {
@@ -6313,7 +6319,7 @@
       "name": "aio2",
       "aliases": [],
       "category": "download",
-      "description": null,
+      "description": "Downloader serbaguna alternatif (TikTok, IG, dll.) dari link",
       "usage": ".aio2 <url>",
       "examples": [],
       "flags": {
@@ -6345,7 +6351,7 @@
         "blibli"
       ],
       "category": "download",
-      "description": null,
+      "description": "Download video Bilibili dari link",
       "usage": ".bilibili <url>",
       "examples": [],
       "flags": {
@@ -6359,7 +6365,7 @@
         "ccdl"
       ],
       "category": "download",
-      "description": null,
+      "description": "Download video/template CapCut tanpa watermark",
       "usage": ".capcut <link>",
       "examples": [],
       "flags": {
@@ -6420,7 +6426,7 @@
       "name": "dlit",
       "aliases": [],
       "category": "download",
-      "description": null,
+      "description": "Download media Instagram, TikTok, atau Facebook lewat InstaTikTok",
       "usage": ".dlit <platform> <url>",
       "examples": [],
       "flags": {
@@ -6432,7 +6438,7 @@
       "name": "dodfav",
       "aliases": [],
       "category": "download",
-      "description": null,
+      "description": "Download video dari link Dodfav",
       "usage": ".dodfav <url>",
       "examples": [],
       "flags": {
@@ -6463,7 +6469,7 @@
       "name": "douyin",
       "aliases": [],
       "category": "download",
-      "description": null,
+      "description": "Download video Douyin (TikTok China) tanpa watermark",
       "usage": ".douyin <url>",
       "examples": [],
       "flags": {
@@ -6510,7 +6516,7 @@
         "fb"
       ],
       "category": "download",
-      "description": null,
+      "description": "Download video Facebook dari link",
       "usage": ".facebook <link>",
       "examples": [],
       "flags": {
@@ -6557,7 +6563,7 @@
       "name": "gdrivelegacy",
       "aliases": [],
       "category": "download",
-      "description": null,
+      "description": "Download file Google Drive (versi lama)",
       "usage": ".gdrivelegacy <url>",
       "examples": [],
       "flags": {
@@ -6586,7 +6592,7 @@
       "name": "gitclone",
       "aliases": [],
       "category": "download",
-      "description": null,
+      "description": "Download repository GitHub sebagai file ZIP",
       "usage": ".gitclone <url>",
       "examples": [],
       "flags": {
@@ -6617,7 +6623,7 @@
         "igmp3"
       ],
       "category": "download",
-      "description": null,
+      "description": "Ambil audio dari reels Instagram jadi MP3",
       "usage": ".igaudio <url>",
       "examples": [
         ".igmp3 <url>"
@@ -6634,7 +6640,7 @@
         "instagram"
       ],
       "category": "download",
-      "description": null,
+      "description": "Download foto/video/reels Instagram dari link",
       "usage": ".igdl",
       "examples": [],
       "flags": {
@@ -6668,7 +6674,7 @@
         "igdl3"
       ],
       "category": "download",
-      "description": null,
+      "description": "Download media Instagram (server ketiga)",
       "usage": ".instagram3",
       "examples": [],
       "flags": {
@@ -6732,7 +6738,7 @@
         "mf"
       ],
       "category": "download",
-      "description": null,
+      "description": "Download file MediaFire (maks 100 MB)",
       "usage": ".mediafire",
       "examples": [],
       "flags": {
@@ -6797,7 +6803,7 @@
       "name": "pindl2",
       "aliases": [],
       "category": "download",
-      "description": null,
+      "description": "Download gambar/video Pinterest (server kedua)",
       "usage": ".pindl2",
       "examples": [],
       "flags": {
@@ -6845,7 +6851,7 @@
       "name": "sfile",
       "aliases": [],
       "category": "download",
-      "description": null,
+      "description": "Cari atau download file dari Sfile.mobi",
       "usage": ".sfile <query>",
       "examples": [
         ".sfiledl <link>"
@@ -6912,7 +6918,7 @@
         "scdl"
       ],
       "category": "download",
-      "description": null,
+      "description": "Cari dan download lagu SoundCloud",
       "usage": ".soundcloudplay",
       "examples": [],
       "flags": {
@@ -6944,7 +6950,7 @@
         "spplay"
       ],
       "category": "download",
-      "description": null,
+      "description": "Cari dan putar lagu Spotify (kirim audio)",
       "usage": ".spotifyplay",
       "examples": [],
       "flags": {
@@ -7029,7 +7035,7 @@
       "name": "tiktokmusic",
       "aliases": [],
       "category": "download",
-      "description": null,
+      "description": "Download audio/musik dari video TikTok",
       "usage": ".tiktokmusic",
       "examples": [],
       "flags": {
@@ -7041,7 +7047,7 @@
       "name": "tt",
       "aliases": [],
       "category": "download",
-      "description": null,
+      "description": "Download video TikTok tanpa watermark",
       "usage": ".tt",
       "examples": [],
       "flags": {
@@ -7074,7 +7080,7 @@
         "tiktokimg"
       ],
       "category": "download",
-      "description": null,
+      "description": "Download foto slideshow TikTok",
       "usage": ".ttimg",
       "examples": [],
       "flags": {
@@ -7123,7 +7129,7 @@
         "twitterdl"
       ],
       "category": "download",
-      "description": null,
+      "description": "Download video Twitter/X dari link",
       "usage": ".twitter",
       "examples": [],
       "flags": {
@@ -7191,7 +7197,7 @@
       "name": "wallpaper",
       "aliases": [],
       "category": "download",
-      "description": null,
+      "description": "Cari dan kirim wallpaper berdasarkan kata kunci",
       "usage": ".wallpaper <query>",
       "examples": [],
       "flags": {
@@ -7220,7 +7226,7 @@
       "name": "xhs",
       "aliases": [],
       "category": "download",
-      "description": null,
+      "description": "Download video/foto dari Xiaohongshu (RedNote)",
       "usage": ".xhs",
       "examples": [],
       "flags": {
@@ -7232,7 +7238,7 @@
       "name": "yt5so",
       "aliases": [],
       "category": "download",
-      "description": null,
+      "description": "Download video Instagram atau Facebook lewat Yt5s",
       "usage": ".yt5so <Url Ig/Facebook>",
       "examples": [],
       "flags": {
@@ -7560,7 +7566,7 @@
         "listsw"
       ],
       "category": "search",
-      "description": null,
+      "description": "Lihat story/status yang disimpan bot",
       "usage": ".botsw",
       "examples": [],
       "flags": {
@@ -7651,7 +7657,7 @@
       "name": "clip",
       "aliases": [],
       "category": "search",
-      "description": null,
+      "description": "Cari klip video edit pendek berdasarkan kata kunci",
       "usage": ".clip <query>",
       "examples": [],
       "flags": {
@@ -7663,7 +7669,7 @@
       "name": "douyinsearch",
       "aliases": [],
       "category": "search",
-      "description": null,
+      "description": "Cari video Douyin berdasarkan kata kunci",
       "usage": ".douyinsearch <query>",
       "examples": [],
       "flags": {
@@ -7757,7 +7763,7 @@
       "name": "googleimg",
       "aliases": [],
       "category": "search",
-      "description": null,
+      "description": "Cari gambar di Google Images",
       "usage": ".googleimg",
       "examples": [],
       "flags": {},
@@ -7767,7 +7773,7 @@
       "name": "ikiru",
       "aliases": [],
       "category": "search",
-      "description": null,
+      "description": "Cari dan baca komik di Ikiru",
       "usage": ".ikiru <judul>",
       "examples": [],
       "flags": {
@@ -7807,7 +7813,7 @@
       "name": "jobstreetsearch",
       "aliases": [],
       "category": "search",
-      "description": null,
+      "description": "Cari lowongan kerja di Jobstreet berdasarkan posisi dan kota",
       "usage": ".jobstreetsearch <posisi>|<kota>",
       "examples": [],
       "flags": {
@@ -7882,7 +7888,7 @@
       "name": "mcaddon",
       "aliases": [],
       "category": "search",
-      "description": null,
+      "description": "Cari addon Minecraft",
       "usage": ".mcaddon",
       "examples": [],
       "flags": {
@@ -8348,7 +8354,7 @@
         "sakuranovel"
       ],
       "category": "search",
-      "description": null,
+      "description": "Cari dan baca light novel di SakuraNovel",
       "usage": ".sn <judul>",
       "examples": [],
       "flags": {
@@ -8380,7 +8386,7 @@
         "soundmeme-search"
       ],
       "category": "search",
-      "description": null,
+      "description": "Cari, lihat daftar, atau putar sound meme acak dari MyInstants",
       "usage": ".soundmeme-listnama nama",
       "examples": [
         ".soundmeme-search nama"
@@ -8569,7 +8575,7 @@
       "name": "uptodown",
       "aliases": [],
       "category": "search",
-      "description": null,
+      "description": "Cari dan download aplikasi dari Uptodown",
       "usage": ".uptodown <nama aplikasi>",
       "examples": [],
       "flags": {},
@@ -8595,7 +8601,7 @@
       "name": "webtoonsearch",
       "aliases": [],
       "category": "search",
-      "description": null,
+      "description": "Cari komik di Webtoon",
       "usage": ".webtoonsearch <judul>",
       "examples": [],
       "flags": {
@@ -8607,7 +8613,7 @@
       "name": "wiki",
       "aliases": [],
       "category": "search",
-      "description": null,
+      "description": "Cari ringkasan artikel di Wikipedia Indonesia",
       "usage": ".wiki",
       "examples": [],
       "flags": {},
@@ -8947,7 +8953,7 @@
       "name": "megami",
       "aliases": [],
       "category": "sticker",
-      "description": null,
+      "description": "Kirim stiker Megami/Ryo Yamada acak",
       "usage": ".megami",
       "examples": [],
       "flags": {},
@@ -8957,7 +8963,7 @@
       "name": "pack",
       "aliases": [],
       "category": "sticker",
-      "description": null,
+      "description": "Buat sticker pack dari gambar/stiker (reply gambar)",
       "usage": ".pack",
       "examples": [],
       "flags": {
@@ -9123,7 +9129,7 @@
       "name": "stickersearch",
       "aliases": [],
       "category": "sticker",
-      "description": null,
+      "description": "Cari sticker pack berdasarkan kata kunci",
       "usage": ".stickersearch <query>",
       "examples": [],
       "flags": {
@@ -9204,7 +9210,7 @@
         "chipmunk"
       ],
       "category": "media",
-      "description": null,
+      "description": "Beri efek suara ke audio/VN: bass, fast, slow, nightcore, robot, chipmunk, dll.",
       "usage": ".bass",
       "examples": [],
       "flags": {
@@ -9282,7 +9288,7 @@
       "name": "airealtime",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Tanya AI dengan informasi terkini (realtime)",
       "usage": ".airealtime <pertanyaan>",
       "examples": [],
       "flags": {
@@ -9294,7 +9300,7 @@
       "name": "alya",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Ngobrol dengan AI berkarakter Alya (yandere manja)",
       "usage": ".alya <teks>",
       "examples": [],
       "flags": {
@@ -9386,7 +9392,7 @@
       "name": "bard",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Tanya jawab dengan AI Bard",
       "usage": ".bard <pertanyaan>",
       "examples": [],
       "flags": {
@@ -9485,7 +9491,7 @@
       "name": "editimage",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Edit gambar dengan AI sesuai perintah teks (reply gambar)",
       "usage": ".editimage",
       "examples": [],
       "flags": {
@@ -9497,7 +9503,7 @@
       "name": "editimg2",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Edit gambar pakai AI sesuai prompt (reply gambar + prompt)",
       "usage": ".editimg2 <prompt>",
       "examples": [],
       "flags": {
@@ -9509,7 +9515,7 @@
       "name": "elainaai",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Ngobrol dengan AI berkarakter Elaina (berbasis Gemini)",
       "usage": ".elainaai <teks>",
       "examples": [],
       "flags": {
@@ -9555,7 +9561,7 @@
       "name": "felo",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Tanya jawab dengan AI Felo",
       "usage": ".felo",
       "examples": [],
       "flags": {
@@ -9570,7 +9576,7 @@
         "flux-image"
       ],
       "category": "ai",
-      "description": null,
+      "description": "Buat gambar AI dari teks dengan model Flux",
       "usage": ".flux <prompt>",
       "examples": [],
       "flags": {
@@ -9582,7 +9588,7 @@
       "name": "furina",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Ngobrol dengan AI berkarakter Furina dari Genshin Impact",
       "usage": ".furina",
       "examples": [],
       "flags": {
@@ -9670,7 +9676,7 @@
       "name": "gptprompt",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Chat AI GPT dengan prompt/persona kustom",
       "usage": ".gptprompt",
       "examples": [],
       "flags": {
@@ -9700,7 +9706,7 @@
       "name": "imgprompt",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Buat prompt teks deskriptif dari sebuah gambar (reply gambar)",
       "usage": ".imgprompt",
       "examples": [],
       "flags": {
@@ -9712,7 +9718,7 @@
       "name": "jeeves",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Tanya jawab dengan AI Jeeves",
       "usage": ".jeeves",
       "examples": [],
       "flags": {
@@ -9794,7 +9800,7 @@
       "name": "mahiru",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Ngobrol dengan AI berkarakter Shiina Mahiru",
       "usage": ".mahiru",
       "examples": [],
       "flags": {
@@ -9806,7 +9812,7 @@
       "name": "makima",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Ngobrol dengan AI berkarakter Makima dari Chainsaw Man",
       "usage": ".makima",
       "examples": [],
       "flags": {
@@ -9841,7 +9847,7 @@
         "ryoai"
       ],
       "category": "ai",
-      "description": null,
+      "description": "Ngobrol dengan AI berkarakter Megami/Ryo Yamada dari Bocchi the Rock",
       "usage": ".mega <teks>",
       "examples": [
         ".megami <teks>",
@@ -9856,7 +9862,7 @@
       "name": "mikasa",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Ngobrol dengan AI berkarakter Mikasa Ackerman",
       "usage": ".mikasa <teks>",
       "examples": [],
       "flags": {
@@ -9904,7 +9910,7 @@
         "nanopro"
       ],
       "category": "ai",
-      "description": null,
+      "description": "Gabungkan/edit beberapa gambar dengan AI Nano Banana Pro",
       "usage": ".nano",
       "examples": [],
       "flags": {
@@ -9952,7 +9958,7 @@
         "oguricap"
       ],
       "category": "ai",
-      "description": null,
+      "description": "Ngobrol dengan AI berkarakter Oguri Cap dari Uma Musume",
       "usage": ".oguri <teks>",
       "examples": [
         ".oguricap <teks>"
@@ -9966,7 +9972,7 @@
       "name": "opennana",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Cari inspirasi prompt gambar AI berdasarkan kata kunci",
       "usage": ".opennana <query>",
       "examples": [],
       "flags": {
@@ -9980,7 +9986,7 @@
         "plx"
       ],
       "category": "ai",
-      "description": null,
+      "description": "Tanya jawab dengan AI Perplexity",
       "usage": ".perplexity",
       "examples": [],
       "flags": {
@@ -9992,7 +9998,7 @@
       "name": "powerbrain",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Tanya jawab dengan AI PowerBrain",
       "usage": ".powerbrain",
       "examples": [],
       "flags": {
@@ -10022,7 +10028,7 @@
       "name": "publicai",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Tanya jawab dengan AI publik (gratis)",
       "usage": ".publicai",
       "examples": [],
       "flags": {
@@ -10050,7 +10056,7 @@
       "name": "quillbot",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Parafrase/perbaiki kalimat dengan QuillBot",
       "usage": ".quillbot",
       "examples": [],
       "flags": {
@@ -10407,7 +10413,7 @@
       "name": "waguri",
       "aliases": [],
       "category": "ai",
-      "description": null,
+      "description": "Ngobrol dengan AI berkarakter Kaoruko Waguri",
       "usage": ".waguri <teks>",
       "examples": [],
       "flags": {
@@ -10693,7 +10699,7 @@
       "name": "antidana",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Aktifkan/nonaktifkan anti promosi dana/donasi di grup (admin)",
       "usage": ".antidana",
       "examples": [],
       "flags": {
@@ -10747,7 +10753,7 @@
       "name": "antihidetag",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Aktifkan/nonaktifkan anti hidetag di grup (admin)",
       "usage": ".antihidetag <on/off>",
       "examples": [],
       "flags": {
@@ -10820,7 +10826,7 @@
       "name": "antilinkch",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Aktifkan/nonaktifkan anti link saluran WhatsApp di grup",
       "usage": ".antilinkch",
       "examples": [],
       "flags": {
@@ -10987,7 +10993,7 @@
       "name": "antitagsw",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Aktifkan/nonaktifkan anti tag status WhatsApp di grup (admin)",
       "usage": ".antitagsw",
       "examples": [],
       "flags": {
@@ -11211,7 +11217,7 @@
       "name": "cekasalmember",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Hitung anggota grup berdasarkan negara asal nomor",
       "usage": ".cekasalmember",
       "examples": [],
       "flags": {
@@ -11224,7 +11230,7 @@
       "name": "cekexpired",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Cek masa sewa/expired bot di grup",
       "usage": ".cekexpired",
       "examples": [],
       "flags": {
@@ -11479,7 +11485,7 @@
         "group"
       ],
       "category": "group",
-      "description": null,
+      "description": "Buka atau tutup grup (hanya admin yang bisa chat)",
       "usage": ".gc open / close",
       "examples": [],
       "flags": {
@@ -11641,7 +11647,7 @@
       "name": "hidetag",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Mention semua anggota grup tanpa terlihat (hidetag)",
       "usage": ".hidetag",
       "examples": [],
       "flags": {
@@ -11706,9 +11712,12 @@
     },
     {
       "name": "infogc",
-      "aliases": [],
+      "aliases": [
+        "grupinfo",
+        "infogrup"
+      ],
       "category": "group",
-      "description": null,
+      "description": "Lihat informasi grup: nama, deskripsi, jumlah member, owner, dan admin",
       "usage": ".infogc",
       "examples": [],
       "flags": {
@@ -11815,7 +11824,7 @@
       "name": "linkgrup",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Ambil link undangan grup",
       "usage": ".linkgrup",
       "examples": [],
       "flags": {
@@ -12173,7 +12182,7 @@
       "name": "opentime",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Buka grup otomatis setelah waktu tertentu (admin)",
       "usage": ".opentime <angka> <unit>",
       "examples": [],
       "flags": {
@@ -12209,7 +12218,7 @@
         "polling"
       ],
       "category": "group",
-      "description": null,
+      "description": "Buat polling/voting di grup",
       "usage": ".poll",
       "examples": [],
       "flags": {
@@ -12388,7 +12397,7 @@
       "name": "risetsider",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Reset daftar member sider (silent reader) di grup",
       "usage": null,
       "examples": [],
       "flags": {
@@ -12488,7 +12497,7 @@
       "name": "setbye",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Atur pesan perpisahan saat member keluar grup",
       "usage": ".setbye",
       "examples": [],
       "flags": {
@@ -12671,7 +12680,7 @@
       "name": "spamtag",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Spam mention ke anggota yang ditag",
       "usage": ".spamtag @user",
       "examples": [],
       "flags": {
@@ -12705,7 +12714,7 @@
         "upswgc"
       ],
       "category": "group",
-      "description": null,
+      "description": "Kirim teks atau media sebagai status grup WhatsApp",
       "usage": ".swgc",
       "examples": [],
       "flags": {
@@ -12718,7 +12727,7 @@
       "name": "tagadmin",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Panggil/tag semua admin grup",
       "usage": ".tagadmin",
       "examples": [],
       "flags": {
@@ -12802,7 +12811,7 @@
       "name": "totalchat",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Lihat statistik total chat anggota grup",
       "usage": ".totalchat",
       "examples": [],
       "flags": {
@@ -12815,7 +12824,7 @@
       "name": "totalpesan",
       "aliases": [],
       "category": "group",
-      "description": null,
+      "description": "Lihat total pesan yang terkirim di grup",
       "usage": ".totalpesan",
       "examples": [],
       "flags": {
@@ -12830,7 +12839,7 @@
         "bukajam"
       ],
       "category": "group",
-      "description": null,
+      "description": "Jadwalkan grup tutup/buka otomatis di jam tertentu",
       "usage": ".tutupjam <jam:menit>",
       "examples": [
         ".bukajam <jam:menit>"
@@ -13037,7 +13046,7 @@
       "name": "ayatkursi",
       "aliases": [],
       "category": "religi",
-      "description": null,
+      "description": "Bacaan Ayat Kursi beserta artinya",
       "usage": ".ayatkursi",
       "examples": [],
       "flags": {
@@ -13301,7 +13310,7 @@
       "name": "tafsir",
       "aliases": [],
       "category": "religi",
-      "description": null,
+      "description": "Cari tafsir Al-Qur'an berdasarkan topik",
       "usage": ".tafsir",
       "examples": [],
       "flags": {},
@@ -13426,7 +13435,7 @@
       "name": "bmkggempa",
       "aliases": [],
       "category": "info",
-      "description": null,
+      "description": "Info gempa terkini dari BMKG",
       "usage": ".bmkggempa",
       "examples": [],
       "flags": {},
@@ -13450,7 +13459,7 @@
       "name": "callingcode",
       "aliases": [],
       "category": "info",
-      "description": null,
+      "description": "Cari info negara dari kode telepon internasional",
       "usage": ".callingcode <kode>",
       "examples": [],
       "flags": {
@@ -13462,7 +13471,7 @@
       "name": "ceksn",
       "aliases": [],
       "category": "info",
-      "description": null,
+      "description": "Lihat nomor seri (SN) akun terdaftarmu",
       "usage": ".ceksn",
       "examples": [],
       "flags": {
@@ -13626,7 +13635,7 @@
       "name": "infogempa",
       "aliases": [],
       "category": "info",
-      "description": null,
+      "description": "Info gempa bumi terkini dari BMKG",
       "usage": ".infogempa",
       "examples": [],
       "flags": {
@@ -13696,7 +13705,7 @@
         "report"
       ],
       "category": "info",
-      "description": null,
+      "description": "Kirim laporan bug atau saran ke owner bot",
       "usage": ".lapor <pesan>",
       "examples": [],
       "flags": {
@@ -13746,7 +13755,7 @@
       "name": "market",
       "aliases": [],
       "category": "info",
-      "description": null,
+      "description": "Info harga dan peringkat pasar crypto terkini",
       "usage": ".market",
       "examples": [],
       "flags": {
@@ -13760,7 +13769,7 @@
         "misirpg"
       ],
       "category": "info",
-      "description": null,
+      "description": "Pilih misi RPG (ojek, roket, polisi, rob, hitman, taxy)",
       "usage": ".misi",
       "examples": [],
       "flags": {
@@ -13791,7 +13800,7 @@
       "name": "newup",
       "aliases": [],
       "category": "info",
-      "description": null,
+      "description": "Lihat catatan pembaruan fitur terbaru bot",
       "usage": ".newup",
       "examples": [],
       "flags": {
@@ -13803,7 +13812,7 @@
       "name": "runtime",
       "aliases": [],
       "category": "info",
-      "description": null,
+      "description": "Lihat berapa lama bot sudah aktif (runtime)",
       "usage": ".runtime",
       "examples": [],
       "flags": {
@@ -13854,7 +13863,7 @@
         "credits"
       ],
       "category": "info",
-      "description": null,
+      "description": "Daftar kontributor dan pihak yang membantu bot",
       "usage": ".tqto",
       "examples": [],
       "flags": {
@@ -14889,7 +14898,7 @@
       "name": "limit",
       "aliases": [],
       "category": "user",
-      "description": null,
+      "description": "Cek sisa limit/energi kamu",
       "usage": ".limit",
       "examples": [],
       "flags": {
@@ -16373,7 +16382,7 @@
       "name": "memespongbob",
       "aliases": [],
       "category": "random",
-      "description": null,
+      "description": "Meme SpongeBob acak",
       "usage": ".memespongbob",
       "examples": [],
       "flags": {
@@ -16385,7 +16394,7 @@
       "name": "papayang",
       "aliases": [],
       "category": "random",
-      "description": null,
+      "description": "Kirim gambar/video 'papayang' acak",
       "usage": ".papayang",
       "examples": [],
       "flags": {
@@ -16412,7 +16421,7 @@
       "name": "ppcp",
       "aliases": [],
       "category": "random",
-      "description": null,
+      "description": "Foto profil couple (cowok & cewek) acak",
       "usage": ".ppcp",
       "examples": [],
       "flags": {
@@ -16541,7 +16550,7 @@
         "anu"
       ],
       "category": "premium",
-      "description": null,
+      "description": "Mini game RPG konten dewasa (premium)",
       "usage": ".ewe",
       "examples": [],
       "flags": {
@@ -16571,7 +16580,7 @@
         "stickerinfo"
       ],
       "category": "premium",
-      "description": null,
+      "description": "Cari sticker pack Telegram",
       "usage": ".fstik",
       "examples": [],
       "flags": {
@@ -16684,7 +16693,7 @@
         "listp"
       ],
       "category": "premium",
-      "description": null,
+      "description": "Daftar server panel Pterodactyl (premium)",
       "usage": ".listpanel",
       "examples": [],
       "flags": {
@@ -16718,7 +16727,7 @@
       "name": "msgch",
       "aliases": [],
       "category": "premium",
-      "description": null,
+      "description": "Kirim teks atau media ke saluran WhatsApp bot (owner)",
       "usage": ".msgch",
       "examples": [],
       "flags": {
@@ -16767,7 +16776,7 @@
       "name": "numbgen",
       "aliases": [],
       "category": "premium",
-      "description": null,
+      "description": "Ambil nomor virtual untuk verifikasi (premium)",
       "usage": ".numbgen",
       "examples": [],
       "flags": {
@@ -17262,7 +17271,7 @@
         "yuki"
       ],
       "category": "anime",
-      "description": null,
+      "description": "Gambar acak karakter anime sesuai nama perintah (akira, asuna, boruto, dll.)",
       "usage": ".akira",
       "examples": [],
       "flags": {
@@ -17274,7 +17283,7 @@
       "name": "anichin",
       "aliases": [],
       "category": "anime",
-      "description": null,
+      "description": "Lihat daftar anime donghua terbaru dari Anichin",
       "usage": ".anichin",
       "examples": [],
       "flags": {
@@ -17286,7 +17295,7 @@
       "name": "anilist",
       "aliases": [],
       "category": "anime",
-      "description": null,
+      "description": "Cari, lihat detail, atau daftar anime populer dari AniList",
       "usage": ".anilist <search|detail|populer> <query>",
       "examples": [],
       "flags": {},
@@ -17333,7 +17342,7 @@
       "name": "animeimgsearch",
       "aliases": [],
       "category": "anime",
-      "description": null,
+      "description": "Cari judul anime dari screenshot adegan (reply gambar)",
       "usage": ".animeimgsearch",
       "examples": [],
       "flags": {},
@@ -17343,7 +17352,7 @@
       "name": "animeinfo",
       "aliases": [],
       "category": "anime",
-      "description": null,
+      "description": "Info lengkap anime dari MyAnimeList",
       "usage": ".animeinfo <anime>",
       "examples": [],
       "flags": {
@@ -17357,7 +17366,7 @@
         "latestanime"
       ],
       "category": "anime",
-      "description": null,
+      "description": "Daftar anime yang baru rilis/update",
       "usage": ".animelatest",
       "examples": [],
       "flags": {
@@ -17369,7 +17378,7 @@
       "name": "animequotes",
       "aliases": [],
       "category": "anime",
-      "description": null,
+      "description": "Kutipan acak dari karakter anime",
       "usage": ".animequotes",
       "examples": [],
       "flags": {},
@@ -17399,7 +17408,7 @@
       "name": "animesearch",
       "aliases": [],
       "category": "anime",
-      "description": null,
+      "description": "Cari judul anime dari gambar (reply gambar)",
       "usage": ".animesearch",
       "examples": [],
       "flags": {},
@@ -17520,7 +17529,7 @@
       "name": "bluearchive",
       "aliases": [],
       "category": "anime",
-      "description": null,
+      "description": "Gambar waifu acak dari Blue Archive",
       "usage": ".bluearchive",
       "examples": [],
       "flags": {
@@ -17551,7 +17560,7 @@
       "name": "eba",
       "aliases": [],
       "category": "anime",
-      "description": null,
+      "description": "Kirim gambar acak (konten dewasa)",
       "usage": ".eba",
       "examples": [],
       "flags": {
@@ -17576,7 +17585,7 @@
       "name": "komikindo",
       "aliases": [],
       "category": "anime",
-      "description": null,
+      "description": "Cari komik dan lihat detailnya di KomikIndo",
       "usage": ".komikindo <judul>",
       "examples": [
         ".komikindo detail <link>"
@@ -17626,7 +17635,7 @@
       "name": "manga",
       "aliases": [],
       "category": "anime",
-      "description": null,
+      "description": "Cari info manga dari MyAnimeList",
       "usage": ".manga <judul>",
       "examples": [],
       "flags": {
@@ -17638,7 +17647,7 @@
       "name": "mobinime",
       "aliases": [],
       "category": "anime",
-      "description": null,
+      "description": "Cari anime, genre, dan episode dari Mobinime",
       "usage": ".mobinime",
       "examples": [],
       "flags": {
@@ -17701,13 +17710,11 @@
       "name": "storyanime",
       "aliases": [
         "animestory",
-        "stori",
-        "yanime",
-        "animestori",
-        "y"
+        "storianime",
+        "animestori"
       ],
       "category": "anime",
-      "description": null,
+      "description": "Video story anime acak",
       "usage": ".storyanime",
       "examples": [],
       "flags": {
@@ -17768,7 +17775,7 @@
       "name": "yande",
       "aliases": [],
       "category": "anime",
-      "description": null,
+      "description": "Cari wallpaper anime dari Yande.re",
       "usage": ".yande",
       "examples": [
         ".yande random",
@@ -18329,7 +18336,7 @@
       "name": "apkmirror",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Cari aplikasi APK di APKMirror",
       "usage": ".apkmirror",
       "examples": [],
       "flags": {
@@ -18341,7 +18348,7 @@
       "name": "doa",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Cari doa sehari-hari berdasarkan kata kunci",
       "usage": ".doa <kata kunci>",
       "examples": [],
       "flags": {
@@ -18388,7 +18395,7 @@
       "name": "fetch",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Ambil isi atau download file dari URL (hingga 2 GB)",
       "usage": ".fetch <url>",
       "examples": [
         ".get <url>"
@@ -18402,7 +18409,7 @@
       "name": "gimg",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Cari gambar di Google Images",
       "usage": ".gimg",
       "examples": [],
       "flags": {
@@ -18414,7 +18421,7 @@
       "name": "githubtrend",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Daftar repository trending di GitHub",
       "usage": ".githubtrend",
       "examples": [],
       "flags": {},
@@ -18424,7 +18431,7 @@
       "name": "iplookup",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Cari info WHOIS sebuah domain",
       "usage": ".iplookup <domain>",
       "examples": [],
       "flags": {},
@@ -18434,7 +18441,7 @@
       "name": "kbbi",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Cari arti kata di Kamus Besar Bahasa Indonesia (KBBI)",
       "usage": ".kbbi",
       "examples": [],
       "flags": {
@@ -18446,7 +18453,7 @@
       "name": "lyrics",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Cari lirik lagu berdasarkan judul",
       "usage": ".lyrics <judul>",
       "examples": [],
       "flags": {},
@@ -18456,7 +18463,7 @@
       "name": "mangga-pop",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Daftar manga populer terbaru",
       "usage": ".mangga-pop",
       "examples": [],
       "flags": {},
@@ -18466,7 +18473,7 @@
       "name": "misteri",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Baca artikel cerita misteri acak",
       "usage": ".misteri",
       "examples": [],
       "flags": {},
@@ -18476,7 +18483,7 @@
       "name": "pinterestvideo",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Cari dan download video dari Pinterest berdasarkan kata kunci",
       "usage": ".pinterestvideo",
       "examples": [],
       "flags": {
@@ -18488,7 +18495,7 @@
       "name": "renungan",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Renungan dan nasihat acak",
       "usage": ".renungan",
       "examples": [],
       "flags": {
@@ -18500,7 +18507,7 @@
       "name": "ringtone",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Cari dan download ringtone",
       "usage": ".ringtone <judul>",
       "examples": [],
       "flags": {
@@ -18512,7 +18519,7 @@
       "name": "roboguru",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Cari jawaban soal pelajaran dari RoboGuru",
       "usage": ".roboguru <pertanyaan>",
       "examples": [],
       "flags": {
@@ -18525,12 +18532,10 @@
       "aliases": [
         "rrdetail",
         "rrlatest",
-        "rrprofile",
-        "detail",
-        "latest"
+        "rrprofile"
       ],
       "category": "internet",
-      "description": null,
+      "description": "Cari novel, detail, update terbaru, dan profil penulis di RoyalRoad",
       "usage": ".rrsearch <judul>",
       "examples": [
         ".rrdetail <url>",
@@ -18545,7 +18550,7 @@
       "name": "surah",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Baca surah Al-Qur'an beserta terjemahannya",
       "usage": ".surah",
       "examples": [],
       "flags": {},
@@ -18555,7 +18560,7 @@
       "name": "uhdpaper",
       "aliases": [],
       "category": "internet",
-      "description": null,
+      "description": "Cari wallpaper resolusi tinggi dari UHDPaper",
       "usage": ".uhdpaper <query>",
       "examples": [],
       "flags": {
@@ -18585,11 +18590,10 @@
       "name": "wallsearch",
       "aliases": [
         "wallrating",
-        "wallcat",
-        "cat"
+        "wallcat"
       ],
       "category": "internet",
-      "description": null,
+      "description": "Cari wallpaper dari WallpapersCraft (juga per rating/kategori)",
       "usage": ".wallsearch <query>",
       "examples": [
         ".wallrating <new|popular|top_rated>",
@@ -18606,7 +18610,7 @@
         "bratsbb"
       ],
       "category": "maker",
-      "description": null,
+      "description": "Buat gambar teks gaya brat dengan SpongeBob",
       "usage": ".bratspongebob",
       "examples": [],
       "flags": {
@@ -18636,7 +18640,7 @@
       "name": "cewekbrat",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat gambar cewek memegang teks gaya brat",
       "usage": ".cewekbrat <teks>",
       "examples": [],
       "flags": {
@@ -18666,7 +18670,7 @@
       "name": "codesnap",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Ubah kode program jadi gambar cantik (code snapshot)",
       "usage": ".codesnap <code>",
       "examples": [],
       "flags": {
@@ -18749,7 +18753,7 @@
         "fakech"
       ],
       "category": "maker",
-      "description": null,
+      "description": "Buat screenshot palsu profil saluran WhatsApp",
       "usage": ".fakechannel <nama|followers|desc|date>",
       "examples": [],
       "flags": {
@@ -18761,7 +18765,7 @@
       "name": "fakeff",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat gambar lobby Free Fire palsu dengan nickname kustom",
       "usage": ".fakeff <nickname>",
       "examples": [],
       "flags": {
@@ -18807,7 +18811,7 @@
       "name": "fakegroupv2",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat screenshot palsu info grup WhatsApp",
       "usage": ".fakegroupv2 <name|members|desc|author|date>",
       "examples": [],
       "flags": {
@@ -18853,7 +18857,7 @@
       "name": "fakeml",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat gambar lobby Mobile Legends palsu dengan nickname kustom",
       "usage": ".fakeml <nickname>",
       "examples": [],
       "flags": {
@@ -18914,7 +18918,7 @@
       "name": "fakestory",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat tampilan Instagram Story palsu",
       "usage": ".fakestory <username>|<caption>",
       "examples": [],
       "flags": {
@@ -18943,7 +18947,7 @@
       "name": "faketiktok",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat screenshot palsu profil TikTok",
       "usage": ".faketiktok <nama|username|following|followers|likes>",
       "examples": [],
       "flags": {},
@@ -18970,7 +18974,7 @@
       "name": "faketweet",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat screenshot palsu tweet (X/Twitter)",
       "usage": ".faketweet <name>|<username>|<comment>|<verified>",
       "examples": [],
       "flags": {
@@ -18999,7 +19003,7 @@
       "name": "fakewafat",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat poster in memoriam lucu-lucuan (reply foto)",
       "usage": ".fakewafat <nama|lahir|wafat>",
       "examples": [],
       "flags": {
@@ -19013,7 +19017,7 @@
         "fakediscoard"
       ],
       "category": "maker",
-      "description": null,
+      "description": "Buat screenshot palsu pesan Discord",
       "usage": ".fdc <username|pesan>",
       "examples": [],
       "flags": {
@@ -19042,7 +19046,7 @@
       "name": "hotline",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat meme Hotline Bling dengan dua teks",
       "usage": ".hotline teks|teks",
       "examples": [],
       "flags": {
@@ -19071,7 +19075,7 @@
       "name": "iqc",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat gambar chat iPhone palsu (jam, baterai, pesan)",
       "usage": ".iqc jam|batre|pesan",
       "examples": [],
       "flags": {
@@ -19083,7 +19087,7 @@
       "name": "iqc2",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat gambar chat iPhone palsu (versi 2)",
       "usage": ".iqc2",
       "examples": [],
       "flags": {
@@ -19321,7 +19325,7 @@
       "name": "sertifikatcinta",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat sertifikat cinta lucu untuk seseorang",
       "usage": ".sertifikatcinta <nama>",
       "examples": [],
       "flags": {},
@@ -19351,7 +19355,7 @@
         "sertifikattolol"
       ],
       "category": "maker",
-      "description": null,
+      "description": "Buat sertifikat tolol lucu untuk seseorang",
       "usage": ".sertiftolol",
       "examples": [],
       "flags": {
@@ -19363,7 +19367,7 @@
       "name": "textlogo",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat logo teks dengan berbagai efek",
       "usage": ".textlogo <efek>|<teks>",
       "examples": [],
       "flags": {
@@ -19375,7 +19379,7 @@
       "name": "toblonde",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Ubah rambut di foto jadi pirang (reply gambar)",
       "usage": ".toblonde",
       "examples": [],
       "flags": {
@@ -19403,7 +19407,7 @@
       "name": "wanted",
       "aliases": [],
       "category": "maker",
-      "description": null,
+      "description": "Buat poster buronan Wanted dari foto",
       "usage": ".wanted <image_url>",
       "examples": [],
       "flags": {
@@ -19577,7 +19581,7 @@
         "ncsplay"
       ],
       "category": "music",
-      "description": null,
+      "description": "Cari dan putar musik bebas royalti dari NCS",
       "usage": ".playncs",
       "examples": [],
       "flags": {
@@ -19589,7 +19593,7 @@
       "name": "sad",
       "aliases": [],
       "category": "music",
-      "description": null,
+      "description": "Kirim audio lagu sedih sesuai nomor (1–34)",
       "usage": ".sad <nomor>",
       "examples": [],
       "flags": {
@@ -19755,7 +19759,7 @@
       "name": "bacot",
       "aliases": [],
       "category": "quotes",
-      "description": null,
+      "description": "Kata-kata gombal dan bacotan lucu acak",
       "usage": ".bacot",
       "examples": [],
       "flags": {
@@ -19767,7 +19771,7 @@
       "name": "dare",
       "aliases": [],
       "category": "quotes",
-      "description": null,
+      "description": "Dapat tantangan dare acak",
       "usage": ".dare",
       "examples": [],
       "flags": {
@@ -19794,7 +19798,7 @@
       "name": "murothal",
       "aliases": [],
       "category": "quotes",
-      "description": null,
+      "description": "Daftar link murottal Al-Qur'an per juz",
       "usage": ".murothal",
       "examples": [],
       "flags": {
@@ -19806,7 +19810,7 @@
       "name": "pantun",
       "aliases": [],
       "category": "quotes",
-      "description": null,
+      "description": "Pantun acak",
       "usage": ".pantun",
       "examples": [],
       "flags": {
@@ -19818,7 +19822,7 @@
       "name": "pantun2",
       "aliases": [],
       "category": "quotes",
-      "description": null,
+      "description": "Pantun nasihat acak",
       "usage": ".pantun2",
       "examples": [],
       "flags": {
@@ -19830,7 +19834,7 @@
       "name": "q-islam",
       "aliases": [],
       "category": "quotes",
-      "description": null,
+      "description": "Kutipan ayat Al-Qur'an acak",
       "usage": ".q-islam",
       "examples": [],
       "flags": {
@@ -19842,7 +19846,7 @@
       "name": "quotebucin",
       "aliases": [],
       "category": "quotes",
-      "description": null,
+      "description": "Kutipan bucin acak",
       "usage": ".quotebucin",
       "examples": [],
       "flags": {
@@ -19891,7 +19895,7 @@
       "name": "sadboy",
       "aliases": [],
       "category": "quotes",
-      "description": null,
+      "description": "Kutipan sadboy acak",
       "usage": ".sadboy",
       "examples": [],
       "flags": {},
@@ -19901,7 +19905,7 @@
       "name": "truth",
       "aliases": [],
       "category": "quotes",
-      "description": null,
+      "description": "Dapat pertanyaan truth acak",
       "usage": ".truth",
       "examples": [],
       "flags": {
@@ -19917,7 +19921,7 @@
         "buyfood"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Belanja makanan dan perlengkapan di toko RPG",
       "usage": ".7eleven",
       "examples": [
         ".buyfood <item> <jumlah>"
@@ -19966,7 +19970,7 @@
       "name": "airdrop",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Cari airdrop berisi hadiah RPG acak",
       "usage": ".airdrop",
       "examples": [],
       "flags": {
@@ -19982,7 +19986,7 @@
         "akuntiktokprofile"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Lihat profil akun TikTok simulasi milikmu (RPG)",
       "usage": ".akuntt",
       "examples": [],
       "flags": {
@@ -20029,11 +20033,10 @@
     {
       "name": "atm",
       "aliases": [
-        "atm0-9+",
         "atmall"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Setor uang ke ATM/bank (RPG); .atmall untuk semua",
       "usage": ".atm",
       "examples": [],
       "flags": {
@@ -20061,7 +20064,7 @@
       "name": "bankcek",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Cek saldo bank dan info akun RPG",
       "usage": ".bankcek",
       "examples": [],
       "flags": {
@@ -20105,7 +20108,7 @@
       "name": "berdagang",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Berdagang bersama pemain lain untuk cari untung (RPG)",
       "usage": ".berdagang",
       "examples": [],
       "flags": {
@@ -20120,7 +20123,7 @@
         "berkebon"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Berkebun dan panen buah (RPG)",
       "usage": ".berkebun",
       "examples": [],
       "flags": {
@@ -20185,7 +20188,7 @@
       "name": "bossbattle",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Lawan boss dalam pertarungan bergiliran (RPG)",
       "usage": ".bossbattle",
       "examples": [],
       "flags": {
@@ -20219,7 +20222,7 @@
         "hitman"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Misi hitman: cari dan habisi target (RPG)",
       "usage": ".bunuh",
       "examples": [],
       "flags": {
@@ -20233,7 +20236,7 @@
         "sell"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Beli atau jual item RPG",
       "usage": ".buy <item> <count>",
       "examples": [
         ".sell <item> <count>"
@@ -20272,7 +20275,7 @@
         "cafelist"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Kelola kafe RPG: buka, isi stok, upgrade, dan layani pelanggan",
       "usage": ".cafemenu",
       "examples": [],
       "flags": {
@@ -20301,7 +20304,7 @@
       "name": "ceklvl",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Cek level dan EXP kamu",
       "usage": ".ceklvl",
       "examples": [],
       "flags": {
@@ -20328,7 +20331,7 @@
       "name": "claim",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Klaim hadiah harian: money, EXP, limit, potion",
       "usage": ".claim",
       "examples": [],
       "flags": {
@@ -20357,7 +20360,7 @@
       "name": "collect",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Klaim hadiah money dan potion secara berkala (RPG)",
       "usage": ".collect",
       "examples": [],
       "flags": {
@@ -20413,7 +20416,7 @@
       "name": "creatett",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Buat akun TikTok simulasi (RPG)",
       "usage": ".creatett <username>",
       "examples": [],
       "flags": {
@@ -20489,7 +20492,7 @@
         "dg"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Jelajahi dungeon, lawan monster, dan dapatkan item (RPG)",
       "usage": ".dungeon",
       "examples": [],
       "flags": {
@@ -20534,7 +20537,7 @@
       "name": "expoint",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Tukar EXP jadi poin/atribut lain, mis. mana (RPG)",
       "usage": ".expoint",
       "examples": [],
       "flags": {
@@ -20546,7 +20549,7 @@
       "name": "fightphonix",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Adu phoenix peliharaanmu dengan phoenix lain (RPG)",
       "usage": ".fightphonix",
       "examples": [],
       "flags": {
@@ -20590,7 +20593,7 @@
       "name": "freelimit",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Klaim limit gratis berkala",
       "usage": ".freelimit",
       "examples": [],
       "flags": {
@@ -20621,7 +20624,7 @@
         "gaji"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Ambil gaji harian (RPG)",
       "usage": ".gajian",
       "examples": [],
       "flags": {
@@ -20666,7 +20669,7 @@
         "megrab"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Kerja jadi driver Grab untuk dapat uang (RPG)",
       "usage": ".grab",
       "examples": [],
       "flags": {
@@ -20709,7 +20712,7 @@
       "name": "hero",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Mini game hero melawan musuh (RPG)",
       "usage": ".hero",
       "examples": [],
       "flags": {
@@ -20768,7 +20771,7 @@
       "name": "jual",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Jual item RPG (trash, wood, rock, iron, dll.)",
       "usage": ".jual <item> <jumlah>",
       "examples": [],
       "flags": {
@@ -20795,7 +20798,7 @@
       "name": "kandang",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Lihat isi kandang hewan buruanmu (RPG)",
       "usage": ".kandang",
       "examples": [],
       "flags": {
@@ -20808,7 +20811,7 @@
       "name": "karung",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Lihat isi karung hasil kumpulanmu (RPG)",
       "usage": ".karung",
       "examples": [],
       "flags": {
@@ -20821,7 +20824,7 @@
       "name": "kerja",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Bekerja (ojek, dokter, petani, dll.) untuk dapat uang (RPG)",
       "usage": ".kerja",
       "examples": [],
       "flags": {
@@ -20834,7 +20837,7 @@
       "name": "koboy",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Mini game koboy mengejar penjahat (RPG)",
       "usage": ".koboy",
       "examples": [],
       "flags": {
@@ -20848,7 +20851,7 @@
         "bansos"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Korupsi dana bansos dengan risiko tertangkap (RPG)",
       "usage": ".korupsi",
       "examples": [],
       "flags": {
@@ -20876,7 +20879,7 @@
       "name": "lb",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Papan peringkat pemain RPG (money, level, dll.)",
       "usage": ".lb <type>",
       "examples": [],
       "flags": {
@@ -20904,7 +20907,7 @@
       "name": "livett",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Siaran live TikTok simulasi untuk dapat penonton dan uang (RPG)",
       "usage": ".livett <judul>",
       "examples": [],
       "flags": {
@@ -20951,7 +20954,7 @@
         "memancing"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Memancing ikan, butuh pancingan dan umpan (RPG)",
       "usage": ".mancing",
       "examples": [],
       "flags": {
@@ -20982,7 +20985,7 @@
       "name": "masak",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Masak bahan jadi makanan, mis. ayam bakar (RPG)",
       "usage": ".masak",
       "examples": [],
       "flags": {
@@ -21012,7 +21015,7 @@
       "name": "membunuh",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Bunuh pemain lain dan curi uangnya (RPG)",
       "usage": ".membunuh @tag",
       "examples": [],
       "flags": {
@@ -21025,7 +21028,7 @@
       "name": "merampok",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Rampok uang pemain lain di grup (RPG)",
       "usage": ".merampok @tag",
       "examples": [],
       "flags": {
@@ -21054,7 +21057,7 @@
       "name": "minecraftbattle",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Pertarungan ala Minecraft melawan monster (RPG)",
       "usage": ".minecraftbattle",
       "examples": [],
       "flags": {
@@ -21084,7 +21087,7 @@
       "name": "monthly",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Klaim hadiah bulanan (RPG)",
       "usage": ".monthly",
       "examples": [],
       "flags": {
@@ -21097,7 +21100,7 @@
       "name": "mulai",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Mulai petualangan RPG dari level 1",
       "usage": ".mulai",
       "examples": [],
       "flags": {},
@@ -21123,11 +21126,10 @@
     {
       "name": "nabung",
       "aliases": [
-        "nabung0-9+",
         "nabungall"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Menabung uang ke bank (RPG); .nabungall untuk semua",
       "usage": ".nabung",
       "examples": [],
       "flags": {
@@ -21247,7 +21249,7 @@
       "name": "pasar",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Jual hasil buruan/tangkapan dan beli potion di pasar RPG",
       "usage": ".pasar <jual> <args>",
       "examples": [],
       "flags": {
@@ -21263,7 +21265,7 @@
         "statuspenjara"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Penjarakan pemain RPG; cek status atau coba kabur",
       "usage": ".penjara @tag",
       "examples": [],
       "flags": {
@@ -21351,7 +21353,7 @@
       "name": "ramuan",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Beri ramuan untuk menaikkan level pet rubah (RPG)",
       "usage": ".ramuan",
       "examples": [],
       "flags": {
@@ -21364,7 +21366,7 @@
       "name": "reedem",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Tukar kode redeem untuk hadiah XP, money, dan limit",
       "usage": ".reedem <kode>",
       "examples": [],
       "flags": {
@@ -21376,7 +21378,7 @@
       "name": "resetbansos",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Reset klaim bansos pengguna (owner)",
       "usage": ".resetbansos <nomor>",
       "examples": [],
       "flags": {
@@ -21411,7 +21413,7 @@
         "jadiroket"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Misi jadi pilot roket untuk dapat uang (RPG)",
       "usage": ".roket",
       "examples": [],
       "flags": {
@@ -21426,7 +21428,7 @@
         "nyawer"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Sawer/beri uang ke pemain lain (RPG)",
       "usage": ".sawer",
       "examples": [],
       "flags": {
@@ -21468,7 +21470,7 @@
       "name": "simulator",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Simulasi kehidupan: login dengan nama, gender, dan umur",
       "usage": ".simulator",
       "examples": [],
       "flags": {
@@ -21480,7 +21482,7 @@
       "name": "skill",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Pakai skill RPG seperti regen HP atau cari harta karun",
       "usage": ".skill",
       "examples": [],
       "flags": {
@@ -21572,7 +21574,7 @@
       "name": "survival",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Game survival RPG: jelajahi lokasi dan kumpulkan perlengkapan",
       "usage": ".survival",
       "examples": [],
       "flags": {
@@ -21584,11 +21586,10 @@
     {
       "name": "tarik",
       "aliases": [
-        "tarik0-9+",
         "tarikall"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Tarik uang dari bank (RPG); .tarikall untuk semua",
       "usage": ".tarik",
       "examples": [],
       "flags": {
@@ -21601,7 +21602,7 @@
       "name": "taxy",
       "aliases": [],
       "category": "rpg",
-      "description": null,
+      "description": "Misi jadi sopir taksi untuk dapat uang dan EXP (RPG)",
       "usage": ".taxy",
       "examples": [],
       "flags": {
@@ -21702,7 +21703,7 @@
         "up"
       ],
       "category": "rpg",
-      "description": null,
+      "description": "Upgrade alat RPG: pancingan, pickaxe, pedang, armor",
       "usage": ".upgrade",
       "examples": [],
       "flags": {
@@ -21879,7 +21880,7 @@
       "name": "ghstalk",
       "aliases": [],
       "category": "stalker",
-      "description": null,
+      "description": "Lihat profil akun GitHub dari username",
       "usage": ".ghstalk <username>",
       "examples": [],
       "flags": {
@@ -22046,7 +22047,7 @@
       "name": "ttstalk",
       "aliases": [],
       "category": "stalker",
-      "description": null,
+      "description": "Lihat profil akun TikTok dari username",
       "usage": ".ttstalk <username>",
       "examples": [],
       "flags": {
@@ -22060,7 +22061,7 @@
         "twstalk"
       ],
       "category": "stalker",
-      "description": null,
+      "description": "Lihat profil akun Twitter/X dari username",
       "usage": ".twitterstalk",
       "examples": [],
       "flags": {
@@ -22126,7 +22127,7 @@
         "voiceondoku"
       ],
       "category": "tts",
-      "description": null,
+      "description": "Ubah teks jadi suara (TTS) dengan berbagai pilihan suara Ondoku",
       "usage": ".ondoku <voice|text>",
       "examples": [],
       "flags": {
@@ -22236,7 +22237,7 @@
       "name": "ttsvoice",
       "aliases": [],
       "category": "tts",
-      "description": null,
+      "description": "Ubah teks jadi suara karakter (TTS) pilihan model",
       "usage": ".ttsvoice <model> <teks>",
       "examples": [],
       "flags": {
