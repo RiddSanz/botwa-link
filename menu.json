@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-27T09:15:37.993Z",
+  "generatedAt": "2026-11-28T12:21:37.774Z",
   "bot": {
     "name": "Rimuru-MD",
     "version": "5.0-rev",
     "prefix": "."
   },
   "stats": {
-    "commands": 1388,
+    "commands": 1389,
     "categories": 36,
-    "aliases": 2857,
-    "withDescription": 1384
+    "aliases": 2870,
+    "withDescription": 1385
   },
   "categories": [
     {
@@ -28,7 +28,7 @@
       "id": "tools",
       "label": "TOOLS",
       "emoji": "🛠️",
-      "count": 177
+      "count": 178
     },
     {
       "id": "fun",
@@ -52,7 +52,7 @@
       "id": "search",
       "label": "SEARCH",
       "emoji": "🔍",
-      "count": 86
+      "count": 87
     },
     {
       "id": "sticker",
@@ -70,13 +70,13 @@
       "id": "ai",
       "label": "AI",
       "emoji": "🤖",
-      "count": 78
+      "count": 79
     },
     {
       "id": "group",
       "label": "GROUP",
       "emoji": "👥",
-      "count": 140
+      "count": 138
     },
     {
       "id": "religi",
@@ -2841,6 +2841,25 @@
       "usage": ".resizevideo [lebar] (reply video)",
       "examples": [
         ".resizevideo 640"
+      ],
+      "flags": {
+        "limit": true
+      },
+      "type": "plugin"
+    },
+    {
+      "name": "rvo",
+      "aliases": [
+        "openvo",
+        "readvo",
+        "readviewonce",
+        "readview"
+      ],
+      "category": "tools",
+      "description": "Buka pesan sekali lihat (view once) foto/video/audio yang di-reply",
+      "usage": ".rvo (reply pesan view once)",
+      "examples": [
+        ".rvo"
       ],
       "flags": {
         "limit": true
@@ -8043,6 +8062,26 @@
       "type": "plugin"
     },
     {
+      "name": "pin",
+      "aliases": [
+        "pinterest",
+        "pinsearch",
+        "pinterestsearch",
+        "pins",
+        "pinalbum"
+      ],
+      "category": "search",
+      "description": "Cari gambar di Pinterest (Carousel / Album)",
+      "usage": ".pin <query>",
+      "examples": [
+        ".pin meme kakure"
+      ],
+      "flags": {
+        "limit": true
+      },
+      "type": "plugin"
+    },
+    {
       "name": "pin2",
       "aliases": [
         "pinterest2"
@@ -9233,17 +9272,18 @@
     {
       "name": "ai",
       "aliases": [
-        "ai4chat"
+        "ai4chat",
+        "tanya",
+        "ask",
+        "ngobrol"
       ],
       "category": "ai",
-      "description": "Chat cerdas dengan AI (mendukung tabel, kode, dll via AIRich)",
-      "usage": ".ai <pertanyaan>",
+      "description": "Ngobrol / tanya apa aja ke AI bot (cepat, bisa lihat gambar & stiker). Reply jawabannya buat lanjut ngobrol",
+      "usage": ".ai <pertanyaan> (bisa sambil reply gambar/stiker)",
       "examples": [
-        ".ai buatkan tabel perbandingan vue dan react"
+        ".ai jelasin bedanya RAM sama ROM"
       ],
-      "flags": {
-        "limit": true
-      },
+      "flags": {},
       "type": "plugin"
     },
     {
@@ -9415,6 +9455,21 @@
       "flags": {
         "limit": true
       },
+      "type": "plugin"
+    },
+    {
+      "name": "chatai",
+      "aliases": [
+        "autoai",
+        "aai"
+      ],
+      "category": "ai",
+      "description": "Atur chat AI: nyala/mati, pilih template persona (jutek, receh, kakak, arek Malang, dll), bikin & simpan persona sendiri",
+      "usage": ".chatai on|off | .chatai persona [list|<template/simpanan>|lihat <nama>|<persona bebas>|save:<nama> [teks]|hapus <nama>|reset|global ...]",
+      "examples": [
+        ".chatai persona save:kucing Kamu {nama}, kucing oren yang males tapi pinter"
+      ],
+      "flags": {},
       "type": "plugin"
     },
     {
@@ -11042,22 +11097,6 @@
       "type": "plugin"
     },
     {
-      "name": "autoai",
-      "aliases": [
-        "aai"
-      ],
-      "category": "group",
-      "description": "Toggle auto AI response untuk grup dengan pilihan text atau voice",
-      "usage": ".autoai on/off --rimurumode=<character|custom> --logic=<custom instruction> --type=<text|voice> --mode=<onlychat|assistant>",
-      "examples": [
-        ".autoai on --rimurumode=furina --type=voice --mode=onlychat"
-      ],
-      "flags": {
-        "group": true
-      },
-      "type": "plugin"
-    },
-    {
       "name": "autodl",
       "aliases": [
         "autodownload"
@@ -12438,20 +12477,6 @@
       ],
       "flags": {
         "group": true
-      },
-      "type": "plugin"
-    },
-    {
-      "name": "rvo",
-      "aliases": [],
-      "category": "group",
-      "description": "Membuka pesan 1x lihat yang di-reply",
-      "usage": ".rvo (reply pesan 1x lihat)",
-      "examples": [
-        ".rvo"
-      ],
-      "flags": {
-        "limit": true
       },
       "type": "plugin"
     },
